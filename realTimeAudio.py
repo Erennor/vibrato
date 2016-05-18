@@ -143,31 +143,35 @@ def plotSomething():
     ###Partie Liaison avec OpenHab, c'est pour toi Leslie
 
     if newOpenHabAction:
-		if openHabAction[0]==1 : 
-			#pour l'instant juste pour allumer
-			it_light = it_light + 1
-			if (it_light%2 == 0) :
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Light_Gest/state')
-			else : 
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Light_Gest/state')
-		elif openHabAction[0]== 3 : 
-			it_rollershutter = it_rollershutter + 1
-			if (it_rollershutter%2 == 0) :
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/RollerShutter_Gest/state')
-			else : 
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/RollerShutter_Gest/state')    
-		elif openHabAction[0]==2 :
-			if (it_up%2 == 0) :
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Temp_Gest_Up/state')
-			else : 
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Temp_Gest_Up/state')			
-		elif openHabAction[0]==4 : 
-			if (it_down%2 == 0) :
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Temp_Gest_Down/state')
-			else : 
-				os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Temp_Gest_Down/state')
-		else : 				
-			print("Etrange")
+        if openHabAction[0]==1 : 
+            #pour l'instant juste pour allumer
+            it_light = it_light + 1
+            if (it_light%2 == 0) :
+                os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Light_Gest/state')
+            
+            else : 
+                os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Light_Gest/state')
+            
+        elif openHabAction[0]== 3 : 
+            it_rollershutter = it_rollershutter + 1
+            if (it_rollershutter%2 == 0) :
+                os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/RollerShutter_Gest/state')
+            else : 
+			os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/RollerShutter_Gest/state')    
+		
+        elif openHabAction[0]==2 :
+            if (it_up%2 == 0) :
+			os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Temp_Gest_Up/state')
+            else : 
+			os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Temp_Gest_Up/state')			
+        
+        elif openHabAction[0]==4 : 
+            if (it_down%2 == 0) :
+                os.system('curl --header "Content-Type: text/plain" --request PUT --data "ON" http://localhost:8080/rest/items/Temp_Gest_Down/state')
+            else : 
+                os.system('curl --header "Content-Type: text/plain" --request PUT --data "OFF" http://localhost:8080/rest/items/Temp_Gest_Down/state')
+        else : 				
+            print("Etrange")
 
         print('OPEN HAB ACTION: ' + str(openHabAction))
         newOpenHabAction = False
