@@ -47,7 +47,7 @@ Du coup pour vous, pour décider quels actions openhab réaliser, on a deux coup
 différentes (ex: deux taps à la suite, deux glissés, un tap puis un glissé , l'inverse, on peut même penser à des
 combis à trois coups).
 
-En tout cas, pour qu'on se synchronise, la détection d'un coup tout seul ou de n'importe qu'elle combinaison de coups
+En tout cas, pour qu'on se synchronise, la détection d'un coup tout seul ou de n'importe quelle combinaison de coups
 finira toujours par être écrite dans la variable openHabAction.
 
 Quelque chose que le prof a suggéré aussi c'est la mémoire d'action précédente:
