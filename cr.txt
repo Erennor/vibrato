@@ -63,7 +63,7 @@ par exemple si je fais telle action ça allume la lumière et si je la refais en
 4 échantillon de chaque coup, j'ai utilisé mon stylo encre métallique pour taper sur la table
 
 pour la tap, il doit être fort et net
-pour le glissé, il doit être assès fort aussi et avoir un intensité d'appui relativement constante
+pour le glissé, il doit être assez fort aussi et avoir un intensité d'appui relativement constante
 (de toute façon, vous pouvez lancer l'algo et regarder ce qui marche ou ce qui marche pas, mais encore
 faut-il que vous ayez l'arduino, par contre vous pouvez tentez de reproduire la même chose avec le mogees,
 qui normalement est plus précis que l'arduino du coup obtenir des résultats au moins aussi bien ça me
