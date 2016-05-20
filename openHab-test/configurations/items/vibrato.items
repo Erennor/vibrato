@@ -1,0 +1,5 @@
+Switch Vibrato "Vibrato [%s]" (All)// { tcp=">[ON:127.0.0.1:5005:'MAP(vibrato.map)'],>[OFF:127.0.0.1:5005:'MAP(vibrato.map)']" } 
+
+String VibratoListener "status" 
+
+String VibratoTalk "talker" { tcp=">[127.0.0.1:5005:'REGEX(.*)']" } 

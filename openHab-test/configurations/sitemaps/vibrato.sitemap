@@ -1,0 +1,7 @@
+sitemap vibrato label="vibrato House test"
+{
+	Frame label="Vibrato" {
+		Switch item=Vibrato
+		Text item=VibratoListener
+	}
+}

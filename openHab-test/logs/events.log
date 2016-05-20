@@ -1,0 +1,2517 @@
+2016-05-19 13:39:40 - Date state updated to 2016-05-19T13:39:40
+2016-05-19 13:39:41 - Weather_Humidity state updated to 
+
+2016-05-19 13:39:41 - Weather_Temperature state updated to 
+
+2016-05-19 13:39:49 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 13:39:49 - Temperature_GF_Corridor state updated to 20.00000000
+2016-05-19 13:39:49 - Temperature_GF_Toilet state updated to 20.30000000
+2016-05-19 13:39:49 - Temperature_GF_Living state updated to 20.50000000
+2016-05-19 13:39:49 - Temperature_GF_Kitchen state updated to 19.20000000
+2016-05-19 13:39:49 - Temperature_FF_Bath state updated to 20.50000000
+2016-05-19 13:39:49 - Temperature_FF_Office state updated to 18.20000000
+2016-05-19 13:39:49 - Temperature_FF_Child state updated to 19.60000000
+2016-05-19 13:39:49 - Temperature_FF_Bed state updated to 18.80000000
+2016-05-19 13:40:00 - Temperature_GF_Corridor state updated to 18.60000000
+2016-05-19 13:40:00 - Temperature_GF_Toilet state updated to 19.50000000
+2016-05-19 13:40:00 - Temperature_GF_Living state updated to 20.00000000
+2016-05-19 13:40:00 - Temperature_GF_Kitchen state updated to 17.70000000
+2016-05-19 13:40:00 - Temperature_FF_Bath state updated to 17.60000000
+2016-05-19 13:40:00 - Temperature_FF_Office state updated to 21.60000000
+2016-05-19 13:40:00 - Temperature_FF_Child state updated to 20.10000000
+2016-05-19 13:40:00 - Temperature_FF_Bed state updated to 20.30000000
+2016-05-19 13:40:42 - Weather_Humidity state updated to 
+
+2016-05-19 13:40:42 - Weather_Temperature state updated to 
+
+2016-05-19 13:41:42 - Weather_Humidity state updated to 
+
+2016-05-19 13:41:42 - Weather_Temperature state updated to 
+
+2016-05-19 13:42:43 - Weather_Humidity state updated to 
+
+2016-05-19 13:42:43 - Weather_Temperature state updated to 
+
+2016-05-19 13:43:43 - Weather_Humidity state updated to 
+
+2016-05-19 13:43:43 - Weather_Temperature state updated to 
+
+2016-05-19 13:43:50 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 13:43:50 - Temperature_GF_Corridor state updated to 20.50000000
+2016-05-19 13:43:50 - Temperature_GF_Toilet state updated to 21.00000000
+2016-05-19 13:43:50 - Temperature_GF_Living state updated to 22.10000000
+2016-05-19 13:43:50 - Temperature_GF_Kitchen state updated to 20.20000000
+2016-05-19 13:43:50 - Temperature_FF_Bath state updated to 18.30000000
+2016-05-19 13:43:50 - Temperature_FF_Office state updated to 22.30000000
+2016-05-19 13:43:50 - Temperature_FF_Child state updated to 20.00000000
+2016-05-19 13:43:50 - Temperature_FF_Bed state updated to 22.20000000
+2016-05-19 13:44:44 - Weather_Humidity state updated to 
+
+2016-05-19 13:44:44 - Weather_Temperature state updated to 
+
+2016-05-19 13:45:00 - Temperature_GF_Corridor state updated to 20.50000000
+2016-05-19 13:45:00 - Temperature_GF_Toilet state updated to 18.10000000
+2016-05-19 13:45:00 - Temperature_GF_Living state updated to 20.70000000
+2016-05-19 13:45:00 - Temperature_GF_Kitchen state updated to 19.50000000
+2016-05-19 13:45:00 - Temperature_FF_Bath state updated to 21.80000000
+2016-05-19 13:45:00 - Temperature_FF_Office state updated to 21.10000000
+2016-05-19 13:45:00 - Temperature_FF_Child state updated to 20.60000000
+2016-05-19 13:45:00 - Temperature_FF_Bed state updated to 20.70000000
+2016-05-19 13:45:45 - Weather_Humidity state updated to 
+
+2016-05-19 13:45:45 - Weather_Temperature state updated to 
+
+2016-05-19 13:46:46 - Weather_Humidity state updated to 
+
+2016-05-19 13:46:46 - Weather_Temperature state updated to 
+
+2016-05-19 13:47:20 - Date state updated to 2016-05-19T13:47:20
+2016-05-19 13:49:30 - Date state updated to 2016-05-19T13:49:30
+2016-05-19 13:50:00 - Temperature_GF_Corridor state updated to 19.40000000
+2016-05-19 13:50:00 - Temperature_GF_Toilet state updated to 18.50000000
+2016-05-19 13:50:00 - Temperature_GF_Living state updated to 22.10000000
+2016-05-19 13:50:00 - Temperature_GF_Kitchen state updated to 21.50000000
+2016-05-19 13:50:00 - Temperature_FF_Bath state updated to 22.00000000
+2016-05-19 13:50:00 - Temperature_FF_Office state updated to 19.00000000
+2016-05-19 13:50:00 - Temperature_FF_Child state updated to 21.80000000
+2016-05-19 13:50:00 - Temperature_FF_Bed state updated to 20.40000000
+2016-05-19 13:50:02 - Vibrato received command ON
+2016-05-19 13:50:03 - Vibrato received command OFF
+2016-05-19 13:52:52 - Date state updated to 2016-05-19T13:52:52
+2016-05-19 13:52:53 - Weather_Humidity state updated to 
+
+2016-05-19 13:52:53 - Weather_Temperature state updated to 
+
+2016-05-19 13:53:00 - Light_GF_Living_Table state updated to OFF
+2016-05-19 13:53:00 - Light_GF_Corridor_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_GF_Kitchen_Ceiling state updated to ON
+2016-05-19 13:53:00 - Light_GF_Kitchen_Table state updated to OFF
+2016-05-19 13:53:00 - Light_GF_Corridor_Wardrobe state updated to OFF
+2016-05-19 13:53:00 - Light_GF_Toilet_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_GF_Toilet_Mirror state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Bath_Mirror state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Corridor_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Office_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Child_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_FF_Bed_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_C_Corridor_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_C_Staircase state updated to OFF
+2016-05-19 13:53:00 - Light_C_Washing_Ceiling state updated to OFF
+2016-05-19 13:53:00 - Light_C_Workshop state updated to ON
+2016-05-19 13:53:00 - Light_Outdoor_Garage state updated to OFF
+2016-05-19 13:53:00 - Light_Outdoor_Terrace state updated to ON
+2016-05-19 13:53:00 - Light_Outdoor_Frontdoor state updated to OFF
+2016-05-19 13:53:00 - Heating_GF_Corridor state updated to ON
+2016-05-19 13:53:00 - Heating_GF_Toilet state updated to OFF
+2016-05-19 13:53:00 - Heating_GF_Living state updated to OFF
+2016-05-19 13:53:00 - Heating_GF_Kitchen state updated to OFF
+2016-05-19 13:53:00 - Heating_FF_Bath state updated to OFF
+2016-05-19 13:53:00 - Heating_FF_Office state updated to OFF
+2016-05-19 13:53:00 - Heating_FF_Child state updated to ON
+2016-05-19 13:53:00 - Heating_FF_Bed state updated to OFF
+2016-05-19 13:53:00 - Temperature_Setpoint state updated to 22
+2016-05-19 13:53:00 - Window_GF_Frontdoor state updated to CLOSED
+2016-05-19 13:53:00 - Window_GF_Kitchen state updated to OPEN
+2016-05-19 13:53:00 - Window_GF_Living state updated to CLOSED
+2016-05-19 13:53:00 - Window_GF_Toilet state updated to OPEN
+2016-05-19 13:53:00 - Window_FF_Bath state updated to OPEN
+2016-05-19 13:53:00 - Window_FF_Bed state updated to OPEN
+2016-05-19 13:53:00 - Window_FF_Office_Window state updated to CLOSED
+2016-05-19 13:53:00 - Window_FF_Office_Door state updated to OPEN
+2016-05-19 13:53:00 - Garage_Door state updated to CLOSED
+2016-05-19 13:53:00 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 13:53:53 - Weather_Humidity state updated to 
+
+2016-05-19 13:53:53 - Weather_Temperature state updated to 
+
+2016-05-19 13:54:54 - Weather_Humidity state updated to 
+
+2016-05-19 13:54:54 - Weather_Temperature state updated to 
+
+2016-05-19 13:55:54 - Weather_Humidity state updated to 
+
+2016-05-19 13:55:54 - Weather_Temperature state updated to 
+
+2016-05-19 13:56:01 - Vibrato received command ON
+2016-05-19 13:56:02 - Vibrato received command OFF
+2016-05-19 13:56:03 - Vibrato received command ON
+2016-05-19 13:56:03 - Vibrato received command OFF
+2016-05-19 13:56:04 - Vibrato received command ON
+2016-05-19 13:56:04 - Vibrato received command OFF
+2016-05-19 13:56:32 - Vibrato received command ON
+2016-05-19 13:56:32 - Vibrato received command OFF
+2016-05-19 13:56:54 - Weather_Humidity state updated to 
+
+2016-05-19 13:56:55 - Weather_Temperature state updated to 
+
+2016-05-19 13:57:55 - Weather_Humidity state updated to 
+
+2016-05-19 13:57:55 - Weather_Temperature state updated to 
+
+2016-05-19 13:58:56 - Weather_Humidity state updated to 
+
+2016-05-19 13:58:56 - Weather_Temperature state updated to 
+
+2016-05-19 13:59:56 - Weather_Humidity state updated to 
+
+2016-05-19 13:59:56 - Weather_Temperature state updated to 
+
+2016-05-19 14:00:57 - Weather_Humidity state updated to 
+
+2016-05-19 14:00:57 - Weather_Temperature state updated to 
+
+2016-05-19 14:01:56 - Vibrato received command ON
+2016-05-19 14:01:57 - Weather_Humidity state updated to 
+
+2016-05-19 14:01:57 - Weather_Temperature state updated to 
+
+2016-05-19 14:02:01 - Vibrato received command OFF
+2016-05-19 14:02:02 - Vibrato received command ON
+2016-05-19 14:02:03 - Vibrato received command OFF
+2016-05-19 14:02:03 - Vibrato received command ON
+2016-05-19 14:02:04 - Vibrato received command OFF
+2016-05-19 14:02:19 - Vibrato received command ON
+2016-05-19 14:02:20 - Vibrato received command OFF
+2016-05-19 14:02:58 - Weather_Humidity state updated to 
+
+2016-05-19 14:02:58 - Weather_Temperature state updated to 
+
+2016-05-19 14:03:58 - Weather_Humidity state updated to 
+
+2016-05-19 14:03:58 - Weather_Temperature state updated to 
+
+2016-05-19 14:04:22 - Vibrato received command ON
+2016-05-19 14:04:22 - Vibrato state updated to OFF
+2016-05-19 14:04:24 - Vibrato received command ON
+2016-05-19 14:04:24 - Vibrato state updated to OFF
+2016-05-19 14:04:24 - Vibrato received command ON
+2016-05-19 14:04:24 - Vibrato state updated to OFF
+2016-05-19 14:04:38 - Vibrato received command ON
+2016-05-19 14:04:38 - Vibrato state updated to OFF
+2016-05-19 14:04:39 - Vibrato received command ON
+2016-05-19 14:04:39 - Vibrato state updated to OFF
+2016-05-19 14:04:40 - Vibrato received command ON
+2016-05-19 14:04:40 - Vibrato state updated to OFF
+2016-05-19 14:04:43 - Vibrato received command ON
+2016-05-19 14:04:43 - Vibrato state updated to OFF
+2016-05-19 14:04:59 - Weather_Humidity state updated to 
+
+2016-05-19 14:04:59 - Weather_Temperature state updated to 
+
+2016-05-19 14:05:02 - Vibrato received command ON
+2016-05-19 14:05:02 - Vibrato state updated to OFF
+2016-05-19 14:05:07 - Vibrato received command ON
+2016-05-19 14:05:07 - Vibrato state updated to OFF
+2016-05-19 14:05:19 - Vibrato received command ON
+2016-05-19 14:05:19 - Vibrato state updated to OFF
+2016-05-19 14:05:25 - Vibrato received command ON
+2016-05-19 14:05:25 - Vibrato state updated to OFF
+2016-05-19 14:05:59 - Weather_Humidity state updated to 
+
+2016-05-19 14:05:59 - Weather_Temperature state updated to 
+
+2016-05-19 14:07:00 - Weather_Humidity state updated to 
+
+2016-05-19 14:07:00 - Weather_Temperature state updated to 
+
+2016-05-19 14:07:52 - Date state updated to 2016-05-19T14:07:52
+2016-05-19 14:08:00 - Weather_Humidity state updated to 
+
+2016-05-19 14:08:01 - Weather_Temperature state updated to 
+
+2016-05-19 14:09:01 - Weather_Humidity state updated to 
+
+2016-05-19 14:09:01 - Weather_Temperature state updated to 
+
+2016-05-19 14:10:01 - Weather_Humidity state updated to 
+
+2016-05-19 14:10:02 - Weather_Temperature state updated to 
+
+2016-05-19 14:11:02 - Weather_Humidity state updated to 
+
+2016-05-19 14:11:02 - Weather_Temperature state updated to 
+
+2016-05-19 14:12:03 - Weather_Humidity state updated to 
+
+2016-05-19 14:12:03 - Weather_Temperature state updated to 
+
+2016-05-19 14:13:03 - Weather_Humidity state updated to 
+
+2016-05-19 14:13:03 - Weather_Temperature state updated to 
+
+2016-05-19 14:14:04 - Weather_Humidity state updated to 
+
+2016-05-19 14:14:04 - Weather_Temperature state updated to 
+
+2016-05-19 14:15:04 - Weather_Humidity state updated to 
+
+2016-05-19 14:15:04 - Weather_Temperature state updated to 
+
+2016-05-19 14:16:05 - Weather_Humidity state updated to 
+
+2016-05-19 14:16:05 - Weather_Temperature state updated to 
+
+2016-05-19 14:17:05 - Weather_Humidity state updated to 
+
+2016-05-19 14:17:05 - Weather_Temperature state updated to 
+
+2016-05-19 14:18:06 - Weather_Humidity state updated to 
+
+2016-05-19 14:18:06 - Weather_Temperature state updated to 
+
+2016-05-19 14:19:06 - Weather_Humidity state updated to 
+
+2016-05-19 14:19:06 - Weather_Temperature state updated to 
+
+2016-05-19 14:20:08 - Weather_Humidity state updated to 
+
+2016-05-19 14:20:08 - Weather_Temperature state updated to 
+
+2016-05-19 14:21:09 - Weather_Humidity state updated to 
+
+2016-05-19 14:21:09 - Weather_Temperature state updated to 
+
+2016-05-19 14:22:09 - Weather_Humidity state updated to 
+
+2016-05-19 14:22:09 - Weather_Temperature state updated to 
+
+2016-05-19 14:22:52 - Date state updated to 2016-05-19T14:22:52
+2016-05-19 14:23:10 - Weather_Humidity state updated to 
+
+2016-05-19 14:23:10 - Weather_Temperature state updated to 
+
+2016-05-19 14:24:10 - Weather_Humidity state updated to 
+
+2016-05-19 14:24:11 - Weather_Temperature state updated to 
+
+2016-05-19 14:25:12 - Weather_Humidity state updated to 
+
+2016-05-19 14:25:12 - Weather_Temperature state updated to 
+
+2016-05-19 14:26:13 - Weather_Humidity state updated to 
+
+2016-05-19 14:26:13 - Weather_Temperature state updated to 
+
+2016-05-19 14:27:13 - Weather_Humidity state updated to 
+
+2016-05-19 14:27:13 - Weather_Temperature state updated to 
+
+2016-05-19 14:28:14 - Weather_Humidity state updated to 
+
+2016-05-19 14:28:14 - Weather_Temperature state updated to 
+
+2016-05-19 14:28:40 - Vibrato state updated to OFF
+2016-05-19 14:29:14 - Weather_Humidity state updated to 
+
+2016-05-19 14:29:14 - Weather_Temperature state updated to 
+
+2016-05-19 14:29:26 - Vibrato state updated to ON
+2016-05-19 14:30:15 - Weather_Humidity state updated to 
+
+2016-05-19 14:30:15 - Weather_Temperature state updated to 
+
+2016-05-19 14:30:43 - Vibrato state updated to OFF
+2016-05-19 14:31:15 - Weather_Humidity state updated to 
+
+2016-05-19 14:31:16 - Weather_Temperature state updated to 
+
+2016-05-19 14:31:38 - Light_FF_Bath_Ceiling state updated to ON
+2016-05-19 14:32:16 - Weather_Humidity state updated to 
+
+2016-05-19 14:32:16 - Weather_Temperature state updated to 
+
+2016-05-19 14:32:51 - Vibrato state updated to OFF
+2016-05-19 14:33:16 - Weather_Humidity state updated to 
+
+2016-05-19 14:33:17 - Weather_Temperature state updated to 
+
+2016-05-19 14:34:14 - Lights state updated to OFF
+2016-05-19 14:34:17 - Weather_Humidity state updated to 
+
+2016-05-19 14:34:17 - Weather_Temperature state updated to 
+
+2016-05-19 14:35:17 - Weather_Humidity state updated to 
+
+2016-05-19 14:35:18 - Weather_Temperature state updated to 
+
+2016-05-19 14:36:18 - Weather_Humidity state updated to 
+
+2016-05-19 14:36:18 - Weather_Temperature state updated to 
+
+2016-05-19 14:36:21 - Vibrato state updated to ON
+2016-05-19 14:36:35 - Vibrato state updated to ON
+2016-05-19 14:37:02 - Vibrato state updated to OFF
+2016-05-19 14:37:18 - Weather_Humidity state updated to 
+
+2016-05-19 14:37:18 - Weather_Temperature state updated to 
+
+2016-05-19 14:37:28 - Vibrato state updated to ON
+2016-05-19 14:37:52 - Date state updated to 2016-05-19T14:37:52
+2016-05-19 14:37:55 - Vibrato state updated to OFF
+2016-05-19 14:38:01 - Vibrato state updated to ON
+2016-05-19 14:38:19 - Weather_Humidity state updated to 
+
+2016-05-19 14:38:19 - Weather_Temperature state updated to 
+
+2016-05-19 14:38:48 - Vibrato state updated to OFF
+2016-05-19 14:39:19 - Weather_Humidity state updated to 
+
+2016-05-19 14:39:19 - Weather_Temperature state updated to 
+
+2016-05-19 14:39:43 - Vibrato state updated to OFF
+2016-05-19 14:40:15 - Vibrato state updated to OFF
+2016-05-19 14:40:18 - Vibrato state updated to ON
+2016-05-19 14:40:20 - Weather_Humidity state updated to 
+
+2016-05-19 14:40:20 - Weather_Temperature state updated to 
+
+2016-05-19 14:40:24 - Vibrato received command OFF
+2016-05-19 14:40:24 - Vibrato received command ON
+2016-05-19 14:40:25 - Vibrato received command OFF
+2016-05-19 14:40:26 - Vibrato received command ON
+2016-05-19 14:41:20 - Weather_Humidity state updated to 
+
+2016-05-19 14:41:20 - Weather_Temperature state updated to 
+
+2016-05-19 14:41:36 - Vibrato received command OFF
+2016-05-19 14:41:37 - Vibrato received command ON
+2016-05-19 14:41:38 - Vibrato received command OFF
+2016-05-19 14:41:38 - Vibrato received command ON
+2016-05-19 14:41:47 - Vibrato state updated to ON
+2016-05-19 14:41:49 - Vibrato state updated to OFF
+2016-05-19 14:41:52 - Vibrato state updated to OFF
+2016-05-19 14:41:53 - Vibrato state updated to OFF
+2016-05-19 14:41:56 - Vibrato state updated to ON
+2016-05-19 14:42:12 - Vibrato state updated to OFF
+2016-05-19 14:42:17 - Vibrato state updated to ON
+2016-05-19 14:42:21 - Vibrato received command OFF
+2016-05-19 14:42:21 - Weather_Humidity state updated to 
+
+2016-05-19 14:42:21 - Weather_Temperature state updated to 
+
+2016-05-19 14:43:21 - Weather_Humidity state updated to 
+
+2016-05-19 14:43:21 - Weather_Temperature state updated to 
+
+2016-05-19 14:44:22 - Weather_Humidity state updated to 
+
+2016-05-19 14:44:22 - Weather_Temperature state updated to 
+
+2016-05-19 14:45:22 - Weather_Humidity state updated to 
+
+2016-05-19 14:45:22 - Weather_Temperature state updated to 
+
+2016-05-19 14:45:25 - Vibrato received command ON
+2016-05-19 14:45:27 - Vibrato received command OFF
+2016-05-19 14:45:28 - Vibrato received command ON
+2016-05-19 14:45:28 - Vibrato received command OFF
+2016-05-19 14:45:36 - Vibrato received command ON
+2016-05-19 14:46:23 - Weather_Humidity state updated to 
+
+2016-05-19 14:46:23 - Weather_Temperature state updated to 
+
+2016-05-19 14:46:32 - Vibrato received command OFF
+2016-05-19 14:46:37 - Vibrato received command ON
+2016-05-19 14:46:45 - Vibrato received command ON
+2016-05-19 14:46:46 - Vibrato received command OFF
+2016-05-19 14:46:54 - Vibrato received command ON
+2016-05-19 14:47:23 - Weather_Humidity state updated to 
+
+2016-05-19 14:47:24 - Weather_Temperature state updated to 
+
+2016-05-19 14:47:38 - Vibrato received command OFF
+2016-05-19 14:47:58 - Vibrato received command ON
+2016-05-19 14:48:24 - Weather_Humidity state updated to 
+
+2016-05-19 14:48:24 - Weather_Temperature state updated to 
+
+2016-05-19 14:48:40 - Vibrato received command ON
+2016-05-19 14:49:16 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 14:49:24 - Weather_Humidity state updated to 
+
+2016-05-19 14:49:25 - Weather_Temperature state updated to 
+
+2016-05-19 14:49:35 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-19 14:50:02 - Vibrato received command ON
+2016-05-19 14:50:12 - Vibrato received command OFF
+2016-05-19 14:50:26 - Weather_Humidity state updated to 
+
+2016-05-19 14:50:26 - Weather_Temperature state updated to 
+
+2016-05-19 14:51:26 - Weather_Humidity state updated to 
+
+2016-05-19 14:51:26 - Weather_Temperature state updated to 
+
+2016-05-19 14:52:27 - Weather_Humidity state updated to 
+
+2016-05-19 14:52:27 - Weather_Temperature state updated to 
+
+2016-05-19 14:52:52 - Date state updated to 2016-05-19T14:52:52
+2016-05-19 14:53:27 - Weather_Humidity state updated to 
+
+2016-05-19 14:53:27 - Weather_Temperature state updated to 
+
+2016-05-19 14:54:28 - Weather_Humidity state updated to 
+
+2016-05-19 14:54:28 - Weather_Temperature state updated to 
+
+2016-05-19 14:55:28 - Weather_Humidity state updated to 
+
+2016-05-19 14:55:28 - Weather_Temperature state updated to 
+
+2016-05-19 14:56:29 - Weather_Humidity state updated to 
+
+2016-05-19 14:56:29 - Weather_Temperature state updated to 
+
+2016-05-19 15:02:13 - Date state updated to 2016-05-19T15:02:13
+2016-05-19 15:02:13 - Weather_Humidity state updated to 
+
+2016-05-19 15:02:14 - Weather_Temperature state updated to 
+
+2016-05-19 15:02:19 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 15:02:20 - Temperature_GF_Corridor state updated to 21.20000000
+2016-05-19 15:02:20 - Temperature_GF_Toilet state updated to 18.30000000
+2016-05-19 15:02:20 - Temperature_GF_Living state updated to 18.00000000
+2016-05-19 15:02:20 - Temperature_GF_Kitchen state updated to 22.50000000
+2016-05-19 15:02:20 - Temperature_FF_Bath state updated to 18.90000000
+2016-05-19 15:02:20 - Temperature_FF_Office state updated to 22.40000000
+2016-05-19 15:02:20 - Temperature_FF_Child state updated to 19.40000000
+2016-05-19 15:02:20 - Temperature_FF_Bed state updated to 18.60000000
+2016-05-19 15:03:00 - Vibrato received command OFF
+2016-05-19 15:03:02 - Vibrato received command OFF
+2016-05-19 15:03:04 - Vibrato received command OFF
+2016-05-19 15:03:09 - Vibrato received command ON
+2016-05-19 15:03:14 - Weather_Humidity state updated to 
+
+2016-05-19 15:03:14 - Weather_Temperature state updated to 
+
+2016-05-19 15:04:15 - Weather_Humidity state updated to 
+
+2016-05-19 15:04:15 - Weather_Temperature state updated to 
+
+2016-05-19 15:05:00 - Temperature_GF_Corridor state updated to 18.50000000
+2016-05-19 15:05:00 - Temperature_GF_Toilet state updated to 20.00000000
+2016-05-19 15:05:00 - Temperature_GF_Living state updated to 22.40000000
+2016-05-19 15:05:00 - Temperature_GF_Kitchen state updated to 20.00000000
+2016-05-19 15:05:00 - Temperature_FF_Bath state updated to 21.80000000
+2016-05-19 15:05:00 - Temperature_FF_Office state updated to 19.30000000
+2016-05-19 15:05:00 - Temperature_FF_Child state updated to 19.60000000
+2016-05-19 15:05:00 - Temperature_FF_Bed state updated to 20.20000000
+2016-05-19 15:05:00 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 15:05:00 - Temperature_GF_Corridor state updated to 18.60000000
+2016-05-19 15:05:00 - Temperature_GF_Toilet state updated to 18.50000000
+2016-05-19 15:05:00 - Temperature_GF_Living state updated to 21.70000000
+2016-05-19 15:05:00 - Temperature_GF_Kitchen state updated to 18.10000000
+2016-05-19 15:05:00 - Temperature_FF_Bath state updated to 19.90000000
+2016-05-19 15:05:00 - Temperature_FF_Office state updated to 18.80000000
+2016-05-19 15:05:00 - Temperature_FF_Child state updated to 18.70000000
+2016-05-19 15:05:00 - Temperature_FF_Bed state updated to 20.70000000
+2016-05-19 15:05:00 - Temperature_GF_Corridor state updated to 21.60000000
+2016-05-19 15:05:00 - Temperature_GF_Toilet state updated to 18.10000000
+2016-05-19 15:05:00 - Temperature_GF_Living state updated to 22.40000000
+2016-05-19 15:05:00 - Temperature_GF_Kitchen state updated to 22.10000000
+2016-05-19 15:05:00 - Temperature_FF_Bath state updated to 18.90000000
+2016-05-19 15:05:00 - Temperature_FF_Office state updated to 22.00000000
+2016-05-19 15:05:00 - Temperature_FF_Child state updated to 19.60000000
+2016-05-19 15:05:00 - Temperature_FF_Bed state updated to 21.30000000
+2016-05-19 15:05:15 - Weather_Humidity state updated to 
+
+2016-05-19 15:05:15 - Weather_Temperature state updated to 
+
+2016-05-19 15:06:16 - Weather_Humidity state updated to 
+
+2016-05-19 15:06:16 - Weather_Temperature state updated to 
+
+2016-05-19 15:06:46 - Vibrato received command ON
+2016-05-19 15:07:16 - Weather_Humidity state updated to 
+
+2016-05-19 15:07:16 - Weather_Temperature state updated to 
+
+2016-05-19 15:08:17 - Weather_Humidity state updated to 
+
+2016-05-19 15:08:17 - Weather_Temperature state updated to 
+
+2016-05-19 15:09:17 - Weather_Humidity state updated to 
+
+2016-05-19 15:09:17 - Weather_Temperature state updated to 
+
+2016-05-19 15:10:00 - Temperature_GF_Corridor state updated to 19.70000000
+2016-05-19 15:10:00 - Temperature_GF_Toilet state updated to 18.20000000
+2016-05-19 15:10:00 - Temperature_GF_Living state updated to 19.70000000
+2016-05-19 15:10:00 - Temperature_GF_Kitchen state updated to 18.20000000
+2016-05-19 15:10:00 - Temperature_FF_Bath state updated to 20.70000000
+2016-05-19 15:10:00 - Temperature_FF_Office state updated to 19.00000000
+2016-05-19 15:10:00 - Temperature_FF_Child state updated to 21.80000000
+2016-05-19 15:10:00 - Temperature_FF_Bed state updated to 22.20000000
+2016-05-19 15:10:18 - Weather_Humidity state updated to 
+
+2016-05-19 15:10:18 - Weather_Temperature state updated to 
+
+2016-05-19 15:11:18 - Weather_Humidity state updated to 
+
+2016-05-19 15:11:18 - Weather_Temperature state updated to 
+
+2016-05-19 15:12:19 - Weather_Humidity state updated to 
+
+2016-05-19 15:12:19 - Weather_Temperature state updated to 
+
+2016-05-19 15:13:19 - Weather_Humidity state updated to 
+
+2016-05-19 15:13:19 - Weather_Temperature state updated to 
+
+2016-05-19 15:13:28 - Vibrato received command ON
+2016-05-19 15:13:38 - Vibrato received command OFF
+2016-05-19 15:14:20 - Weather_Humidity state updated to 
+
+2016-05-19 15:14:20 - Weather_Temperature state updated to 
+
+2016-05-19 15:14:57 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:15:00 - Temperature_GF_Corridor state updated to 19.40000000
+2016-05-19 15:15:00 - Temperature_GF_Toilet state updated to 22.40000000
+2016-05-19 15:15:00 - Temperature_GF_Living state updated to 19.40000000
+2016-05-19 15:15:00 - Temperature_GF_Kitchen state updated to 22.40000000
+2016-05-19 15:15:00 - Temperature_FF_Bath state updated to 18.10000000
+2016-05-19 15:15:00 - Temperature_FF_Office state updated to 17.80000000
+2016-05-19 15:15:00 - Temperature_FF_Child state updated to 19.10000000
+2016-05-19 15:15:00 - Temperature_FF_Bed state updated to 18.40000000
+2016-05-19 15:15:05 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:15:20 - Weather_Humidity state updated to 
+
+2016-05-19 15:15:20 - Weather_Temperature state updated to 
+
+2016-05-19 15:16:21 - Weather_Humidity state updated to 
+
+2016-05-19 15:16:21 - Weather_Temperature state updated to 
+
+2016-05-19 15:16:50 - Date state updated to 2016-05-19T15:16:50
+2016-05-19 15:17:02 - Vibrato received command OFF
+2016-05-19 15:17:04 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:17:10 - Vibrato received command ON
+2016-05-19 15:17:13 - Date state updated to 2016-05-19T15:17:13
+2016-05-19 15:17:21 - Weather_Humidity state updated to 
+
+2016-05-19 15:17:21 - Weather_Temperature state updated to 
+
+2016-05-19 15:18:22 - Weather_Humidity state updated to 
+
+2016-05-19 15:18:22 - Weather_Temperature state updated to 
+
+2016-05-19 15:18:34 - Vibrato received command OFF
+2016-05-19 15:19:21 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:19:22 - Weather_Humidity state updated to 
+
+2016-05-19 15:19:22 - Weather_Temperature state updated to 
+
+2016-05-19 15:20:00 - Temperature_GF_Corridor state updated to 20.20000000
+2016-05-19 15:20:00 - Temperature_GF_Toilet state updated to 18.00000000
+2016-05-19 15:20:00 - Temperature_GF_Living state updated to 20.40000000
+2016-05-19 15:20:00 - Temperature_GF_Kitchen state updated to 22.50000000
+2016-05-19 15:20:00 - Temperature_FF_Bath state updated to 19.00000000
+2016-05-19 15:20:00 - Temperature_FF_Office state updated to 20.90000000
+2016-05-19 15:20:00 - Temperature_FF_Child state updated to 17.60000000
+2016-05-19 15:20:00 - Temperature_FF_Bed state updated to 19.60000000
+2016-05-19 15:20:23 - Weather_Humidity state updated to 
+
+2016-05-19 15:20:23 - Weather_Temperature state updated to 
+
+2016-05-19 15:21:23 - Weather_Humidity state updated to 
+
+2016-05-19 15:21:23 - Weather_Temperature state updated to 
+
+2016-05-19 15:22:24 - Weather_Humidity state updated to 
+
+2016-05-19 15:22:24 - Weather_Temperature state updated to 
+
+2016-05-19 15:23:24 - Weather_Humidity state updated to 
+
+2016-05-19 15:23:25 - Weather_Temperature state updated to 
+
+2016-05-19 15:24:13 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:24:25 - Weather_Humidity state updated to 
+
+2016-05-19 15:24:25 - Weather_Temperature state updated to 
+
+2016-05-19 15:24:25 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:24:35 - Vibrato received command ON
+2016-05-19 15:25:00 - Temperature_GF_Corridor state updated to 18.40000000
+2016-05-19 15:25:00 - Temperature_GF_Toilet state updated to 20.80000000
+2016-05-19 15:25:00 - Temperature_GF_Living state updated to 17.70000000
+2016-05-19 15:25:00 - Temperature_GF_Kitchen state updated to 18.90000000
+2016-05-19 15:25:00 - Temperature_FF_Bath state updated to 21.60000000
+2016-05-19 15:25:00 - Temperature_FF_Office state updated to 22.20000000
+2016-05-19 15:25:00 - Temperature_FF_Child state updated to 17.60000000
+2016-05-19 15:25:00 - Temperature_FF_Bed state updated to 22.00000000
+2016-05-19 15:25:25 - Weather_Humidity state updated to 
+
+2016-05-19 15:25:25 - Weather_Temperature state updated to 
+
+2016-05-19 15:26:26 - Weather_Humidity state updated to 
+
+2016-05-19 15:26:26 - Weather_Temperature state updated to 
+
+2016-05-19 15:27:26 - Weather_Humidity state updated to 
+
+2016-05-19 15:27:26 - Weather_Temperature state updated to 
+
+2016-05-19 15:28:27 - Weather_Humidity state updated to 
+
+2016-05-19 15:28:27 - Weather_Temperature state updated to 
+
+2016-05-19 15:29:27 - Weather_Humidity state updated to 
+
+2016-05-19 15:29:27 - Weather_Temperature state updated to 
+
+2016-05-19 15:30:00 - Temperature_GF_Corridor state updated to 22.50000000
+2016-05-19 15:30:00 - Temperature_GF_Toilet state updated to 17.90000000
+2016-05-19 15:30:00 - Temperature_GF_Living state updated to 19.70000000
+2016-05-19 15:30:00 - Temperature_GF_Kitchen state updated to 22.00000000
+2016-05-19 15:30:00 - Temperature_FF_Bath state updated to 19.60000000
+2016-05-19 15:30:00 - Temperature_FF_Office state updated to 18.90000000
+2016-05-19 15:30:00 - Temperature_FF_Child state updated to 19.20000000
+2016-05-19 15:30:00 - Temperature_FF_Bed state updated to 18.50000000
+2016-05-19 15:30:28 - Weather_Humidity state updated to 
+
+2016-05-19 15:30:28 - Weather_Temperature state updated to 
+
+2016-05-19 15:31:29 - Weather_Humidity state updated to 
+
+2016-05-19 15:31:29 - Weather_Temperature state updated to 
+
+2016-05-19 15:31:43 - Vibrato received command OFF
+2016-05-19 15:31:46 - Vibrato received command ON
+2016-05-19 15:31:49 - Vibrato received command ON
+2016-05-19 15:31:52 - Vibrato received command OFF
+2016-05-19 15:31:55 - Vibrato received command ON
+2016-05-19 15:32:13 - Vibrato received command OFF
+2016-05-19 15:32:13 - Date state updated to 2016-05-19T15:32:13
+2016-05-19 15:32:29 - Weather_Humidity state updated to 
+
+2016-05-19 15:32:29 - Weather_Temperature state updated to 
+
+2016-05-19 15:33:30 - Weather_Humidity state updated to 
+
+2016-05-19 15:33:30 - Weather_Temperature state updated to 
+
+2016-05-19 15:34:30 - Weather_Humidity state updated to 
+
+2016-05-19 15:34:30 - Weather_Temperature state updated to 
+
+2016-05-19 15:35:00 - Temperature_GF_Corridor state updated to 18.90000000
+2016-05-19 15:35:00 - Temperature_GF_Toilet state updated to 22.20000000
+2016-05-19 15:35:00 - Temperature_GF_Living state updated to 17.90000000
+2016-05-19 15:35:00 - Temperature_GF_Kitchen state updated to 18.80000000
+2016-05-19 15:35:00 - Temperature_FF_Bath state updated to 20.10000000
+2016-05-19 15:35:00 - Temperature_FF_Office state updated to 20.50000000
+2016-05-19 15:35:00 - Temperature_FF_Child state updated to 20.60000000
+2016-05-19 15:35:00 - Temperature_FF_Bed state updated to 20.30000000
+2016-05-19 15:35:31 - Weather_Humidity state updated to 
+
+2016-05-19 15:35:31 - Weather_Temperature state updated to 
+
+2016-05-19 15:36:31 - Weather_Humidity state updated to 
+
+2016-05-19 15:36:31 - Weather_Temperature state updated to 
+
+2016-05-19 15:37:32 - Weather_Humidity state updated to 
+
+2016-05-19 15:37:32 - Weather_Temperature state updated to 
+
+2016-05-19 15:38:32 - Weather_Humidity state updated to 
+
+2016-05-19 15:38:32 - Weather_Temperature state updated to 
+
+2016-05-19 15:39:33 - Weather_Humidity state updated to 
+
+2016-05-19 15:39:33 - Weather_Temperature state updated to 
+
+2016-05-19 15:40:00 - Temperature_GF_Corridor state updated to 17.60000000
+2016-05-19 15:40:00 - Temperature_GF_Toilet state updated to 21.50000000
+2016-05-19 15:40:00 - Temperature_GF_Living state updated to 20.80000000
+2016-05-19 15:40:00 - Temperature_GF_Kitchen state updated to 20.50000000
+2016-05-19 15:40:00 - Temperature_FF_Bath state updated to 22.50000000
+2016-05-19 15:40:00 - Temperature_FF_Office state updated to 18.50000000
+2016-05-19 15:40:00 - Temperature_FF_Child state updated to 22.40000000
+2016-05-19 15:40:00 - Temperature_FF_Bed state updated to 19.90000000
+2016-05-19 15:40:33 - Weather_Humidity state updated to 
+
+2016-05-19 15:40:33 - Weather_Temperature state updated to 
+
+2016-05-19 15:41:05 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:41:09 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:41:10 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:41:34 - Weather_Humidity state updated to 
+
+2016-05-19 15:41:34 - Weather_Temperature state updated to 
+
+2016-05-19 15:42:34 - Weather_Humidity state updated to 
+
+2016-05-19 15:42:34 - Weather_Temperature state updated to 
+
+2016-05-19 15:43:35 - Weather_Humidity state updated to 
+
+2016-05-19 15:43:35 - Weather_Temperature state updated to 
+
+2016-05-19 15:44:35 - Weather_Humidity state updated to 
+
+2016-05-19 15:44:35 - Weather_Temperature state updated to 
+
+2016-05-19 15:45:00 - Temperature_GF_Corridor state updated to 22.30000000
+2016-05-19 15:45:00 - Temperature_GF_Toilet state updated to 18.90000000
+2016-05-19 15:45:00 - Temperature_GF_Living state updated to 22.10000000
+2016-05-19 15:45:00 - Temperature_GF_Kitchen state updated to 20.30000000
+2016-05-19 15:45:00 - Temperature_FF_Bath state updated to 18.70000000
+2016-05-19 15:45:00 - Temperature_FF_Office state updated to 21.30000000
+2016-05-19 15:45:00 - Temperature_FF_Child state updated to 20.90000000
+2016-05-19 15:45:00 - Temperature_FF_Bed state updated to 19.20000000
+2016-05-19 15:45:36 - Weather_Humidity state updated to 
+
+2016-05-19 15:45:36 - Weather_Temperature state updated to 
+
+2016-05-19 15:45:47 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:45:49 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:45:54 - Vibrato received command OFF
+2016-05-19 15:46:04 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 15:46:08 - Vibrato received command ON
+2016-05-19 15:46:16 - Vibrato received command OFF
+2016-05-19 15:46:20 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 15:46:36 - Weather_Humidity state updated to 
+
+2016-05-19 15:46:36 - Weather_Temperature state updated to 
+
+2016-05-19 15:47:13 - Date state updated to 2016-05-19T15:47:13
+2016-05-19 15:47:37 - Weather_Humidity state updated to 
+
+2016-05-19 15:47:37 - Weather_Temperature state updated to 
+
+2016-05-19 15:48:37 - Weather_Humidity state updated to 
+
+2016-05-19 15:48:37 - Weather_Temperature state updated to 
+
+2016-05-19 15:49:37 - Vibrato received command ON
+2016-05-19 15:49:38 - Weather_Humidity state updated to 
+
+2016-05-19 15:49:38 - Weather_Temperature state updated to 
+
+2016-05-19 15:49:41 - Vibrato received command ON
+2016-05-19 15:50:00 - Temperature_GF_Corridor state updated to 18.00000000
+2016-05-19 15:50:00 - Temperature_GF_Toilet state updated to 19.70000000
+2016-05-19 15:50:00 - Temperature_GF_Living state updated to 21.90000000
+2016-05-19 15:50:00 - Temperature_GF_Kitchen state updated to 21.10000000
+2016-05-19 15:50:00 - Temperature_FF_Bath state updated to 20.60000000
+2016-05-19 15:50:00 - Temperature_FF_Office state updated to 20.60000000
+2016-05-19 15:50:00 - Temperature_FF_Child state updated to 19.40000000
+2016-05-19 15:50:00 - Temperature_FF_Bed state updated to 17.80000000
+2016-05-19 15:50:38 - Weather_Humidity state updated to 
+
+2016-05-19 15:50:38 - Weather_Temperature state updated to 
+
+2016-05-19 15:50:47 - Vibrato received command ON
+2016-05-19 15:50:53 - Vibrato received command ON
+2016-05-19 15:51:38 - Weather_Humidity state updated to 
+
+2016-05-19 15:51:39 - Weather_Temperature state updated to 
+
+2016-05-19 15:52:24 - Radio_Station received command 1
+2016-05-19 15:52:40 - Weather_Humidity state updated to 
+
+2016-05-19 15:52:40 - Weather_Temperature state updated to 
+
+2016-05-19 15:52:43 - Vibrato received command ON
+2016-05-19 15:52:50 - Vibrato received command OFF
+2016-05-19 15:52:55 - Vibrato received command ON
+2016-05-19 15:52:57 - Vibrato received command OFF
+2016-05-19 15:52:58 - Vibrato received command ON
+2016-05-19 15:53:40 - Weather_Humidity state updated to 
+
+2016-05-19 15:53:40 - Weather_Temperature state updated to 
+
+2016-05-19 15:54:41 - Weather_Humidity state updated to 
+
+2016-05-19 15:54:41 - Weather_Temperature state updated to 
+
+2016-05-19 15:55:00 - Temperature_GF_Corridor state updated to 18.10000000
+2016-05-19 15:55:00 - Temperature_GF_Toilet state updated to 19.40000000
+2016-05-19 15:55:00 - Temperature_GF_Living state updated to 19.20000000
+2016-05-19 15:55:00 - Temperature_GF_Kitchen state updated to 20.10000000
+2016-05-19 15:55:00 - Temperature_FF_Bath state updated to 22.20000000
+2016-05-19 15:55:00 - Temperature_FF_Office state updated to 21.20000000
+2016-05-19 15:55:00 - Temperature_FF_Child state updated to 18.60000000
+2016-05-19 15:55:00 - Temperature_FF_Bed state updated to 21.40000000
+2016-05-19 15:55:41 - Weather_Humidity state updated to 
+
+2016-05-19 15:55:42 - Weather_Temperature state updated to 
+
+2016-05-19 15:56:42 - Weather_Humidity state updated to 
+
+2016-05-19 15:56:42 - Weather_Temperature state updated to 
+
+2016-05-19 15:57:42 - Weather_Humidity state updated to 
+
+2016-05-19 15:57:43 - Weather_Temperature state updated to 
+
+2016-05-19 15:58:43 - Weather_Humidity state updated to 
+
+2016-05-19 15:58:43 - Weather_Temperature state updated to 
+
+2016-05-19 15:59:43 - Weather_Humidity state updated to 
+
+2016-05-19 15:59:44 - Weather_Temperature state updated to 
+
+2016-05-19 16:00:00 - Temperature_GF_Corridor state updated to 20.80000000
+2016-05-19 16:00:00 - Temperature_GF_Toilet state updated to 19.90000000
+2016-05-19 16:00:00 - Temperature_GF_Living state updated to 21.10000000
+2016-05-19 16:00:00 - Temperature_GF_Kitchen state updated to 22.10000000
+2016-05-19 16:00:00 - Temperature_FF_Bath state updated to 19.90000000
+2016-05-19 16:00:00 - Temperature_FF_Office state updated to 18.10000000
+2016-05-19 16:00:00 - Temperature_FF_Child state updated to 19.80000000
+2016-05-19 16:00:00 - Temperature_FF_Bed state updated to 22.40000000
+2016-05-19 16:00:44 - Weather_Humidity state updated to 
+
+2016-05-19 16:00:44 - Weather_Temperature state updated to 
+
+2016-05-19 16:01:44 - Weather_Humidity state updated to 
+
+2016-05-19 16:01:45 - Weather_Temperature state updated to 
+
+2016-05-19 16:02:13 - Date state updated to 2016-05-19T16:02:13
+2016-05-19 16:02:45 - Weather_Humidity state updated to 
+
+2016-05-19 16:02:45 - Weather_Temperature state updated to 
+
+2016-05-19 16:03:45 - Weather_Humidity state updated to 
+
+2016-05-19 16:03:46 - Weather_Temperature state updated to 
+
+2016-05-19 16:04:46 - Weather_Humidity state updated to 
+
+2016-05-19 16:04:46 - Weather_Temperature state updated to 
+
+2016-05-19 16:05:00 - Temperature_GF_Corridor state updated to 19.90000000
+2016-05-19 16:05:00 - Temperature_GF_Toilet state updated to 21.20000000
+2016-05-19 16:05:00 - Temperature_GF_Living state updated to 20.30000000
+2016-05-19 16:05:00 - Temperature_GF_Kitchen state updated to 20.40000000
+2016-05-19 16:05:00 - Temperature_FF_Bath state updated to 21.30000000
+2016-05-19 16:05:00 - Temperature_FF_Office state updated to 20.50000000
+2016-05-19 16:05:00 - Temperature_FF_Child state updated to 20.80000000
+2016-05-19 16:05:00 - Temperature_FF_Bed state updated to 21.40000000
+2016-05-19 16:05:46 - Weather_Humidity state updated to 
+
+2016-05-19 16:05:47 - Weather_Temperature state updated to 
+
+2016-05-19 16:06:47 - Weather_Humidity state updated to 
+
+2016-05-19 16:06:47 - Weather_Temperature state updated to 
+
+2016-05-19 16:07:47 - Weather_Humidity state updated to 
+
+2016-05-19 16:07:48 - Weather_Temperature state updated to 
+
+2016-05-19 16:08:48 - Weather_Humidity state updated to 
+
+2016-05-19 16:08:48 - Weather_Temperature state updated to 
+
+2016-05-19 16:09:48 - Weather_Humidity state updated to 
+
+2016-05-19 16:09:49 - Weather_Temperature state updated to 
+
+2016-05-19 16:10:00 - Temperature_GF_Corridor state updated to 17.90000000
+2016-05-19 16:10:00 - Temperature_GF_Toilet state updated to 18.60000000
+2016-05-19 16:10:00 - Temperature_GF_Living state updated to 18.70000000
+2016-05-19 16:10:00 - Temperature_GF_Kitchen state updated to 20.90000000
+2016-05-19 16:10:00 - Temperature_FF_Bath state updated to 18.30000000
+2016-05-19 16:10:00 - Temperature_FF_Office state updated to 18.40000000
+2016-05-19 16:10:00 - Temperature_FF_Child state updated to 17.90000000
+2016-05-19 16:10:00 - Temperature_FF_Bed state updated to 17.80000000
+2016-05-19 16:10:49 - Weather_Humidity state updated to 
+
+2016-05-19 16:10:49 - Weather_Temperature state updated to 
+
+2016-05-19 16:11:50 - Weather_Humidity state updated to 
+
+2016-05-19 16:11:50 - Weather_Temperature state updated to 
+
+2016-05-19 16:12:50 - Weather_Humidity state updated to 
+
+2016-05-19 16:12:50 - Weather_Temperature state updated to 
+
+2016-05-19 16:13:50 - Weather_Humidity state updated to 
+
+2016-05-19 16:13:51 - Weather_Temperature state updated to 
+
+2016-05-19 16:14:51 - Weather_Humidity state updated to 
+
+2016-05-19 16:14:51 - Weather_Temperature state updated to 
+
+2016-05-19 16:15:00 - Temperature_GF_Corridor state updated to 22.50000000
+2016-05-19 16:15:00 - Temperature_GF_Toilet state updated to 20.20000000
+2016-05-19 16:15:00 - Temperature_GF_Living state updated to 20.70000000
+2016-05-19 16:15:00 - Temperature_GF_Kitchen state updated to 20.50000000
+2016-05-19 16:15:00 - Temperature_FF_Bath state updated to 21.70000000
+2016-05-19 16:15:00 - Temperature_FF_Office state updated to 19.50000000
+2016-05-19 16:15:00 - Temperature_FF_Child state updated to 21.90000000
+2016-05-19 16:15:00 - Temperature_FF_Bed state updated to 22.30000000
+2016-05-19 16:15:51 - Weather_Humidity state updated to 
+
+2016-05-19 16:15:52 - Weather_Temperature state updated to 
+
+2016-05-19 16:16:52 - Weather_Humidity state updated to 
+
+2016-05-19 16:16:52 - Weather_Temperature state updated to 
+
+2016-05-19 16:17:13 - Date state updated to 2016-05-19T16:17:13
+2016-05-19 16:17:52 - Weather_Humidity state updated to 
+
+2016-05-19 16:17:53 - Weather_Temperature state updated to 
+
+2016-05-19 16:18:53 - Weather_Humidity state updated to 
+
+2016-05-19 16:18:53 - Weather_Temperature state updated to 
+
+2016-05-19 16:19:53 - Weather_Humidity state updated to 
+
+2016-05-19 16:19:54 - Weather_Temperature state updated to 
+
+2016-05-19 16:20:00 - Temperature_GF_Corridor state updated to 22.30000000
+2016-05-19 16:20:00 - Temperature_GF_Toilet state updated to 20.90000000
+2016-05-19 16:20:00 - Temperature_GF_Living state updated to 21.50000000
+2016-05-19 16:20:00 - Temperature_GF_Kitchen state updated to 21.50000000
+2016-05-19 16:20:00 - Temperature_FF_Bath state updated to 22.00000000
+2016-05-19 16:20:00 - Temperature_FF_Office state updated to 19.30000000
+2016-05-19 16:20:00 - Temperature_FF_Child state updated to 22.00000000
+2016-05-19 16:20:00 - Temperature_FF_Bed state updated to 20.60000000
+2016-05-19 16:20:54 - Weather_Humidity state updated to 
+
+2016-05-19 16:20:54 - Weather_Temperature state updated to 
+
+2016-05-19 16:21:54 - Weather_Humidity state updated to 
+
+2016-05-19 16:21:55 - Weather_Temperature state updated to 
+
+2016-05-19 16:22:12 - Vibrato received command OFF
+2016-05-19 16:22:17 - Vibrato received command ON
+2016-05-19 16:22:56 - Weather_Humidity state updated to 
+
+2016-05-19 16:22:56 - Weather_Temperature state updated to 
+
+2016-05-19 16:23:04 - VibratoStatus received command LOL
+2016-05-19 16:23:57 - Weather_Humidity state updated to 
+
+2016-05-19 16:23:57 - Weather_Temperature state updated to 
+
+2016-05-19 16:24:16 - VibratoListener received command LOL
+2016-05-19 16:24:23 - VibratoListener received command ON
+2016-05-19 16:24:56 - VibratoListener received command ON
+2016-05-19 16:24:57 - Weather_Humidity state updated to 
+
+2016-05-19 16:24:57 - Weather_Temperature state updated to 
+
+2016-05-19 16:25:00 - Temperature_GF_Corridor state updated to 22.50000000
+2016-05-19 16:25:00 - Temperature_GF_Toilet state updated to 21.70000000
+2016-05-19 16:25:00 - Temperature_GF_Living state updated to 22.20000000
+2016-05-19 16:25:00 - Temperature_GF_Kitchen state updated to 22.50000000
+2016-05-19 16:25:00 - Temperature_FF_Bath state updated to 19.30000000
+2016-05-19 16:25:00 - Temperature_FF_Office state updated to 20.30000000
+2016-05-19 16:25:00 - Temperature_FF_Child state updated to 19.80000000
+2016-05-19 16:25:00 - Temperature_FF_Bed state updated to 18.70000000
+2016-05-19 16:25:01 - VibratoListener received command LOL
+2016-05-19 16:25:07 - VibratoListener received command ON
+2016-05-19 16:25:14 - VibratoListener received command ON
+2016-05-19 16:25:20 - VibratoListener received command ON
+2016-05-19 16:25:48 - VibratoListener received command ON
+2016-05-19 16:25:54 - VibratoListener received command ON
+2016-05-19 16:25:58 - Weather_Humidity state updated to 
+
+2016-05-19 16:25:58 - Weather_Temperature state updated to 
+
+2016-05-19 16:26:58 - Weather_Humidity state updated to 
+
+2016-05-19 16:26:58 - Weather_Temperature state updated to 
+
+2016-05-19 16:27:07 - VibratoListener received command ON
+2016-05-19 16:27:07 - Vibrato state updated to OFF
+2016-05-19 16:27:09 - VibratoListener received command ON
+2016-05-19 16:27:09 - Vibrato state updated to OFF
+2016-05-19 16:27:30 - VibratoListener received command ON
+2016-05-19 16:27:30 - Vibrato state updated to OFF
+2016-05-19 16:27:59 - Weather_Humidity state updated to 
+
+2016-05-19 16:27:59 - Weather_Temperature state updated to 
+
+2016-05-19 16:28:02 - VibratoListener received command ON
+2016-05-19 16:28:02 - Vibrato state updated to ON
+2016-05-19 16:28:09 - VibratoListener received command ON
+2016-05-19 16:28:09 - Vibrato state updated to ON
+2016-05-19 16:28:15 - VibratoListener received command OFF
+2016-05-19 16:28:15 - Vibrato state updated to OFF
+2016-05-19 16:28:37 - VibratoListener received command LOL
+2016-05-19 16:28:44 - VibratoListener received command ON
+2016-05-19 16:28:44 - Vibrato state updated to ON
+2016-05-19 16:28:47 - VibratoListener received command LOL
+2016-05-19 16:28:59 - Weather_Humidity state updated to 
+
+2016-05-19 16:28:59 - Weather_Temperature state updated to 
+
+2016-05-19 16:30:00 - Temperature_GF_Corridor state updated to 20.40000000
+2016-05-19 16:30:00 - Temperature_GF_Toilet state updated to 17.90000000
+2016-05-19 16:30:00 - Temperature_GF_Living state updated to 19.40000000
+2016-05-19 16:30:00 - Temperature_GF_Kitchen state updated to 19.30000000
+2016-05-19 16:30:00 - Temperature_FF_Bath state updated to 21.10000000
+2016-05-19 16:30:00 - Temperature_FF_Office state updated to 19.70000000
+2016-05-19 16:30:00 - Temperature_FF_Child state updated to 19.10000000
+2016-05-19 16:30:00 - Temperature_FF_Bed state updated to 18.10000000
+2016-05-19 16:30:00 - Weather_Humidity state updated to 
+
+2016-05-19 16:30:00 - Weather_Temperature state updated to 
+
+2016-05-19 16:31:00 - Weather_Humidity state updated to 
+
+2016-05-19 16:31:01 - Weather_Temperature state updated to 
+
+2016-05-19 16:32:01 - Weather_Humidity state updated to 
+
+2016-05-19 16:32:01 - Weather_Temperature state updated to 
+
+2016-05-19 16:32:13 - Date state updated to 2016-05-19T16:32:13
+2016-05-19 16:33:01 - Weather_Humidity state updated to 
+
+2016-05-19 16:33:02 - Weather_Temperature state updated to 
+
+2016-05-19 16:34:02 - Weather_Humidity state updated to 
+
+2016-05-19 16:34:02 - Weather_Temperature state updated to 
+
+2016-05-19 16:35:00 - Temperature_GF_Corridor state updated to 21.10000000
+2016-05-19 16:35:00 - Temperature_GF_Toilet state updated to 21.70000000
+2016-05-19 16:35:00 - Temperature_GF_Living state updated to 22.50000000
+2016-05-19 16:35:00 - Temperature_GF_Kitchen state updated to 17.60000000
+2016-05-19 16:35:00 - Temperature_FF_Bath state updated to 18.00000000
+2016-05-19 16:35:00 - Temperature_FF_Office state updated to 18.90000000
+2016-05-19 16:35:00 - Temperature_FF_Child state updated to 21.20000000
+2016-05-19 16:35:00 - Temperature_FF_Bed state updated to 21.60000000
+2016-05-19 16:35:02 - Weather_Humidity state updated to 
+
+2016-05-19 16:35:03 - Weather_Temperature state updated to 
+
+2016-05-19 16:36:03 - Weather_Humidity state updated to 
+
+2016-05-19 16:36:03 - Weather_Temperature state updated to 
+
+2016-05-19 16:37:04 - Weather_Humidity state updated to 
+
+2016-05-19 16:37:04 - Weather_Temperature state updated to 
+
+2016-05-19 16:38:04 - Weather_Humidity state updated to 
+
+2016-05-19 16:38:05 - Weather_Temperature state updated to 
+
+2016-05-19 16:39:05 - Weather_Humidity state updated to 
+
+2016-05-19 16:39:05 - Weather_Temperature state updated to 
+
+2016-05-19 16:40:00 - Temperature_GF_Corridor state updated to 20.90000000
+2016-05-19 16:40:00 - Temperature_GF_Toilet state updated to 20.80000000
+2016-05-19 16:40:00 - Temperature_GF_Living state updated to 19.70000000
+2016-05-19 16:40:00 - Temperature_GF_Kitchen state updated to 20.90000000
+2016-05-19 16:40:00 - Temperature_FF_Bath state updated to 22.40000000
+2016-05-19 16:40:00 - Temperature_FF_Office state updated to 18.80000000
+2016-05-19 16:40:00 - Temperature_FF_Child state updated to 18.40000000
+2016-05-19 16:40:00 - Temperature_FF_Bed state updated to 22.50000000
+2016-05-19 16:40:05 - Weather_Humidity state updated to 
+
+2016-05-19 16:40:06 - Weather_Temperature state updated to 
+
+2016-05-19 16:41:06 - Weather_Humidity state updated to 
+
+2016-05-19 16:41:06 - Weather_Temperature state updated to 
+
+2016-05-19 16:42:07 - Weather_Humidity state updated to 
+
+2016-05-19 16:42:07 - Weather_Temperature state updated to 
+
+2016-05-19 16:43:07 - Weather_Humidity state updated to 
+
+2016-05-19 16:43:07 - Weather_Temperature state updated to 
+
+2016-05-19 16:44:08 - Weather_Humidity state updated to 
+
+2016-05-19 16:44:08 - Weather_Temperature state updated to 
+
+2016-05-19 16:45:00 - Temperature_GF_Corridor state updated to 20.00000000
+2016-05-19 16:45:00 - Temperature_GF_Toilet state updated to 20.10000000
+2016-05-19 16:45:00 - Temperature_GF_Living state updated to 19.20000000
+2016-05-19 16:45:00 - Temperature_GF_Kitchen state updated to 20.70000000
+2016-05-19 16:45:00 - Temperature_FF_Bath state updated to 19.00000000
+2016-05-19 16:45:00 - Temperature_FF_Office state updated to 18.30000000
+2016-05-19 16:45:00 - Temperature_FF_Child state updated to 19.00000000
+2016-05-19 16:45:00 - Temperature_FF_Bed state updated to 19.00000000
+2016-05-19 16:45:09 - Weather_Humidity state updated to 
+
+2016-05-19 16:45:09 - Weather_Temperature state updated to 
+
+2016-05-19 16:46:13 - Weather_Humidity state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-19 16:46:13 - Weather_Temperature state updated to 
+
+2016-05-19 16:47:13 - Date state updated to 2016-05-19T16:47:13
+2016-05-19 16:47:14 - Weather_Humidity state updated to 
+
+2016-05-19 16:47:14 - Weather_Temperature state updated to 
+
+2016-05-19 16:48:14 - Weather_Humidity state updated to 
+
+2016-05-19 16:48:14 - Weather_Temperature state updated to 
+
+2016-05-19 16:49:15 - Weather_Humidity state updated to 
+
+2016-05-19 16:49:15 - Weather_Temperature state updated to 
+
+2016-05-19 16:49:34 - VibratoListener received command LOL
+2016-05-19 16:50:00 - Temperature_GF_Corridor state updated to 20.50000000
+2016-05-19 16:50:00 - Temperature_GF_Toilet state updated to 18.10000000
+2016-05-19 16:50:00 - Temperature_GF_Living state updated to 17.90000000
+2016-05-19 16:50:00 - Temperature_GF_Kitchen state updated to 20.80000000
+2016-05-19 16:50:00 - Temperature_FF_Bath state updated to 20.60000000
+2016-05-19 16:50:00 - Temperature_FF_Office state updated to 20.60000000
+2016-05-19 16:50:00 - Temperature_FF_Child state updated to 18.80000000
+2016-05-19 16:50:00 - Temperature_FF_Bed state updated to 19.50000000
+2016-05-19 16:50:15 - Weather_Humidity state updated to 
+
+2016-05-19 16:50:15 - Weather_Temperature state updated to 
+
+2016-05-19 16:51:16 - Weather_Humidity state updated to 
+
+2016-05-19 16:51:17 - Weather_Temperature state updated to 
+
+2016-05-19 16:52:16 - Weather_Humidity state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-19 16:52:20 - Weather_Temperature state updated to 
+
+2016-05-19 16:53:17 - Weather_Humidity state updated to 
+
+2016-05-19 16:53:20 - Weather_Temperature state updated to 
+
+2016-05-19 16:54:17 - Weather_Humidity state updated to 
+
+2016-05-19 16:54:20 - Weather_Temperature state updated to 
+
+2016-05-19 16:55:00 - Temperature_GF_Corridor state updated to 18.60000000
+2016-05-19 16:55:00 - Temperature_GF_Toilet state updated to 19.60000000
+2016-05-19 16:55:00 - Temperature_GF_Living state updated to 21.30000000
+2016-05-19 16:55:00 - Temperature_GF_Kitchen state updated to 20.90000000
+2016-05-19 16:55:00 - Temperature_FF_Bath state updated to 22.40000000
+2016-05-19 16:55:00 - Temperature_FF_Office state updated to 21.00000000
+2016-05-19 16:55:00 - Temperature_FF_Child state updated to 18.40000000
+2016-05-19 16:55:00 - Temperature_FF_Bed state updated to 18.80000000
+2016-05-19 16:55:18 - Weather_Humidity state updated to 
+
+2016-05-19 16:55:21 - Weather_Temperature state updated to 
+
+2016-05-19 16:56:18 - Weather_Humidity state updated to 
+
+2016-05-19 16:56:22 - Weather_Temperature state updated to 
+
+2016-05-19 16:57:19 - Weather_Humidity state updated to 
+
+2016-05-19 16:57:22 - Weather_Temperature state updated to 
+
+2016-05-19 16:58:20 - Weather_Humidity state updated to 
+
+2016-05-19 16:58:23 - Weather_Temperature state updated to 
+
+2016-05-19 16:59:20 - Weather_Humidity state updated to 
+
+2016-05-19 16:59:23 - Weather_Temperature state updated to 
+
+2016-05-19 17:00:00 - Temperature_GF_Corridor state updated to 19.30000000
+2016-05-19 17:00:00 - Temperature_GF_Toilet state updated to 19.80000000
+2016-05-19 17:00:00 - Temperature_GF_Living state updated to 21.10000000
+2016-05-19 17:00:00 - Temperature_GF_Kitchen state updated to 22.50000000
+2016-05-19 17:00:00 - Temperature_FF_Bath state updated to 18.20000000
+2016-05-19 17:00:00 - Temperature_FF_Office state updated to 21.90000000
+2016-05-19 17:00:00 - Temperature_FF_Child state updated to 20.60000000
+2016-05-19 17:00:00 - Temperature_FF_Bed state updated to 17.60000000
+2016-05-19 17:00:21 - Weather_Humidity state updated to 
+
+2016-05-19 17:00:27 - Weather_Temperature state updated to 
+
+2016-05-19 17:16:52 - Date state updated to 2016-05-19T17:16:52
+2016-05-19 17:16:53 - Weather_Humidity state updated to 
+
+2016-05-19 17:16:54 - Weather_Temperature state updated to 
+
+2016-05-19 17:16:59 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 17:17:00 - Temperature_GF_Corridor state updated to 22.40000000
+2016-05-19 17:17:00 - Temperature_GF_Toilet state updated to 18.70000000
+2016-05-19 17:17:00 - Temperature_GF_Living state updated to 20.70000000
+2016-05-19 17:17:00 - Temperature_GF_Kitchen state updated to 18.50000000
+2016-05-19 17:17:00 - Temperature_FF_Bath state updated to 19.80000000
+2016-05-19 17:17:00 - Temperature_FF_Office state updated to 19.20000000
+2016-05-19 17:17:00 - Temperature_FF_Child state updated to 21.80000000
+2016-05-19 17:17:00 - Temperature_FF_Bed state updated to 22.30000000
+2016-05-19 17:17:05 - Vibrato received command ON
+2016-05-19 17:17:11 - Vibrato received command OFF
+2016-05-19 17:17:12 - Vibrato received command ON
+2016-05-19 17:17:54 - Weather_Humidity state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-19 17:17:54 - Weather_Temperature state updated to 
+
+2016-05-19 17:18:54 - Weather_Humidity state updated to 
+
+2016-05-19 17:18:55 - Weather_Temperature state updated to 
+
+2016-05-19 17:19:44 - Vibrato received command ON
+2016-05-19 17:19:49 - Vibrato received command OFF
+2016-05-19 17:19:50 - Vibrato received command ON
+2016-05-19 17:19:51 - Vibrato received command OFF
+2016-05-19 17:19:55 - Weather_Humidity state updated to 
+
+2016-05-19 17:19:55 - Weather_Temperature state updated to 
+
+2016-05-19 17:20:00 - Temperature_GF_Corridor state updated to 21.60000000
+2016-05-19 17:20:00 - Temperature_GF_Toilet state updated to 20.70000000
+2016-05-19 17:20:00 - Temperature_GF_Living state updated to 19.70000000
+2016-05-19 17:20:00 - Temperature_GF_Kitchen state updated to 20.50000000
+2016-05-19 17:20:00 - Temperature_FF_Bath state updated to 22.10000000
+2016-05-19 17:20:00 - Temperature_FF_Office state updated to 20.90000000
+2016-05-19 17:20:00 - Temperature_FF_Child state updated to 20.10000000
+2016-05-19 17:20:00 - Temperature_FF_Bed state updated to 21.90000000
+2016-05-19 17:20:56 - Weather_Humidity state updated to 
+
+2016-05-19 17:20:56 - Weather_Temperature state updated to 
+
+2016-05-19 17:21:08 - Vibrato received command ON
+2016-05-19 17:21:10 - Vibrato received command OFF
+2016-05-19 17:21:11 - Vibrato received command ON
+2016-05-19 17:21:56 - Weather_Humidity state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-19 17:21:57 - Weather_Temperature state updated to 
+
+2016-05-19 17:22:57 - Weather_Humidity state updated to 
+
+2016-05-19 17:22:57 - Weather_Temperature state updated to 
+
+2016-05-19 17:23:57 - Weather_Humidity state updated to 
+
+2016-05-19 17:23:58 - Weather_Temperature state updated to 
+
+2016-05-19 17:24:41 - Vibrato received command ON
+2016-05-19 17:24:55 - Vibrato received command OFF
+2016-05-19 17:24:57 - Vibrato received command ON
+2016-05-19 17:24:58 - Weather_Humidity state updated to 
+
+2016-05-19 17:24:58 - Weather_Temperature state updated to 
+
+2016-05-19 17:25:00 - Temperature_GF_Corridor state updated to 19.10000000
+2016-05-19 17:25:00 - Temperature_GF_Toilet state updated to 20.40000000
+2016-05-19 17:25:00 - Temperature_GF_Living state updated to 17.80000000
+2016-05-19 17:25:00 - Temperature_GF_Kitchen state updated to 20.80000000
+2016-05-19 17:25:00 - Temperature_FF_Bath state updated to 20.80000000
+2016-05-19 17:25:00 - Temperature_FF_Office state updated to 19.30000000
+2016-05-19 17:25:00 - Temperature_FF_Child state updated to 17.70000000
+2016-05-19 17:25:00 - Temperature_FF_Bed state updated to 18.60000000
+2016-05-19 17:25:28 - Vibrato received command ON
+2016-05-19 17:25:28 - Vibrato received command OFF
+2016-05-19 17:25:46 - Vibrato received command ON
+2016-05-19 17:25:47 - Vibrato received command OFF
+2016-05-19 17:25:48 - Vibrato received command ON
+2016-05-19 17:25:48 - Vibrato received command OFF
+2016-05-19 17:25:59 - Weather_Humidity state updated to 
+
+2016-05-19 17:25:59 - Weather_Temperature state updated to 
+
+2016-05-19 17:26:59 - Weather_Humidity state updated to 
+
+2016-05-19 17:27:00 - Weather_Temperature state updated to 
+
+2016-05-19 17:27:31 - Vibrato received command ON
+2016-05-19 17:27:32 - Vibrato received command OFF
+2016-05-19 17:27:34 - Vibrato received command ON
+2016-05-19 17:28:00 - Weather_Humidity state updated to 
+
+2016-05-19 17:28:00 - Weather_Temperature state updated to 
+
+2016-05-19 17:28:03 - Vibrato received command ON
+2016-05-19 17:28:03 - Vibrato received command OFF
+2016-05-19 17:28:04 - Vibrato received command ON
+2016-05-19 17:28:04 - Vibrato received command OFF
+2016-05-19 17:28:28 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:28:29 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 17:28:29 - Vibrato received command ON
+2016-05-19 17:28:30 - Vibrato received command OFF
+2016-05-19 17:28:31 - Vibrato received command ON
+2016-05-19 17:28:31 - Vibrato received command OFF
+2016-05-19 17:28:54 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-19 17:29:00 - Weather_Humidity state updated to 
+
+2016-05-19 17:29:01 - Weather_Temperature state updated to 
+
+2016-05-19 17:29:02 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:29:10 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 17:29:11 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:29:12 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 17:29:25 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:29:29 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-19 17:29:30 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:29:33 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 17:29:42 - Light_FF_Bath_Ceiling received command ON
+2016-05-19 17:29:48 - Light_FF_Bath_Ceiling received command OFF
+2016-05-19 17:30:00 - Temperature_GF_Corridor state updated to 20.40000000
+2016-05-19 17:30:00 - Temperature_GF_Toilet state updated to 21.20000000
+2016-05-19 17:30:00 - Temperature_GF_Living state updated to 20.30000000
+2016-05-19 17:30:00 - Temperature_GF_Kitchen state updated to 18.80000000
+2016-05-19 17:30:00 - Temperature_FF_Bath state updated to 19.30000000
+2016-05-19 17:30:00 - Temperature_FF_Office state updated to 22.50000000
+2016-05-19 17:30:00 - Temperature_FF_Child state updated to 17.90000000
+2016-05-19 17:30:00 - Temperature_FF_Bed state updated to 17.60000000
+2016-05-19 17:30:01 - Weather_Humidity state updated to 
+
+2016-05-19 17:30:01 - Weather_Temperature state updated to 
+
+2016-05-19 17:30:27 - Light_FF_Corridor_Ceiling received command ON
+2016-05-19 17:30:27 - Light_FF_Corridor_Ceiling received command OFF
+2016-05-19 17:31:01 - Weather_Humidity state updated to 
+
+2016-05-19 17:31:02 - Weather_Temperature state updated to 
+
+2016-05-19 17:31:52 - Date state updated to 2016-05-19T17:31:52
+2016-05-19 17:32:02 - Weather_Humidity state updated to 
+
+2016-05-19 17:32:02 - Weather_Temperature state updated to 
+
+2016-05-19 17:33:04 - Weather_Humidity state updated to 
+
+2016-05-19 17:33:04 - Weather_Temperature state updated to 
+
+2016-05-19 17:34:04 - Weather_Humidity state updated to 
+
+2016-05-19 17:34:05 - Weather_Temperature state updated to 
+
+2016-05-19 17:35:00 - Temperature_GF_Corridor state updated to 18.50000000
+2016-05-19 17:35:00 - Temperature_GF_Toilet state updated to 22.10000000
+2016-05-19 17:35:00 - Temperature_GF_Living state updated to 21.10000000
+2016-05-19 17:35:00 - Temperature_GF_Kitchen state updated to 20.80000000
+2016-05-19 17:35:00 - Temperature_FF_Bath state updated to 18.90000000
+2016-05-19 17:35:00 - Temperature_FF_Office state updated to 18.80000000
+2016-05-19 17:35:00 - Temperature_FF_Child state updated to 19.70000000
+2016-05-19 17:35:00 - Temperature_FF_Bed state updated to 18.50000000
+2016-05-19 17:35:05 - Weather_Humidity state updated to 
+
+2016-05-19 17:35:05 - Weather_Temperature state updated to 
+
+2016-05-19 17:36:05 - Weather_Humidity state updated to 
+
+2016-05-19 17:36:06 - Weather_Temperature state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-19 17:37:06 - Weather_Humidity state updated to 
+
+2016-05-19 17:37:06 - Weather_Temperature state updated to 
+
+2016-05-19 17:38:07 - Weather_Humidity state updated to 
+
+2016-05-19 17:38:07 - Weather_Temperature state updated to 
+
+2016-05-19 17:39:07 - Weather_Humidity state updated to 
+
+2016-05-19 17:39:08 - Weather_Temperature state updated to 
+
+2016-05-19 17:40:00 - Temperature_GF_Corridor state updated to 21.10000000
+2016-05-19 17:40:00 - Temperature_GF_Toilet state updated to 19.80000000
+2016-05-19 17:40:00 - Temperature_GF_Living state updated to 22.20000000
+2016-05-19 17:40:00 - Temperature_GF_Kitchen state updated to 20.90000000
+2016-05-19 17:40:00 - Temperature_FF_Bath state updated to 19.70000000
+2016-05-19 17:40:00 - Temperature_FF_Office state updated to 19.20000000
+2016-05-19 17:40:00 - Temperature_FF_Child state updated to 18.00000000
+2016-05-19 17:40:00 - Temperature_FF_Bed state updated to 22.10000000
+2016-05-19 17:40:08 - Weather_Humidity state updated to 
+
+2016-05-19 17:40:08 - Weather_Temperature state updated to 
+
+2016-05-19 17:40:43 - Date state updated to 2016-05-19T17:40:43
+2016-05-19 17:40:43 - Light_GF_Living_Table state updated to OFF
+2016-05-19 17:40:43 - Light_GF_Corridor_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_GF_Kitchen_Ceiling state updated to ON
+2016-05-19 17:40:43 - Light_GF_Kitchen_Table state updated to OFF
+2016-05-19 17:40:43 - Light_GF_Corridor_Wardrobe state updated to ON
+2016-05-19 17:40:43 - Light_GF_Toilet_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_GF_Toilet_Mirror state updated to OFF
+2016-05-19 17:40:43 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_FF_Bath_Mirror state updated to ON
+2016-05-19 17:40:43 - Light_FF_Corridor_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_FF_Office_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_FF_Child_Ceiling state updated to OFF
+2016-05-19 17:40:43 - Light_FF_Bed_Ceiling state updated to OFF
+2016-05-19 17:40:44 - Light_C_Corridor_Ceiling state updated to ON
+2016-05-19 17:40:44 - Light_C_Staircase state updated to OFF
+2016-05-19 17:40:44 - Light_C_Washing_Ceiling state updated to ON
+2016-05-19 17:40:44 - Light_C_Workshop state updated to OFF
+2016-05-19 17:40:44 - Light_Outdoor_Garage state updated to OFF
+2016-05-19 17:40:44 - Light_Outdoor_Terrace state updated to OFF
+2016-05-19 17:40:44 - Light_Outdoor_Frontdoor state updated to OFF
+2016-05-19 17:40:44 - Heating_GF_Corridor state updated to OFF
+2016-05-19 17:40:44 - Heating_GF_Toilet state updated to ON
+2016-05-19 17:40:44 - Heating_GF_Living state updated to OFF
+2016-05-19 17:40:44 - Heating_GF_Kitchen state updated to OFF
+2016-05-19 17:40:44 - Heating_FF_Bath state updated to OFF
+2016-05-19 17:40:44 - Heating_FF_Office state updated to ON
+2016-05-19 17:40:44 - Heating_FF_Child state updated to OFF
+2016-05-19 17:40:44 - Heating_FF_Bed state updated to OFF
+2016-05-19 17:40:44 - Temperature_Setpoint state updated to 22
+2016-05-19 17:40:44 - Window_GF_Frontdoor state updated to CLOSED
+2016-05-19 17:40:44 - Window_GF_Kitchen state updated to CLOSED
+2016-05-19 17:40:44 - Window_GF_Living state updated to OPEN
+2016-05-19 17:40:44 - Window_GF_Toilet state updated to OPEN
+2016-05-19 17:40:44 - Window_FF_Bath state updated to CLOSED
+2016-05-19 17:40:44 - Window_FF_Bed state updated to OPEN
+2016-05-19 17:40:44 - Window_FF_Office_Window state updated to OPEN
+2016-05-19 17:40:44 - Window_FF_Office_Door state updated to CLOSED
+2016-05-19 17:40:44 - Garage_Door state updated to CLOSED
+2016-05-19 17:40:44 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 17:40:44 - Weather_Humidity state updated to 
+
+2016-05-19 17:40:45 - Weather_Temperature state updated to 
+
+2016-05-19 17:42:41 - Weather_Humidity state updated to 
+
+2016-05-19 17:42:42 - Weather_Temperature state updated to 
+
+2016-05-19 17:43:34 - Date state updated to 2016-05-19T17:43:34
+2016-05-19 17:43:34 - Weather_Humidity state updated to 
+
+2016-05-19 17:43:34 - Weather_Temperature state updated to 
+
+2016-05-19 17:43:35 - Vibrato received command ON
+2016-05-19 17:43:36 - Vibrato received command OFF
+2016-05-19 17:43:37 - Vibrato received command ON
+2016-05-19 17:43:37 - Vibrato received command OFF
+2016-05-19 17:43:38 - Vibrato received command ON
+2016-05-19 17:43:39 - Vibrato received command OFF
+2016-05-19 17:43:41 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-19 17:43:41 - Temperature_GF_Corridor state updated to 21.40000000
+2016-05-19 17:43:41 - Temperature_GF_Toilet state updated to 20.60000000
+2016-05-19 17:43:41 - Temperature_GF_Living state updated to 19.40000000
+2016-05-19 17:43:41 - Temperature_GF_Kitchen state updated to 21.40000000
+2016-05-19 17:43:41 - Temperature_FF_Bath state updated to 21.90000000
+2016-05-19 17:43:41 - Temperature_FF_Office state updated to 19.30000000
+2016-05-19 17:43:41 - Temperature_FF_Child state updated to 19.20000000
+2016-05-19 17:43:41 - Temperature_FF_Bed state updated to 21.10000000
+2016-05-19 17:44:35 - Weather_Humidity state updated to 
+
+2016-05-19 17:44:36 - Weather_Temperature state updated to 
+
+2016-05-19 17:45:00 - Temperature_GF_Corridor state updated to 18.90000000
+2016-05-19 17:45:00 - Temperature_GF_Toilet state updated to 18.90000000
+2016-05-19 17:45:00 - Temperature_GF_Living state updated to 19.10000000
+2016-05-19 17:45:00 - Temperature_GF_Kitchen state updated to 21.00000000
+2016-05-19 17:45:00 - Temperature_FF_Bath state updated to 18.80000000
+2016-05-19 17:45:00 - Temperature_FF_Office state updated to 21.30000000
+2016-05-19 17:45:00 - Temperature_FF_Child state updated to 21.40000000
+2016-05-19 17:45:00 - Temperature_FF_Bed state updated to 22.20000000
+2016-05-19 17:45:36 - Weather_Humidity state updated to 
+
+2016-05-19 17:45:37 - Weather_Temperature state updated to 
+
+2016-05-19 17:46:37 - Weather_Humidity state updated to 
+
+2016-05-19 17:46:38 - Weather_Temperature state updated to 
+
+2016-05-19 17:47:38 - Weather_Humidity state updated to 
+
+2016-05-19 17:47:38 - Weather_Temperature state updated to 
+
+2016-05-19 17:48:37 - Vibrato received command ON
+2016-05-19 17:48:38 - Vibrato received command OFF
+2016-05-19 17:48:39 - Weather_Humidity state updated to 
+
+2016-05-19 17:48:39 - Vibrato received command ON
+2016-05-19 17:48:39 - Weather_Temperature state updated to 
+
+2016-05-19 17:48:43 - Vibrato received command OFF
+2016-05-19 17:48:44 - Vibrato received command ON
+2016-05-19 17:49:18 - Vibrato received command OFF
+2016-05-19 17:49:18 - Vibrato received command ON
+2016-05-19 17:49:19 - Vibrato received command OFF
+2016-05-19 17:49:19 - Vibrato received command ON
+2016-05-19 17:49:23 - Vibrato received command OFF
+2016-05-19 17:49:23 - Vibrato received command ON
+2016-05-19 17:49:24 - Vibrato received command OFF
+2016-05-19 17:49:24 - Vibrato received command ON
+2016-05-19 17:49:40 - Weather_Humidity state updated to 
+
+2016-05-19 17:49:40 - Weather_Temperature state updated to 
+
+2016-05-19 17:50:00 - Temperature_GF_Corridor state updated to 22.30000000
+2016-05-19 17:50:00 - Temperature_GF_Toilet state updated to 20.50000000
+2016-05-19 17:50:00 - Temperature_GF_Living state updated to 21.60000000
+2016-05-19 17:50:00 - Temperature_GF_Kitchen state updated to 18.40000000
+2016-05-19 17:50:00 - Temperature_FF_Bath state updated to 20.40000000
+2016-05-19 17:50:00 - Temperature_FF_Office state updated to 21.90000000
+2016-05-19 17:50:00 - Temperature_FF_Child state updated to 19.70000000
+2016-05-19 17:50:00 - Temperature_FF_Bed state updated to 21.20000000
+2016-05-19 17:50:41 - Weather_Humidity state updated to 
+
+2016-05-19 17:50:41 - Weather_Temperature state updated to 
+
+2016-05-19 17:51:41 - Weather_Humidity state updated to 
+
+2016-05-19 17:51:41 - Weather_Temperature state updated to 
+
+2016-05-19 17:52:42 - Weather_Humidity state updated to 
+
+2016-05-19 17:52:42 - Weather_Temperature state updated to 
+
+2016-05-19 17:53:43 - Weather_Humidity state updated to 
+
+2016-05-19 17:53:44 - Weather_Temperature state updated to 
+
+2016-05-19 17:54:44 - Weather_Humidity state updated to 
+
+2016-05-19 17:54:45 - Weather_Temperature state updated to 
+
+2016-05-19 17:55:00 - Temperature_GF_Corridor state updated to 21.60000000
+2016-05-19 17:55:00 - Temperature_GF_Toilet state updated to 20.50000000
+2016-05-19 17:55:00 - Temperature_GF_Living state updated to 17.80000000
+2016-05-19 17:55:00 - Temperature_GF_Kitchen state updated to 20.30000000
+2016-05-19 17:55:00 - Temperature_FF_Bath state updated to 19.20000000
+2016-05-19 17:55:00 - Temperature_FF_Office state updated to 17.90000000
+2016-05-19 17:55:00 - Temperature_FF_Child state updated to 20.20000000
+2016-05-19 17:55:00 - Temperature_FF_Bed state updated to 20.10000000
+2016-05-19 17:55:46 - Weather_Humidity state updated to 
+
+2016-05-19 17:55:47 - Weather_Temperature state updated to 
+
+2016-05-19 17:56:41 - Vibrato received command OFF
+2016-05-19 17:56:41 - Vibrato received command ON
+2016-05-19 17:56:47 - Weather_Humidity state updated to 
+
+2016-05-19 17:56:47 - Weather_Temperature state updated to 
+
+2016-05-19 17:57:47 - Weather_Humidity state updated to 
+
+2016-05-19 17:57:47 - Weather_Temperature state updated to 
+
+2016-05-19 17:58:34 - Date state updated to 2016-05-19T17:58:34
+2016-05-19 17:58:48 - Weather_Humidity state updated to 
+
+2016-05-19 17:58:48 - Weather_Temperature state updated to 
+
+2016-05-19 17:58:55 - Vibrato received command OFF
+2016-05-19 17:58:56 - Vibrato received command ON
+2016-05-19 17:58:57 - Vibrato received command OFF
+2016-05-19 17:58:57 - Vibrato received command ON
+2016-05-19 17:58:58 - Vibrato received command OFF
+2016-05-19 17:58:58 - Vibrato received command ON
+2016-05-19 17:58:58 - Vibrato received command OFF
+2016-05-19 17:58:59 - Vibrato received command ON
+2016-05-19 17:58:59 - Vibrato received command OFF
+2016-05-19 17:59:12 - Vibrato received command ON
+2016-05-19 17:59:12 - Vibrato received command OFF
+2016-05-19 17:59:49 - Weather_Humidity state updated to 
+
+2016-05-19 17:59:50 - Weather_Temperature state updated to 
+
+2016-05-19 18:00:00 - Temperature_GF_Corridor state updated to 19.00000000
+2016-05-19 18:00:00 - Temperature_GF_Toilet state updated to 22.40000000
+2016-05-19 18:00:00 - Temperature_GF_Living state updated to 18.70000000
+2016-05-19 18:00:00 - Temperature_GF_Kitchen state updated to 22.10000000
+2016-05-19 18:00:00 - Temperature_FF_Bath state updated to 18.30000000
+2016-05-19 18:00:00 - Temperature_FF_Office state updated to 18.00000000
+2016-05-19 18:00:00 - Temperature_FF_Child state updated to 21.80000000
+2016-05-19 18:00:00 - Temperature_FF_Bed state updated to 21.00000000
+2016-05-19 18:00:49 - Weather_Humidity state updated to 
+
+2016-05-19 18:00:50 - Weather_Temperature state updated to 
+
+2016-05-19 18:01:50 - Weather_Humidity state updated to 
+
+2016-05-19 18:01:52 - Weather_Temperature state updated to 
+
+2016-05-19 18:02:51 - Weather_Humidity state updated to 
+
+2016-05-19 18:02:52 - Weather_Temperature state updated to 
+
+2016-05-19 18:03:30 - Vibrato received command ON
+2016-05-19 18:03:40 - Vibrato received command OFF
+2016-05-19 18:03:51 - Weather_Humidity state updated to 
+
+2016-05-19 18:03:53 - Weather_Temperature state updated to 
+
+2016-05-19 18:04:07 - Vibrato received command ON
+2016-05-19 18:04:52 - Weather_Humidity state updated to 
+
+2016-05-19 18:04:53 - Weather_Temperature state updated to 
+
+2016-05-19 18:05:00 - Temperature_GF_Corridor state updated to 19.10000000
+2016-05-19 18:05:00 - Temperature_GF_Toilet state updated to 21.20000000
+2016-05-19 18:05:00 - Temperature_GF_Living state updated to 18.80000000
+2016-05-19 18:05:00 - Temperature_GF_Kitchen state updated to 20.60000000
+2016-05-19 18:05:00 - Temperature_FF_Bath state updated to 19.10000000
+2016-05-19 18:05:00 - Temperature_FF_Office state updated to 21.90000000
+2016-05-19 18:05:00 - Temperature_FF_Child state updated to 20.00000000
+2016-05-19 18:05:00 - Temperature_FF_Bed state updated to 19.90000000
+2016-05-19 18:05:52 - Weather_Humidity state updated to 
+
+2016-05-19 18:05:54 - Weather_Temperature state updated to 
+
+2016-05-19 18:06:43 - Vibrato received command OFF
+2016-05-19 18:06:44 - Vibrato received command ON
+2016-05-19 18:06:44 - Vibrato state updated to ON
+2016-05-19 18:06:46 - Vibrato received command OFF
+2016-05-19 18:06:46 - Vibrato received command ON
+2016-05-19 18:06:46 - Vibrato state updated to ON
+2016-05-19 18:06:53 - Weather_Humidity state updated to 
+
+2016-05-19 18:06:54 - Weather_Temperature state updated to 
+
+2016-05-19 18:07:55 - Weather_Humidity state updated to 
+
+2016-05-19 18:07:55 - Weather_Temperature state updated to 
+
+2016-05-19 18:08:55 - Weather_Humidity state updated to 
+
+2016-05-19 18:08:55 - Weather_Temperature state updated to 
+
+2016-05-20 10:11:33 - Date state updated to 2016-05-20T10:11:33
+2016-05-20 10:11:34 - Weather_Humidity state updated to 
+
+2016-05-20 10:11:35 - Weather_Temperature state updated to 
+
+2016-05-20 10:11:40 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-20 10:11:41 - Temperature_GF_Corridor state updated to 17.80000000
+2016-05-20 10:11:41 - Temperature_GF_Toilet state updated to 20.60000000
+2016-05-20 10:11:41 - Temperature_GF_Living state updated to 20.30000000
+2016-05-20 10:11:41 - Temperature_GF_Kitchen state updated to 18.70000000
+2016-05-20 10:11:41 - Temperature_FF_Bath state updated to 21.80000000
+2016-05-20 10:11:41 - Temperature_FF_Office state updated to 18.40000000
+2016-05-20 10:11:41 - Temperature_FF_Child state updated to 20.70000000
+2016-05-20 10:11:41 - Temperature_FF_Bed state updated to 19.90000000
+2016-05-20 10:12:35 - Weather_Humidity state updated to 
+
+2016-05-20 10:12:35 - Weather_Temperature state updated to 
+
+2016-05-20 10:13:35 - Weather_Humidity state updated to 
+
+2016-05-20 10:13:36 - Weather_Temperature state updated to 
+
+2016-05-20 10:14:36 - Weather_Humidity state updated to 
+
+2016-05-20 10:16:06 - Temperature_GF_Corridor state updated to 19.20000000
+2016-05-20 10:16:06 - Temperature_GF_Toilet state updated to 20.20000000
+2016-05-20 10:16:06 - Temperature_GF_Living state updated to 20.90000000
+2016-05-20 10:16:06 - Temperature_GF_Kitchen state updated to 19.30000000
+2016-05-20 10:16:06 - Temperature_FF_Bath state updated to 21.50000000
+2016-05-20 10:16:06 - Weather_Temperature state updated to 
+
+2016-05-20 10:16:06 - Temperature_FF_Office state updated to 20.20000000
+2016-05-20 10:16:06 - Temperature_FF_Child state updated to 18.90000000
+2016-05-20 10:16:06 - Temperature_FF_Bed state updated to 19.10000000
+2016-05-20 10:16:08 - Weather_Humidity state updated to 
+
+2016-05-20 10:16:28 - Vibrato received command ON
+2016-05-20 10:16:28 - Vibrato state updated to ON
+2016-05-20 10:16:30 - Vibrato received command OFF
+2016-05-20 10:16:30 - Vibrato received command ON
+2016-05-20 10:16:30 - Vibrato state updated to ON
+2016-05-20 10:16:31 - Vibrato received command OFF
+2016-05-20 10:16:32 - Vibrato received command ON
+2016-05-20 10:16:32 - Vibrato state updated to ON
+2016-05-20 10:17:07 - Weather_Temperature state updated to 
+
+2016-05-20 10:17:08 - Weather_Humidity state updated to 
+
+2016-05-20 10:18:07 - Weather_Temperature state updated to 
+
+2016-05-20 10:18:09 - Weather_Humidity state updated to 
+
+2016-05-20 10:18:11 - Vibrato received command OFF
+2016-05-20 10:18:12 - Vibrato received command ON
+2016-05-20 10:18:12 - Vibrato state updated to ON
+2016-05-20 10:18:15 - Vibrato received command OFF
+2016-05-20 10:18:21 - Vibrato received command ON
+2016-05-20 10:18:21 - Vibrato state updated to ON
+2016-05-20 10:18:23 - Vibrato received command OFF
+2016-05-20 10:18:25 - Vibrato received command ON
+2016-05-20 10:18:25 - Vibrato state updated to ON
+2016-05-20 10:19:10 - Weather_Temperature state updated to <HTML>
+<HEAD>
+<TITLE>Server Connection Closed</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Server Connection Closed</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The server requested closed the connection before
+the transaction was completed.
+</B></FONT>
+<HR>
+</BODY>
+
+2016-05-20 10:19:12 - Weather_Humidity state updated to 
+
+2016-05-20 10:20:00 - Temperature_GF_Corridor state updated to 19.80000000
+2016-05-20 10:20:00 - Temperature_GF_Toilet state updated to 19.50000000
+2016-05-20 10:20:00 - Temperature_GF_Living state updated to 20.60000000
+2016-05-20 10:20:00 - Temperature_GF_Kitchen state updated to 19.20000000
+2016-05-20 10:20:00 - Temperature_FF_Bath state updated to 20.00000000
+2016-05-20 10:20:00 - Temperature_FF_Office state updated to 18.40000000
+2016-05-20 10:20:00 - Temperature_FF_Child state updated to 18.30000000
+2016-05-20 10:20:00 - Temperature_FF_Bed state updated to 22.50000000
+2016-05-20 10:20:13 - Weather_Temperature state updated to 
+
+2016-05-20 10:20:14 - Weather_Humidity state updated to 
+
+2016-05-20 10:20:31 - Vibrato received command OFF
+2016-05-20 10:20:32 - Vibrato received command ON
+2016-05-20 10:20:32 - Vibrato state updated to ON
+2016-05-20 10:21:13 - Weather_Temperature state updated to 
+
+2016-05-20 10:21:15 - Weather_Humidity state updated to 
+
+2016-05-20 10:21:51 - Date state updated to 2016-05-20T10:21:51
+2016-05-20 10:23:15 - Vibrato received command ON
+2016-05-20 10:23:15 - Vibrato state updated to ON
+2016-05-20 10:23:46 - Vibrato received command OFF
+2016-05-20 10:24:02 - Vibrato received command ON
+2016-05-20 10:24:02 - Vibrato state updated to ON
+2016-05-20 10:25:00 - Temperature_GF_Corridor state updated to 18.50000000
+2016-05-20 10:25:00 - Temperature_GF_Toilet state updated to 19.30000000
+2016-05-20 10:25:00 - Temperature_GF_Living state updated to 19.70000000
+2016-05-20 10:25:00 - Temperature_GF_Kitchen state updated to 21.20000000
+2016-05-20 10:25:00 - Temperature_FF_Bath state updated to 18.70000000
+2016-05-20 10:25:00 - Temperature_FF_Office state updated to 19.20000000
+2016-05-20 10:25:00 - Temperature_FF_Child state updated to 22.50000000
+2016-05-20 10:25:00 - Temperature_FF_Bed state updated to 18.00000000
+2016-05-20 10:25:19 - Vibrato state updated to ON
+2016-05-20 10:25:19 - Vibrato received command ON
+2016-05-20 10:26:33 - Date state updated to 2016-05-20T10:26:33
+2016-05-20 10:26:39 - Vibrato received command OFF
+2016-05-20 10:26:39 - Vibrato state updated to OFF
+2016-05-20 10:26:39 - Vibrato state updated to OFF
+2016-05-20 10:26:39 - Vibrato state updated to OFF
+2016-05-20 10:26:42 - Vibrato received command ON
+2016-05-20 10:26:42 - Vibrato state updated to ON
+2016-05-20 10:26:43 - Vibrato state updated to ON
+2016-05-20 10:26:43 - Vibrato state updated to ON
+2016-05-20 10:26:45 - Vibrato received command OFF
+2016-05-20 10:26:45 - Vibrato state updated to OFF
+2016-05-20 10:26:45 - Vibrato state updated to OFF
+2016-05-20 10:26:45 - Vibrato state updated to OFF
+2016-05-20 10:28:01 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-20 10:28:01 - Temperature_GF_Corridor state updated to 22.40000000
+2016-05-20 10:28:01 - Temperature_GF_Toilet state updated to 19.90000000
+2016-05-20 10:28:01 - Temperature_GF_Living state updated to 22.00000000
+2016-05-20 10:28:01 - Temperature_GF_Kitchen state updated to 20.30000000
+2016-05-20 10:28:01 - Temperature_FF_Bath state updated to 20.10000000
+2016-05-20 10:28:01 - Temperature_FF_Office state updated to 18.20000000
+2016-05-20 10:28:01 - Temperature_FF_Child state updated to 19.10000000
+2016-05-20 10:28:01 - Temperature_FF_Bed state updated to 18.20000000
+2016-05-20 10:30:05 - Vibrato received command ON
+2016-05-20 10:30:05 - Vibrato state updated to ON
+2016-05-20 10:30:05 - Vibrato state updated to ON
+2016-05-20 10:30:05 - Vibrato state updated to ON
+2016-05-20 10:30:06 - Vibrato received command OFF
+2016-05-20 10:30:06 - Vibrato state updated to OFF
+2016-05-20 10:30:06 - Vibrato state updated to OFF
+2016-05-20 10:30:06 - Vibrato state updated to OFF
+2016-05-20 10:30:07 - Vibrato received command ON
+2016-05-20 10:30:07 - Vibrato state updated to ON
+2016-05-20 10:30:07 - Vibrato received command OFF
+2016-05-20 10:30:07 - Vibrato state updated to OFF
+2016-05-20 10:30:07 - Vibrato state updated to ON
+2016-05-20 10:30:07 - Vibrato state updated to ON
+2016-05-20 10:30:08 - Vibrato state updated to OFF
+2016-05-20 10:30:08 - Vibrato state updated to OFF
+2016-05-20 10:30:08 - Vibrato received command ON
+2016-05-20 10:30:08 - Vibrato state updated to ON
+2016-05-20 10:30:08 - Vibrato state updated to ON
+2016-05-20 10:30:08 - Vibrato state updated to ON
+2016-05-20 10:30:08 - Vibrato received command OFF
+2016-05-20 10:30:08 - Vibrato state updated to OFF
+2016-05-20 10:30:09 - Vibrato state updated to OFF
+2016-05-20 10:30:09 - Vibrato state updated to OFF
+2016-05-20 10:30:10 - Vibrato received command ON
+2016-05-20 10:30:10 - Vibrato state updated to ON
+2016-05-20 10:30:10 - Vibrato state updated to ON
+2016-05-20 10:30:10 - Vibrato state updated to ON
+2016-05-20 10:30:23 - Vibrato received command OFF
+2016-05-20 10:30:23 - Vibrato state updated to OFF
+2016-05-20 10:30:23 - Vibrato state updated to OFF
+2016-05-20 10:30:23 - Vibrato state updated to OFF
+2016-05-20 10:30:24 - Vibrato received command ON
+2016-05-20 10:30:24 - Vibrato state updated to ON
+2016-05-20 10:30:25 - Vibrato state updated to ON
+2016-05-20 10:30:25 - Vibrato state updated to ON
+2016-05-20 10:30:59 - Vibrato received command OFF
+2016-05-20 10:30:59 - Vibrato state updated to OFF
+2016-05-20 10:31:12 - Vibrato received command ON
+2016-05-20 10:31:12 - Vibrato state updated to ON
+2016-05-20 10:31:16 - Vibrato received command OFF
+2016-05-20 10:31:16 - Vibrato state updated to OFF
+2016-05-20 10:33:30 - Vibrato state updated to ON
+2016-05-20 10:33:30 - Vibrato received command ON
+2016-05-20 10:33:33 - Vibrato received command OFF
+2016-05-20 10:33:33 - Vibrato state updated to OFF
+2016-05-20 10:39:09 - Vibrato state updated to ON
+2016-05-20 10:39:09 - Vibrato received command ON
+2016-05-20 10:39:11 - Vibrato received command OFF
+2016-05-20 10:39:11 - Vibrato state updated to OFF
+2016-05-20 10:39:12 - Vibrato received command ON
+2016-05-20 10:39:12 - Vibrato state updated to ON
+2016-05-20 10:39:15 - Vibrato received command OFF
+2016-05-20 10:39:15 - Vibrato state updated to OFF
+2016-05-20 10:39:18 - Vibrato received command ON
+2016-05-20 10:39:18 - Vibrato state updated to ON
+2016-05-20 10:39:20 - Vibrato state updated to OFF
+2016-05-20 10:39:20 - Vibrato received command OFF
+2016-05-20 10:39:23 - Vibrato received command ON
+2016-05-20 10:39:23 - Vibrato state updated to ON
+2016-05-20 10:39:25 - Vibrato received command OFF
+2016-05-20 10:39:25 - Vibrato state updated to OFF
+2016-05-20 10:40:01 - Vibrato received command ON
+2016-05-20 10:40:01 - Vibrato state updated to ON
+2016-05-20 10:40:02 - Vibrato received command ON
+2016-05-20 10:40:02 - Vibrato state updated to ON
+2016-05-20 10:40:03 - Vibrato received command OFF
+2016-05-20 10:40:03 - Vibrato state updated to OFF
+2016-05-20 10:40:05 - Vibrato received command ON
+2016-05-20 10:40:05 - Vibrato state updated to ON
+2016-05-20 10:40:06 - Vibrato received command OFF
+2016-05-20 10:40:06 - Vibrato state updated to OFF
+2016-05-20 10:40:07 - Vibrato state updated to ON
+2016-05-20 10:40:07 - Vibrato received command ON
+2016-05-20 10:40:08 - Vibrato received command OFF
+2016-05-20 10:40:08 - Vibrato state updated to OFF
+2016-05-20 10:40:08 - Vibrato received command ON
+2016-05-20 10:40:08 - Vibrato state updated to ON
+2016-05-20 10:40:10 - Vibrato state updated to OFF
+2016-05-20 10:40:10 - Vibrato received command OFF
+2016-05-20 10:40:12 - Vibrato state updated to ON
+2016-05-20 10:40:12 - Vibrato received command ON
+2016-05-20 10:40:13 - Vibrato state updated to OFF
+2016-05-20 10:40:13 - Vibrato received command OFF
+2016-05-20 10:40:21 - Vibrato received command ON
+2016-05-20 10:40:21 - Vibrato state updated to ON
+2016-05-20 10:41:07 - Vibrato received command ON
+2016-05-20 10:41:07 - Vibrato state updated to ON
+2016-05-20 10:41:10 - Vibrato received command OFF
+2016-05-20 10:41:10 - Vibrato state updated to OFF
+2016-05-20 10:41:11 - Vibrato state updated to OFF
+2016-05-20 10:41:11 - Vibrato state updated to OFF
+2016-05-20 10:41:12 - Vibrato received command ON
+2016-05-20 10:41:12 - Vibrato state updated to ON
+2016-05-20 10:41:14 - Vibrato received command OFF
+2016-05-20 10:41:14 - Vibrato state updated to OFF
+2016-05-20 10:41:14 - Vibrato state updated to OFF
+2016-05-20 10:41:14 - Vibrato state updated to OFF
+2016-05-20 10:41:14 - Vibrato received command ON
+2016-05-20 10:41:14 - Vibrato state updated to ON
+2016-05-20 10:41:15 - Vibrato received command OFF
+2016-05-20 10:41:15 - Vibrato state updated to OFF
+2016-05-20 10:41:16 - Vibrato state updated to OFF
+2016-05-20 10:41:16 - Vibrato state updated to OFF
+2016-05-20 10:41:16 - Vibrato received command ON
+2016-05-20 10:41:16 - Vibrato state updated to ON
+2016-05-20 10:41:19 - Vibrato received command OFF
+2016-05-20 10:41:19 - Vibrato state updated to OFF
+2016-05-20 10:41:20 - Vibrato state updated to OFF
+2016-05-20 10:41:20 - Vibrato state updated to OFF
+2016-05-20 10:41:22 - Vibrato state updated to ON
+2016-05-20 10:41:22 - Vibrato received command ON
+2016-05-20 10:41:33 - Date state updated to 2016-05-20T10:41:33
+2016-05-20 10:41:47 - Vibrato received command OFF
+2016-05-20 10:41:47 - Vibrato state updated to OFF
+2016-05-20 10:41:48 - Vibrato state updated to OFF
+2016-05-20 10:41:48 - Vibrato state updated to OFF
+2016-05-20 10:41:49 - Vibrato received command ON
+2016-05-20 10:41:49 - Vibrato state updated to ON
+2016-05-20 10:41:50 - Vibrato state updated to ON
+2016-05-20 10:41:50 - Vibrato state updated to ON
+2016-05-20 10:41:53 - Vibrato received command OFF
+2016-05-20 10:41:53 - Vibrato state updated to OFF
+2016-05-20 10:41:53 - Vibrato state updated to OFF
+2016-05-20 10:41:53 - Vibrato state updated to OFF
+2016-05-20 10:41:54 - Vibrato received command ON
+2016-05-20 10:41:54 - Vibrato state updated to ON
+2016-05-20 10:41:55 - Vibrato state updated to ON
+2016-05-20 10:41:55 - Vibrato state updated to ON
+2016-05-20 10:41:55 - Vibrato received command OFF
+2016-05-20 10:41:55 - Vibrato state updated to OFF
+2016-05-20 10:41:55 - Vibrato state updated to OFF
+2016-05-20 10:41:55 - Vibrato state updated to OFF
+2016-05-20 10:44:58 - Vibrato received command ON
+2016-05-20 10:44:58 - Vibrato state updated to ON
+2016-05-20 10:44:58 - Vibrato state updated to ON
+2016-05-20 10:44:58 - Vibrato state updated to ON
+2016-05-20 10:45:14 - VibratoListener received command ON
+2016-05-20 10:45:14 - Vibrato state updated to ON
+2016-05-20 10:45:27 - VibratoListener received command ON
+2016-05-20 10:45:27 - Vibrato state updated to ON
+2016-05-20 10:45:33 - VibratoListener received command OFF
+2016-05-20 10:45:33 - Vibrato state updated to OFF
+2016-05-20 10:45:35 - VibratoListener received command OFF
+2016-05-20 10:45:35 - Vibrato state updated to OFF
+2016-05-20 10:45:41 - VibratoListener received command tsss
+2016-05-20 10:45:44 - VibratoListener received command tsss
+2016-05-20 10:45:49 - VibratoListener received command chips
+2016-05-20 10:45:56 - VibratoListener received command ON
+2016-05-20 10:45:56 - Vibrato state updated to ON
+2016-05-20 10:46:02 - VibratoListener received command hello
+2016-05-20 10:49:05 - VibratoListener received command hello
+2016-05-20 10:49:15 - VibratoListener received command ON
+2016-05-20 10:49:15 - Vibrato state updated to ON
+2016-05-20 10:49:17 - VibratoListener received command hello
+2016-05-20 10:49:38 - VibratoListener received command hello
+2016-05-20 10:49:42 - VibratoListener received command hello
+2016-05-20 10:50:00 - VibratoListener received command hello
+2016-05-20 10:50:04 - VibratoListener received command hello
+2016-05-20 10:50:05 - VibratoTalk state updated to hello
+2016-05-20 10:50:05 - VibratoTalk received command hello
+2016-05-20 10:50:24 - VibratoListener received command hello
+2016-05-20 10:50:24 - VibratoTalk state updated to hello
+2016-05-20 10:50:24 - VibratoTalk received command hello
+2016-05-20 10:50:50 - VibratoListener received command hello
+2016-05-20 10:50:50 - VibratoTalk state updated to hello
+2016-05-20 10:50:50 - VibratoTalk received command hello
+2016-05-20 10:50:53 - VibratoListener received command hello
+2016-05-20 10:50:54 - VibratoTalk received command hello
+2016-05-20 10:50:54 - VibratoTalk state updated to hello
+2016-05-20 10:51:02 - Vibrato received command OFF
+2016-05-20 10:51:02 - Vibrato state updated to OFF
+2016-05-20 10:51:02 - Vibrato state updated to OFF
+2016-05-20 10:51:02 - Vibrato state updated to OFF
+2016-05-20 10:51:02 - VibratoTalk state updated to OFF
+2016-05-20 10:51:03 - Vibrato state updated to ON
+2016-05-20 10:51:03 - Vibrato received command ON
+2016-05-20 10:51:03 - Vibrato state updated to ON
+2016-05-20 10:51:03 - Vibrato state updated to ON
+2016-05-20 10:51:03 - VibratoTalk state updated to ON
+2016-05-20 10:53:05 - VibratoListener received command hello
+2016-05-20 10:53:09 - VibratoListener received command ON
+2016-05-20 10:53:09 - Vibrato state updated to ON
+2016-05-20 10:53:11 - VibratoListener received command hello
+2016-05-20 10:53:11 - VibratoTalk received command hello
+2016-05-20 10:53:22 - VibratoListener received command HELLO
+2016-05-20 10:53:23 - VibratoTalk received command HELLO
+2016-05-20 10:53:23 - VibratoTalk state updated to HELLO
+2016-05-20 10:55:57 - VibratoListener received command HELLO
+2016-05-20 10:55:57 - VibratoTalk received command HELLO
+2016-05-20 10:55:57 - VibratoTalk state updated to HELLO
+2016-05-20 10:56:01 - VibratoListener received command HELLO
+2016-05-20 10:56:01 - VibratoTalk received command HELLO
+2016-05-20 10:56:01 - VibratoTalk state updated to HELLO
+2016-05-20 10:56:03 - VibratoListener received command HELLO
+2016-05-20 10:56:07 - VibratoListener received command ON
+2016-05-20 10:56:07 - Vibrato state updated to ON
+2016-05-20 10:56:09 - VibratoListener received command HELLO
+2016-05-20 10:56:09 - VibratoTalk received command HELLO
+2016-05-20 10:56:09 - VibratoTalk state updated to HELLO
+2016-05-20 10:56:24 - VibratoListener received command HELLO
+2016-05-20 10:56:31 - Vibrato received command ON
+2016-05-20 10:56:31 - Vibrato state updated to ON
+2016-05-20 10:56:31 - Vibrato state updated to ON
+2016-05-20 10:56:31 - Vibrato state updated to ON
+2016-05-20 10:56:31 - VibratoTalk state updated to activate
+2016-05-20 10:56:31 - VibratoTalk state updated to activate
+2016-05-20 10:56:31 - VibratoTalk state updated to activate
+2016-05-20 10:56:31 - VibratoTalk state updated to ON
+2016-05-20 10:56:33 - Date state updated to 2016-05-20T10:56:33
+2016-05-20 10:56:36 - VibratoListener received command HELLO
+2016-05-20 10:56:36 - VibratoTalk received command HELLO
+2016-05-20 10:56:38 - VibratoListener received command HELLO
+2016-05-20 10:56:38 - VibratoTalk received command HELLO
+2016-05-20 10:56:41 - VibratoListener received command HELLO
+2016-05-20 10:56:41 - VibratoTalk received command HELLO
+2016-05-20 10:56:52 - VibratoListener received command HELLO
+2016-05-20 10:57:38 - VibratoListener received command ON
+2016-05-20 10:57:38 - Vibrato state updated to ON
+2016-05-20 10:57:39 - VibratoListener received command HELLO
+2016-05-20 10:57:39 - VibratoTalk received command HELLO
+2016-05-20 10:57:39 - VibratoTalk state updated to HELLO
+2016-05-20 10:58:12 - VibratoListener received command HELLO
+2016-05-20 10:58:12 - VibratoTalk state updated to HELLO
+2016-05-20 10:58:12 - VibratoTalk received command HELLO
+2016-05-20 10:58:14 - VibratoListener received command HELLO
+2016-05-20 11:05:25 - Date state updated to 2016-05-20T11:05:25
+2016-05-20 11:05:26 - VibratoListener received command HELLO
+2016-05-20 11:05:29 - VibratoListener received command HELLO
+2016-05-20 11:05:32 - VibratoListener received command HELLO
+2016-05-20 11:05:33 - Light_GF_Living_Table state updated to OFF
+2016-05-20 11:05:33 - Light_GF_Corridor_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_GF_Kitchen_Ceiling state updated to ON
+2016-05-20 11:05:33 - Light_GF_Kitchen_Table state updated to ON
+2016-05-20 11:05:33 - Light_GF_Corridor_Wardrobe state updated to ON
+2016-05-20 11:05:33 - Light_GF_Toilet_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_GF_Toilet_Mirror state updated to OFF
+2016-05-20 11:05:33 - Light_FF_Bath_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_FF_Bath_Mirror state updated to OFF
+2016-05-20 11:05:33 - Light_FF_Corridor_Ceiling state updated to ON
+2016-05-20 11:05:33 - Light_FF_Office_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_FF_Child_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_FF_Bed_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_C_Corridor_Ceiling state updated to OFF
+2016-05-20 11:05:33 - Light_C_Staircase state updated to OFF
+2016-05-20 11:05:33 - Light_C_Washing_Ceiling state updated to ON
+2016-05-20 11:05:33 - Light_C_Workshop state updated to ON
+2016-05-20 11:05:33 - Light_Outdoor_Garage state updated to OFF
+2016-05-20 11:05:33 - Light_Outdoor_Terrace state updated to ON
+2016-05-20 11:05:33 - Light_Outdoor_Frontdoor state updated to ON
+2016-05-20 11:05:33 - Heating_GF_Corridor state updated to OFF
+2016-05-20 11:05:33 - Heating_GF_Toilet state updated to OFF
+2016-05-20 11:05:33 - Heating_GF_Living state updated to ON
+2016-05-20 11:05:33 - Heating_GF_Kitchen state updated to OFF
+2016-05-20 11:05:33 - Heating_FF_Bath state updated to OFF
+2016-05-20 11:05:33 - Heating_FF_Office state updated to OFF
+2016-05-20 11:05:33 - Heating_FF_Child state updated to OFF
+2016-05-20 11:05:33 - Heating_FF_Bed state updated to ON
+2016-05-20 11:05:33 - Temperature_Setpoint state updated to 22
+2016-05-20 11:05:33 - Window_GF_Frontdoor state updated to OPEN
+2016-05-20 11:05:33 - Window_GF_Kitchen state updated to CLOSED
+2016-05-20 11:05:33 - Window_GF_Living state updated to OPEN
+2016-05-20 11:05:33 - Window_GF_Toilet state updated to OPEN
+2016-05-20 11:05:33 - Window_FF_Bath state updated to OPEN
+2016-05-20 11:05:33 - Window_FF_Bed state updated to CLOSED
+2016-05-20 11:05:33 - Window_FF_Office_Window state updated to OPEN
+2016-05-20 11:05:33 - Window_FF_Office_Door state updated to OPEN
+2016-05-20 11:05:33 - Garage_Door state updated to OPEN
+2016-05-20 11:05:33 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-20 11:05:36 - VibratoListener received command HELLO
+2016-05-20 11:05:37 - VibratoListener received command HELLO
+2016-05-20 11:05:42 - VibratoListener received command ON
+2016-05-20 11:05:42 - Vibrato state updated to ON
+2016-05-20 11:05:44 - VibratoListener received command HELLO
+2016-05-20 11:05:44 - VibratoTalk state updated to HELLO
+2016-05-20 11:05:44 - VibratoTalk received command HELLO
+2016-05-20 11:05:48 - VibratoListener received command HELLO
+2016-05-20 11:05:48 - VibratoTalk state updated to HELLO
+2016-05-20 11:05:48 - VibratoTalk received command HELLO
+2016-05-20 11:06:05 - VibratoListener received command HELLO
+2016-05-20 11:06:07 - VibratoListener received command HELLO
+2016-05-20 11:06:09 - VibratoListener received command ON
+2016-05-20 11:06:09 - Vibrato state updated to ON
+2016-05-20 11:06:10 - VibratoListener received command HELLO
+2016-05-20 11:06:11 - VibratoTalk received command HELLO
+2016-05-20 11:06:11 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:12 - VibratoListener received command HELLO
+2016-05-20 11:06:12 - VibratoTalk received command HELLO
+2016-05-20 11:06:12 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:13 - VibratoListener received command HELLO
+2016-05-20 11:06:13 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:13 - VibratoTalk received command HELLO
+2016-05-20 11:06:13 - VibratoListener received command HELLO
+2016-05-20 11:06:13 - VibratoTalk received command HELLO
+2016-05-20 11:06:13 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:14 - VibratoListener received command HELLO
+2016-05-20 11:06:14 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:14 - VibratoTalk received command HELLO
+2016-05-20 11:06:15 - VibratoListener received command HELLO
+2016-05-20 11:06:15 - VibratoTalk received command HELLO
+2016-05-20 11:06:15 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:15 - VibratoListener received command HELLO
+2016-05-20 11:06:15 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:15 - VibratoTalk received command HELLO
+2016-05-20 11:06:16 - VibratoListener received command HELLO
+2016-05-20 11:06:16 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:16 - VibratoTalk received command HELLO
+2016-05-20 11:06:34 - VibratoListener received command HELLO
+2016-05-20 11:06:34 - VibratoTalk received command HELLO
+2016-05-20 11:06:34 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:34 - VibratoTalk state updated to LOL
+2016-05-20 11:06:34 - VibratoTalk state updated to 
+2016-05-20 11:06:34 - VibratoListener received command HELLO
+2016-05-20 11:06:35 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:35 - VibratoTalk received command HELLO
+2016-05-20 11:06:35 - VibratoTalk state updated to LOL
+2016-05-20 11:06:35 - VibratoTalk state updated to 
+2016-05-20 11:06:37 - VibratoListener received command HELLO
+2016-05-20 11:06:37 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:37 - VibratoTalk received command HELLO
+2016-05-20 11:06:37 - VibratoTalk state updated to LOL
+2016-05-20 11:06:37 - VibratoTalk state updated to 
+2016-05-20 11:06:38 - VibratoListener received command HELLO
+2016-05-20 11:06:38 - VibratoTalk received command HELLO
+2016-05-20 11:06:38 - VibratoTalk state updated to HELLO
+2016-05-20 11:06:39 - VibratoTalk state updated to LOL
+2016-05-20 11:06:39 - VibratoTalk state updated to 
+2016-05-20 11:06:56 - VibratoListener received command HELLO
+2016-05-20 11:06:57 - VibratoListener received command HELLO
+2016-05-20 11:06:59 - VibratoListener received command ON
+2016-05-20 11:06:59 - Vibrato state updated to ON
+2016-05-20 11:07:00 - VibratoListener received command HELLO
+2016-05-20 11:07:00 - VibratoTalk received command HELLO
+2016-05-20 11:07:00 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:01 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:01 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:01 - VibratoListener received command HELLO
+2016-05-20 11:07:01 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:01 - VibratoTalk received command HELLO
+2016-05-20 11:07:02 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:02 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:06 - VibratoListener received command SWAG
+2016-05-20 11:07:06 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:06 - VibratoTalk received command HELLO
+2016-05-20 11:07:07 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:07 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:13 - VibratoListener received command SWAG
+2016-05-20 11:07:13 - VibratoTalk received command HELLO
+2016-05-20 11:07:13 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:13 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:13 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:16 - VibratoListener received command ON
+2016-05-20 11:07:16 - Vibrato state updated to ON
+2016-05-20 11:07:17 - VibratoListener received command SWAG
+2016-05-20 11:07:17 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:17 - VibratoTalk received command HELLO
+2016-05-20 11:07:17 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:17 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:17 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:19 - VibratoListener received command SWAG
+2016-05-20 11:07:19 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:19 - VibratoTalk received command HELLO
+2016-05-20 11:07:20 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:20 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:20 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:41 - VibratoListener received command SWAG
+2016-05-20 11:07:41 - VibratoTalk received command HELLO
+2016-05-20 11:07:41 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:41 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:41 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:41 - VibratoTalk state updated to HELLO
+2016-05-20 11:07:45 - VibratoListener received command SWAG
+2016-05-20 11:07:45 - VibratoTalk state updated to SWAG
+2016-05-20 11:07:45 - VibratoTalk received command SWAG
+2016-05-20 11:07:46 - VibratoTalk state updated to SWAG
+2016-05-20 11:07:46 - VibratoTalk state updated to SWAG
+2016-05-20 11:07:46 - VibratoTalk state updated to SWAG
+2016-05-20 11:08:05 - VibratoListener received command All your base are belong to us
+2016-05-20 11:08:05 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:05 - VibratoTalk received command All your base are belong to us
+2016-05-20 11:08:05 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:05 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:05 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:37 - Vibrato received command OFF
+2016-05-20 11:08:42 - VibratoListener received command All your base are belong to us
+2016-05-20 11:08:49 - Vibrato received command ON
+2016-05-20 11:08:53 - VibratoListener received command All your base are belong to us
+2016-05-20 11:08:53 - VibratoTalk received command All your base are belong to us
+2016-05-20 11:08:53 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:54 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:54 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:54 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:57 - VibratoListener received command All your base are belong to us
+2016-05-20 11:08:57 - VibratoTalk received command All your base are belong to us
+2016-05-20 11:08:57 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:58 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:58 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:08:58 - VibratoTalk state updated to All your base are belong to us
+2016-05-20 11:09:06 - VibratoListener received command Never gonna...
+2016-05-20 11:09:06 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:09:06 - VibratoTalk received command Never gonna...
+2016-05-20 11:09:06 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:09:06 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:09:06 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:20:25 - Date state updated to 2016-05-20T11:20:25
+2016-05-20 11:35:26 - Date state updated to 2016-05-20T11:35:26
+2016-05-20 11:50:24 - VibratoListener received command HELLO
+2016-05-20 11:50:24 - VibratoTalk received command HELLO
+2016-05-20 11:50:24 - VibratoTalk state updated to HELLO
+2016-05-20 11:50:25 - VibratoTalk state updated to HELLO
+2016-05-20 11:50:25 - VibratoTalk state updated to HELLO
+2016-05-20 11:50:25 - VibratoTalk state updated to HELLO
+2016-05-20 11:50:26 - Date state updated to 2016-05-20T11:50:26
+2016-05-20 11:50:38 - VibratoListener received command JHVJY
+2016-05-20 11:50:38 - VibratoTalk received command JHVJY
+2016-05-20 11:50:38 - VibratoTalk state updated to JHVJY
+2016-05-20 11:50:39 - VibratoTalk state updated to JHVJY
+2016-05-20 11:50:39 - VibratoTalk state updated to JHVJY
+2016-05-20 11:50:39 - VibratoTalk state updated to JHVJY
+2016-05-20 11:50:49 - VibratoListener received command ON
+2016-05-20 11:50:50 - Vibrato state updated to ON
+2016-05-20 11:59:50 - VibratoListener received command Never gonna...
+2016-05-20 11:59:50 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:59:50 - VibratoTalk received command Never gonna...
+2016-05-20 11:59:50 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:59:50 - VibratoTalk state updated to Never gonna...
+2016-05-20 11:59:50 - VibratoTalk state updated to Never gonna...
+2016-05-20 12:00:04 - Vibrato received command OFF
+2016-05-20 12:05:26 - Date state updated to 2016-05-20T12:05:26
+2016-05-20 12:20:26 - Date state updated to 2016-05-20T12:20:26
+2016-05-20 12:35:26 - Date state updated to 2016-05-20T12:35:26
+2016-05-20 13:26:23 - Date state updated to 2016-05-20T13:26:23
+2016-05-20 13:41:23 - Date state updated to 2016-05-20T13:41:23
+2016-05-20 13:56:23 - Date state updated to 2016-05-20T13:56:23
+2016-05-20 13:56:52 - VibratoListener received command Never gonna...
+2016-05-20 13:57:03 - VibratoListener received command ON
+2016-05-20 13:57:03 - Vibrato state updated to ON
+2016-05-20 14:01:20 - VibratoListener received command hello
+2016-05-20 14:01:22 - VibratoTalk state updated to hello
+2016-05-20 14:01:22 - VibratoTalk received command hello
+2016-05-20 14:01:25 - VibratoTalk state updated to hello
+2016-05-20 14:01:25 - VibratoTalk state updated to hello
+2016-05-20 14:01:25 - VibratoTalk state updated to hello
+2016-05-20 14:11:23 - Date state updated to 2016-05-20T14:11:23
+2016-05-20 14:23:40 - VibratoListener received command hello
+2016-05-20 14:23:40 - VibratoTalk state updated to hello
+2016-05-20 14:23:40 - VibratoTalk received command hello
+2016-05-20 14:23:41 - VibratoTalk state updated to hello
+2016-05-20 14:23:41 - VibratoTalk state updated to hello
+2016-05-20 14:23:41 - VibratoTalk state updated to hello
+2016-05-20 14:23:53 - VibratoListener received command say my name
+2016-05-20 14:23:53 - VibratoTalk received command say my name
+2016-05-20 14:23:53 - VibratoTalk state updated to say my name
+2016-05-20 14:23:54 - VibratoTalk state updated to say my name
+2016-05-20 14:23:54 - VibratoTalk state updated to say my name
+2016-05-20 14:23:54 - VibratoTalk state updated to say my name
+2016-05-20 14:26:28 - Date state updated to 2016-05-20T14:26:28
+2016-05-20 14:43:07 - Date state updated to 2016-05-20T14:43:07
+2016-05-20 14:43:11 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-20 14:43:11 - Temperature_GF_Corridor state updated to 20.10000000
+2016-05-20 14:43:11 - Temperature_GF_Toilet state updated to 21.20000000
+2016-05-20 14:43:11 - Temperature_GF_Living state updated to 18.30000000
+2016-05-20 14:43:11 - Temperature_GF_Kitchen state updated to 18.00000000
+2016-05-20 14:43:11 - Temperature_FF_Bath state updated to 20.80000000
+2016-05-20 14:43:11 - Temperature_FF_Office state updated to 18.20000000
+2016-05-20 14:43:11 - Temperature_FF_Child state updated to 22.10000000
+2016-05-20 14:43:11 - Temperature_FF_Bed state updated to 18.30000000
+2016-05-20 14:58:12 - Date state updated to 2016-05-20T14:58:12
+2016-05-20 14:59:04 - VibratoListener received command 
+2016-05-20 14:59:41 - VibratoListener received command 
+2016-05-20 15:00:09 - VibratoListener received command 
+2016-05-20 15:07:10 - VibratoListener received command JHVJY
+2016-05-20 15:08:33 - VibratoListener received command say my name
+2016-05-20 15:08:36 - VibratoListener received command say my name
+2016-05-20 15:08:39 - VibratoListener received command say my name
+2016-05-20 15:08:53 - VibratoListener received command say my name
+2016-05-20 15:09:00 - VibratoListener received command say my name
+2016-05-20 15:09:38 - VibratoListener received command say my name
+2016-05-20 15:09:46 - VibratoListener received command say my nkoke
+2016-05-20 15:09:57 - VibratoListener received command 
+2016-05-20 15:10:05 - VibratoListener received command 
+2016-05-20 15:11:44 - VibratoListener received command 
+2016-05-20 15:11:50 - VibratoListener received command 
+2016-05-20 15:11:51 - VibratoListener received command 
+2016-05-20 15:11:52 - VibratoListener received command 
+2016-05-20 15:11:54 - VibratoListener received command 
+2016-05-20 15:13:17 - Date state updated to 2016-05-20T15:13:17
+2016-05-20 15:17:11 - VibratoListener received command bjr
+2016-05-20 15:28:28 - Date state updated to 2016-05-20T15:28:26
+2016-05-20 16:02:25 - Date state updated to 2016-05-20T16:02:25
+2016-05-20 16:02:27 - DemoLocation state updated to 52.5200066,13.4049540
+2016-05-20 16:02:27 - Temperature_GF_Corridor state updated to 21.70000000
+2016-05-20 16:02:27 - Temperature_GF_Toilet state updated to 20.70000000
+2016-05-20 16:02:27 - Temperature_GF_Living state updated to 18.90000000
+2016-05-20 16:02:27 - Temperature_GF_Kitchen state updated to 18.90000000
+2016-05-20 16:02:27 - Temperature_FF_Bath state updated to 21.10000000
+2016-05-20 16:02:27 - Temperature_FF_Office state updated to 21.70000000
+2016-05-20 16:02:27 - Temperature_FF_Child state updated to 20.30000000
+2016-05-20 16:02:27 - Temperature_FF_Bed state updated to 21.40000000
+2016-05-20 16:06:08 - VibratoListener received command JHVJY
+2016-05-20 16:06:16 - VibratoListener received command ON
+2016-05-20 16:06:16 - Vibrato state updated to ON
+2016-05-20 16:10:23 - VibratoListener received command coucou jean
+2016-05-20 16:10:24 - VibratoTalk state updated to coucou jean
+2016-05-20 16:10:24 - VibratoTalk received command coucou jean
+2016-05-20 16:10:24 - VibratoTalk state updated to coucou jean
+2016-05-20 16:17:30 - Date state updated to 2016-05-20T16:17:30
+2016-05-20 16:32:35 - Date state updated to 2016-05-20T16:32:35
+2016-05-20 16:40:33 - VibratoListener received command test_send_post
+2016-05-20 16:40:34 - VibratoTalk received command test_send_post
+2016-05-20 16:40:34 - VibratoTalk state updated to test_send_post
+2016-05-20 16:40:35 - VibratoTalk state updated to test_send_post
+2016-05-20 16:42:40 - VibratoListener received command test_send_post
+2016-05-20 16:42:40 - VibratoTalk state updated to test_send_post
+2016-05-20 16:42:40 - VibratoTalk received command test_send_post
+2016-05-20 16:42:40 - VibratoTalk state updated to test_send_post
+2016-05-20 16:47:40 - Date state updated to 2016-05-20T16:47:40
+2016-05-20 16:51:38 - VibratoListener received command hello from android
+2016-05-20 16:51:38 - VibratoTalk received command hello from android
+2016-05-20 16:51:38 - VibratoTalk state updated to hello from android
+2016-05-20 16:51:38 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:03 - VibratoListener received command hello from android
+2016-05-20 16:57:03 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:03 - VibratoTalk received command hello from android
+2016-05-20 16:57:03 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:03 - VibratoListener received command hello from android
+2016-05-20 16:57:03 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:03 - VibratoTalk received command hello from android
+2016-05-20 16:57:03 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:04 - VibratoListener received command hello from android
+2016-05-20 16:57:04 - VibratoTalk received command hello from android
+2016-05-20 16:57:04 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:04 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:17 - VibratoListener received command hello from android
+2016-05-20 16:57:17 - VibratoTalk received command hello from android
+2016-05-20 16:57:17 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:17 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:18 - VibratoListener received command hello from android
+2016-05-20 16:57:18 - VibratoTalk received command hello from android
+2016-05-20 16:57:18 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:18 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:20 - VibratoListener received command hello from android
+2016-05-20 16:57:20 - VibratoTalk received command hello from android
+2016-05-20 16:57:20 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:20 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:21 - VibratoListener received command hello from android
+2016-05-20 16:57:21 - VibratoTalk received command hello from android
+2016-05-20 16:57:21 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:21 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoListener received command hello from android
+2016-05-20 16:57:23 - VibratoTalk received command hello from android
+2016-05-20 16:57:23 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoListener received command hello from android
+2016-05-20 16:57:23 - VibratoTalk received command hello from android
+2016-05-20 16:57:23 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoListener received command hello from android
+2016-05-20 16:57:23 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoTalk received command hello from android
+2016-05-20 16:57:23 - VibratoListener received command hello from android
+2016-05-20 16:57:23 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:23 - VibratoTalk received command hello from android
+2016-05-20 16:57:24 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:24 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:25 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:28 - VibratoListener received command hello from android
+2016-05-20 16:57:28 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:28 - VibratoTalk received command hello from android
+2016-05-20 16:57:28 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:30 - VibratoListener received command hello from android
+2016-05-20 16:57:30 - VibratoTalk received command hello from android
+2016-05-20 16:57:30 - VibratoTalk state updated to hello from android
+2016-05-20 16:57:31 - VibratoTalk state updated to hello from android
+2016-05-20 16:59:42 - VibratoListener received command hello from android
+2016-05-20 16:59:42 - VibratoTalk state updated to hello from android
+2016-05-20 16:59:42 - VibratoTalk received command hello from android
+2016-05-20 16:59:43 - VibratoTalk state updated to hello from android
+2016-05-20 17:02:45 - Date state updated to 2016-05-20T17:02:45
+2016-05-20 17:13:14 - VibratoListener received command hello
+2016-05-20 17:13:14 - VibratoTalk received command hello
+2016-05-20 17:13:14 - VibratoTalk state updated to hello
+2016-05-20 17:13:14 - VibratoTalk state updated to hello
+2016-05-20 17:17:50 - Date state updated to 2016-05-20T17:17:50
+2016-05-20 17:32:55 - Date state updated to 2016-05-20T17:32:55
+2016-05-20 17:33:20 - VibratoListener received command coucpi
+2016-05-20 17:33:20 - VibratoTalk state updated to coucpi
+2016-05-20 17:33:20 - VibratoTalk received command coucpi
+2016-05-20 17:33:21 - VibratoTalk state updated to coucpi
+2016-05-20 17:33:30 - VibratoListener received command sssssssssssssdsddddfffffdffdff
+2016-05-20 17:33:30 - VibratoTalk received command sssssssssssssdsddddfffffdffdff
+2016-05-20 17:33:30 - VibratoTalk state updated to sssssssssssssdsddddfffffdffdff
+2016-05-20 17:33:30 - VibratoTalk state updated to sssssssssssssdsddddfffffdffdff
+2016-05-20 17:36:24 - VibratoListener received command kkkkkdjejejejeje
+2016-05-20 17:36:24 - VibratoTalk state updated to kkkkkdjejejejeje
+2016-05-20 17:36:24 - VibratoTalk received command kkkkkdjejejejeje
+2016-05-20 17:36:24 - VibratoTalk state updated to kkkkkdjejejejeje
+2016-05-20 17:36:26 - VibratoListener received command g'rhnfhndh e
+2016-05-20 17:36:26 - VibratoTalk received command g'rhnfhndh e
+2016-05-20 17:36:26 - VibratoTalk state updated to g'rhnfhndh e
+2016-05-20 17:36:27 - VibratoTalk state updated to g'rhnfhndh e
+2016-05-20 17:42:04 - VibratoListener received command ls
+2016-05-20 17:42:04 - VibratoTalk received command ls
+2016-05-20 17:42:04 - VibratoTalk state updated to ls
+2016-05-20 17:42:05 - VibratoTalk state updated to ls
+2016-05-20 17:42:17 - VibratoListener received command ls
+2016-05-20 17:42:17 - VibratoTalk state updated to ls
+2016-05-20 17:42:17 - VibratoTalk received command ls
+2016-05-20 17:42:17 - VibratoTalk state updated to ls
+2016-05-20 17:42:47 - VibratoListener received command vim lol.txt
+2016-05-20 17:42:47 - VibratoTalk received command vim lol.txt
+2016-05-20 17:42:47 - VibratoTalk state updated to vim lol.txt
+2016-05-20 17:46:19 - VibratoListener received command echo coucou
+2016-05-20 17:46:19 - VibratoTalk received command echo coucou
+2016-05-20 17:46:19 - VibratoTalk state updated to echo coucou
+2016-05-20 17:46:20 - VibratoTalk state updated to echo coucou
+2016-05-20 17:48:00 - Date state updated to 2016-05-20T17:48:00
+2016-05-20 17:51:21 - VibratoListener received command cd ..
+2016-05-20 17:51:21 - VibratoTalk state updated to cd ..
+2016-05-20 17:51:21 - VibratoTalk received command cd ..
+2016-05-20 17:54:20 - VibratoListener received command mv listener.py l
+2016-05-20 17:54:20 - VibratoTalk received command mv listener.py l
+2016-05-20 17:54:20 - VibratoTalk state updated to mv listener.py l
+2016-05-20 17:54:21 - VibratoTalk state updated to mv listener.py l
+2016-05-20 17:54:41 - VibratoListener received command mv l cl.py
+2016-05-20 17:54:41 - VibratoTalk received command mv l cl.py
+2016-05-20 17:54:41 - VibratoTalk state updated to mv l cl.py
+2016-05-20 17:54:42 - VibratoTalk state updated to mv l cl.py
+2016-05-20 17:54:50 - VibratoListener received command python cl.py
+2016-05-20 17:54:50 - VibratoTalk state updated to python cl.py
+2016-05-20 17:54:50 - VibratoTalk received command python cl.py
+2016-05-20 17:54:51 - VibratoTalk state updated to python cl.py
+2016-05-20 17:55:08 - VibratoListener received command ps
+2016-05-20 17:55:08 - VibratoTalk state updated to ps
+2016-05-20 17:55:08 - VibratoTalk received command ps
+2016-05-20 17:55:09 - VibratoTalk state updated to ps
+2016-05-20 17:55:35 - VibratoListener received command exit
+2016-05-20 17:55:35 - VibratoTalk state updated to exit
+2016-05-20 17:55:35 - VibratoTalk received command exit
