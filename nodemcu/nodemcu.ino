@@ -1,12 +1,11 @@
 #define MAX_SRV_CLIENTS 3
-#define SAMPLE_SIZE 1024
+#define SAMPLE_SIZE 256
 
 #include <ESP8266WiFi.h>
 #include "kiss_fft.h"
 
 const char* ssid = "A4H_creativity_lab";
 const char* password = "Toutes ces machines pour fabriquer!";
-
 
 //const char* ssid = "Moulinsart";
 //const char* password = "A1B2C3D4E5";
@@ -15,20 +14,27 @@ WiFiServer server(21);
 WiFiClient serverClients[MAX_SRV_CLIENTS];
 
 const int analogInPin = A0; // Analog input pin that the potentiometer is attached to
-int sensorValue = 0;        // value read from the pot
 
 kiss_fft_cpx * calcul_fft() {
   kiss_fft_cfg cfg = kiss_fft_alloc(SAMPLE_SIZE, 0, 0, 0);
   kiss_fft_cpx *cx_in = (kiss_fft_cpx*)malloc(SAMPLE_SIZE * sizeof(kiss_fft_cpx));
   kiss_fft_cpx *cx_out = (kiss_fft_cpx*)malloc(SAMPLE_SIZE * sizeof(kiss_fft_cpx));
 
+  long t3;
+  long t4;
+  long t1 = micros();
   for (int i = 0; i < SAMPLE_SIZE; i++) {
-
-    // put kth sample in cx_in[k].r and cx_in[k].i
-    sensorValue = analogRead(analogInPin);
-    cx_in[i].r = sensorValue;
+    t3 = micros();
+    cx_in[i].r = analogRead(analogInPin);
+    t4 = micros();
     cx_in[i].i = 0;
   }
+  long t2 = micros();
+  Serial.print("TEMPS SAMPLE_SIZE analogRead : ");
+  Serial.println(t2 - t1);
+  Serial.print("TEMPS 1 analogRead : ");
+  Serial.println(t4 - t3);
+
   kiss_fft( cfg , cx_in , cx_out );
   // transformed. DC is in cx_out[0].r and cx_out[0].i
 
@@ -77,19 +83,19 @@ void loop() {
       //serverClients[i].write("coucou");
       /*sensorValue = analogRead(analogInPin);
         serverClients[i].println(sensorValue);*/
-      Serial.print("AVANT ");
-      Serial.println(ESP.getFreeHeap());
+      long t1 = micros();
       kiss_fft_cpx *fft = calcul_fft();
-      Serial.print("APRES ");
-      Serial.println(ESP.getFreeHeap());
-      for (int k = 0; k < SAMPLE_SIZE; k++) {
+      long t2 = micros();
+      Serial.print("TEMPS appel fonction ");
+      Serial.println(t2 - t1);
+      /*for (int k = 0; k < SAMPLE_SIZE; k++) {
         serverClients[i].print("fft[");
         serverClients[i].print(k);
         serverClients[i].print("] = ");
         serverClients[i].print(fft[k].r);
         serverClients[i].print("  ");
         serverClients[i].println(fft[k].i);
-      }
+        }*/
       free(fft);
     }
   }
