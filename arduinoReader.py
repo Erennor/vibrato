@@ -52,6 +52,7 @@ class ArduinoReader:
     def continuousStart(self):
         """CALL THIS to start running forever."""
         self.t = threading.Thread(target=self.readUSB)
+        self.t.daemon=True
         self.t.start()
 
     def getArduino(self):

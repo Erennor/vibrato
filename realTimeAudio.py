@@ -1,6 +1,7 @@
 import ui_plot
 import sys
 import signal
+import threading
 import numpy as np
 from scipy import stats
 from PyQt4 import QtCore, QtGui
@@ -13,8 +14,10 @@ from machineLearning import *
 from arduinoReader import *
 from openHabListener import *
 from hit_handler import *
+from debug import *
 
-
+""" perpetually running program, intercept openHab command via listener and has access to 
+    """
 def plotSomething():
     global microInput
     global curWait
@@ -34,11 +37,12 @@ def plotSomething():
     global inWaintingOHA
     global listener
     global handler
-
+    # Handle openHab listener
+    # treat possible commands
     if listener.availableData != "":
-        print("Signal recu : ", listener.availableData)
         handler.handle_cmd(listener.availableData)
         listener.availableData = ""
+    # newInput define if new datas are avaible
     if microInput:
         newInput = SR.newAudio
     else:
@@ -46,7 +50,7 @@ def plotSomething():
 
     if newInput == False:
         return
-
+    # get datas
     if microInput:
         xs, ys = SR.fft()
     else:
@@ -56,7 +60,8 @@ def plotSomething():
 
     c.setData(xs, ys)
     uiplot.qwtPlot.replot()
-    ### START peak detection ###
+
+    # peak detection 
     _max, _min = peak.peakdetect(ys, xs, 30, 0.30)
 
     slope, intercept, r_value, p_value, std_err = stats.linregress(xs, ys)
@@ -65,10 +70,11 @@ def plotSomething():
     thresholdIsReached[1:][thresholdIsReached[:-1] & thresholdIsReached[1:]] = False
     iterateur = 1
     if thresholdIsReached.any():
-        print("Lin Reg: ", slope, "Peaks detected: ", _max)
+        pass
+        # print_debug("Lin Reg: " + str(slope) + "Peaks detected: " + str(_max))
+    # end peak detection
 
-    ### START signal analysis ###
-
+    # signal analysis 
     curMean = np.mean(ys)
 
     if inWaintingOHA and ct > 30:
@@ -77,7 +83,8 @@ def plotSomething():
         openHabAction = np.arange(1)
         openHabAction[0] = tmpAction
         ct = 0
-    # i.e. l'intensite depasse un seuil limite: on a entendu un coup
+
+    # signal intensity reached some level defined by HITLIMIT
     if (curMean > HITLIMIT or curWait > 0) and ct > BEGINCOUNT:
         if ct < 20:
             tempOpenHabAction = True
@@ -86,15 +93,15 @@ def plotSomething():
             # print('on a rentre 1 data')
             curWait += 1
         else:
-            if learn:
-                print('coup ' + str(absCpt))
-                ml.learn(datas)
-                print("coup enregistre")
-                learn = False
+            if handler.learn:
+                print_debug('coup ' + str(absCpt))
+                ml.learn(datas,handler.recordLabel)
+                print_debug("coup enregistre sous l'identifiant " + str(handler.recordLabel))
+                handler.learn = False
             else:
-                openHabAction = ml.guessing(datas)
-                print("coup " + str(openHabAction[0]) + " detected, gg!")
-                handler.handle_hit(openHabAction[0])
+                id = ml.guessing(datas)
+                print_debug("coup " + str(id) + " detected, gg!")
+                handler.handle_hit(id)
             curWait = 0
             ct = 0
             datas = []
@@ -106,23 +113,34 @@ def plotSomething():
     else:
         AR.newArduino = False
 
-
-def signal_handler(signal,frame):
+def close_all():
     try:
+        print_debug("trying to close connection")
         Listener.my_connection.close()
-        print("Connection closed")
+        print_debug("Connection closed")
     except:
         pass
-    ls.close()
-    print("Shelves closed")
-    sys.exit()
+    finally:
+        ls.close()
+        print_debug("Shelves closed")
+        win_plot.close()
+        app.quit()
+        print_debug("Qt application closed")
+
+def signal_handler(signal,frame):
+    print_debug("Signal " + str(signal) + " received on frame " + str(frame))
+    close_all()
+
 
 signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
+    print_debug("debug main, go to print_debug.py to change display")
     microInput = True
     procede = False
     learn = False
+    biblio = 'new_sample.db'
+    ls = shelve.open(biblio, writeback=True)
     global newOpenHabAction
     newOpenHabAction = False
     global tempOpenHabAction
@@ -145,7 +163,7 @@ if __name__ == "__main__":
     datas = []
     listener = Listener()
     listener.start_listening()
-    handler = Handler(microInput)
+    handler = Handler(microInput,ls)
     ###Arguments analysis
     if len(sys.argv) == 2 or len(sys.argv) == 4:
         if sys.argv[1] == "micro":
@@ -177,9 +195,7 @@ if __name__ == "__main__":
         xAr = np.arange(0, 64)
     curWait = 0
     if procede:
-        ml = MachineLearning(microInput)
-        if not learn:
-            ml.guessingInit()
+        ml = MachineLearning(ls)
         app = QtGui.QApplication(sys.argv)
         win_plot = ui_plot.QtGui.QMainWindow()
         uiplot = ui_plot.Ui_win_plot()
@@ -211,9 +227,8 @@ if __name__ == "__main__":
         code = app.exec_()
         if microInput:
             SR.close()
-        sys.exit(code)
+        close_all()
     else:
         print(
         'Erreur dans les arguments: precisez l\'entree (\"micro\" ou \"arduino\") suivi de learn et de la valeur retour pour apprendre un echantillon.')
-
-
+    close_all()

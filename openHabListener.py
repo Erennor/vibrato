@@ -10,7 +10,7 @@ class Listener:
     connections = []
 
     def __init__(self):
-        self.availableData = "lol"
+        self.availableData = ""
 
     def openHabListener(self):
         # Create a TCP/IP socket
@@ -52,6 +52,7 @@ class Listener:
 
     def start_listening(self):
         self.t = threading.Thread(target=self.openHabListener)
+        self.t.daemon=True
         self.t.start()
 
 if __name__ == "__main__":
