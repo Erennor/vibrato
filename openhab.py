@@ -1,4 +1,5 @@
 import self
+import requests
 
 self.openhab_host = localhost
 self.openhab_port = localport

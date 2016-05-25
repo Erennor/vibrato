@@ -8,7 +8,7 @@ import threading
 import pylab
 import struct
 
-
+#Perime
 class SwhRecorder:
     """Simple, cross-platform class to record from the microphone."""
     

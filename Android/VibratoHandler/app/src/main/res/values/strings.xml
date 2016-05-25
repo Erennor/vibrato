@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vibrato Handler</string>
+    <string name="action_settings">Settings</string>
+    <string name="commande_16_char_max">commande (16 char max) :</string>
+    <string name="taille">Taille</string>
+    <string name="editCmdHint" />
+</resources>

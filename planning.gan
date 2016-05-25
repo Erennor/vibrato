@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Vibrato_Teughels_Bouvattier" company="" webLink="http://" view-date="2016-05-13" view-index="0" gantt-divider-location="567" resource-divider-location="401" version="2.7.2" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Vibrato_Teughels_Bouvattier" company="" webLink="http://" view-date="2016-05-15" view-index="0" gantt-divider-location="567" resource-divider-location="401" version="2.7.2" locale="fr">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nom" width="52" order="0"/>
