@@ -39,9 +39,10 @@ def plotSomething():
     global handler
     # Handle openHab listener
     # treat possible commands
-    if listener.availableData != "":
+    if listener.hasCommand:
         handler.handle_cmd(listener.availableData)
         listener.availableData = ""
+        listener.hasCommand = False
     # newInput define if new datas are avaible
     if microInput:
         newInput = SR.newAudio
@@ -100,8 +101,9 @@ def plotSomething():
                 handler.learn = False
             else:
                 id = ml.guessing(datas)
-                print_debug("coup " + str(id) + " detected, gg!")
-                handler.handle_hit(id)
+                if(id != -1):
+                    print_debug("coup " + str(id) + " detected, gg!")
+                    handler.handle_hit(id)
             curWait = 0
             ct = 0
             datas = []

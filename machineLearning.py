@@ -19,21 +19,24 @@ class MachineLearning:
         from one hit data, return the label of the most look-alike hit from the database
         """            
         if len(self.ls['samples']) == 1:
-            print_debug("un seul sample..")
             return self.ls['labels'][0]
         if len(self.ls['samples']) == 0:
             print_debug("Aucune action faite car bibliotheque de coup vide")
             # todo : do nothing
             return 0
-        return self.clf.predict(self.format(data).reshape(1, -1))
+        return self.clf.predict(self.format(data).reshape(1, -1))[0]
 
     def __init__(self,ls):
+        """Initialize shelves and algorithm"""
         self.ls = ls
         self.clf = svm.SVC(kernel='poly')
         if not self.ls.has_key('samples'):
             self.ls['samples'] = []
             self.ls['labels'] = []
-        print(self.ls['samples'])
+        if not self.ls.has_key('links'):
+            self.ls['links'] = dict()
+        if len(self.ls['samples']) != len(self.ls['labels']):
+            print_debug("erreur : database malforme")
         if len(self.ls['samples']) > 1:
             self.clf.fit(self.ls['samples'],self.ls['labels'])
         print('DEBUG: nb samples audio: ' + str(len(self.ls['samples'])))

@@ -1,12 +1,12 @@
 from debug import print_debug
+from subprocess import call
 import shelve
 class Handler:
     """database controller, also handle commands"""
     def __init__(self, microInput,ls):
         print("[DEBUG] : INIT")
-        self.learn = True
+        self.learn = False
         self.ls = ls
-        self.scripts = []
         self.links = dict()
         self.recordLabel = 42
         self.microInput = microInput
@@ -14,14 +14,19 @@ class Handler:
     def handle_hit(self, hit):
         print("[DEBUG] : handle HIT")
         print("hit=" + str(hit))
-        script = self.links.get(hit)
+        if self.ls['links'].has_key(hit):
+            script = self.ls['links'][hit]
+            self.execute(script)
 
     def link(self, hit, script):
         print("[DEBUG] : link")
-        self.links[hit] = script
+        self.ls['links'][hit] = script
 
     def execute(self,script):
         print("[DEBUG] : execute")
+        # La ligne de code la plus sale que j'ai jamais ecrite je dois avouer
+        call(["python2.7", "onAction/"+script+".py"])
+
 
     def learn_hit(self,id):
         self.recordLabel = id
@@ -29,25 +34,36 @@ class Handler:
 
     def delete_hit(self,hit):
         print_debug("deleting hit "+ str(hit))
-        self.links.pop(hit)
-        for i in range(0,ls['META']):
-            if ls["micro" + str(i)][1] == hit:
-                ls.pop("micro" + str(i))
-                return
-        print("[DEBUG] : hit not found on database")
+        try:
+            index = self.ls['labels'].index(hit)
+            self.ls['samples'].pop(index)
+            self.ls['labels'].pop(index)
+        except Exception, e:
+            print("[DEBUG] : hit not found on database")
+        else:
+            pass
+        finally:
+            try:
+                self.ls['links'].pop(hit)
+            except:
+                pass
 
     def handle_cmd(self, cmd):
+        print("[DEBUG] : handle_cmd " + cmd)
         try:
             if cmd[0] == "d":
                 self.delete_hit(int(cmd[2:]))
             elif cmd[0] == "c":
                 self.learn_hit(int(cmd[2:]))
-                # TODO : create a hit
             elif cmd[0] == "l":
-                cmd_list = cmd.split(str="_")
-                self.link(cmd_list[1],cmd_list[2])
+                print_debug("Link called on " + cmd)
+                cmd_list = cmd.split("_")
+                print(cmd_list)
+                print_debug("Link called on " )
+                self.link(int(cmd_list[1]),cmd_list[2])
         except:
             print_debug("Error parsing command " + str(cmd))
+
     def tell_me_more(self):
         print_debug("tell_me_more:")
         print_debug("scripts repertories:")
