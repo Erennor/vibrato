@@ -1,0 +1,6 @@
+mesures réalisées avec une bille en plomb
+
+scope_0 : hauteur 10cm, distance 10cm
+1cope_0 : hauteur 30cm, distance 10cm
+2cope_0 : hauteur 10cm, distance 30cm
+3cope_0 : hauteur 30cm, distance 30cm

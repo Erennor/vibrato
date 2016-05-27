@@ -38,6 +38,8 @@
 								</option>
 								<option id="gnu.c.compiler.option.include.paths.1499852186" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher/nrf51822/Include"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/variants/RFduino}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/system/RFduino}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/system/RFduino/include}&quot;"/>
@@ -52,6 +54,8 @@
 								<option id="gnu.cpp.compiler.option.other.other.1990855224" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1449406727" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/libraries/RFduinoBLE}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher/nrf51822/Include"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/cores/arduino}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/variants/RFduino}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/system/RFduino}&quot;"/>
