@@ -3,10 +3,8 @@ import shelve
 import numpy as np
 import signal
 import sys
+from debug import print_debug
 
-
-biblio = 'new_sample.db'
-ls = shelve.open(biblio, writeback=True)
 
 class MachineLearning:
     def format(self, datas):
@@ -17,54 +15,42 @@ class MachineLearning:
         return res
 
     def guessing(self, data):
-        return self.clf.predict(self.format(data).reshape(1, -1))
+        """
+        from one hit data, return the label of the most look-alike hit from the database
+        """            
+        if len(self.ls['samples']) == 1:
+            return self.ls['labels'][0]
+        if len(self.ls['samples']) == 0:
+            print_debug("Aucune action faite car bibliotheque de coup vide")
+            # todo : do nothing
+            return 0
+        return self.clf.predict(self.format(data).reshape(1, -1))[0]
 
-    def guessingInit(self):
-        ###init the algorithm
+    def __init__(self,ls):
+        """Initialize shelves and algorithm"""
+        self.ls = ls
         self.clf = svm.SVC(kernel='poly')
+        if not self.ls.has_key('samples'):
+            self.ls['samples'] = []
+            self.ls['labels'] = []
+        if not self.ls.has_key('links'):
+            self.ls['links'] = dict()
+        if len(self.ls['samples']) != len(self.ls['labels']):
+            print_debug("erreur : database malforme")
+        if len(self.ls['samples']) > 1:
+            self.clf.fit(self.ls['samples'],self.ls['labels'])
+        print('DEBUG: nb samples audio: ' + str(len(self.ls['samples'])))
 
-        ###download the samples and give them to the algorithm
-        global ls
-        # fetching samples sizes
-        self.microSampleIndex = ls['META'][0]
-        self.arduinoSampleIndex = ls['META'][1]
-        samplesList = []
-        if self.microInput:
-            resultsArray = np.arange(0, self.microSampleIndex)
-            for i in range(0, self.microSampleIndex):
-                print("[DEBUG] GuessingInit  loop i=" + str(i) + "/" + str(self.microSampleIndex))
-                samplesList.append(ls["micro" + str(i)][0])
-                resultsArray[i] = ls["micro" + str(i)][1]
+    def learn(self, data, id):
+        if id in self.ls['labels']:
+            index = self.ls['labels'].index(id)
+            self.ls['samples'][index] = self.format(data)
         else:
-            resultsArray = np.arange(0, self.arduinoSampleIndex)
-            for i in range(0, self.arduinoSampleIndex):
-                samplesList.append(ls["arduino" + str(i)][0])
-                resultsArray[i] = ls["arduino" + str(i)][1]
-        samplesArray = np.array(samplesList)
-        self.clf.fit(samplesArray, resultsArray)
+            self.ls['samples'].append(self.format(data))
+            self.ls['labels'].append(id)
+        if len(self.ls['samples']) > 1:
+            self.clf.fit(self.ls['samples'],self.ls['labels'])
 
-    def __init__(self, microInput):
-        global ls
-        #A modifier
-        self.microInput = microInput
-        if not ls.has_key('META'):
-            ls['META'] = [0, 0]
-        self.microSampleIndex = ls['META'][0]
-        self.arduinoSampleIndex = ls['META'][1]
-        print('DEBUG: nb samples audio: ' + str(self.microSampleIndex))
-
-    def learn(self, data, result):
-        resultArray = np.arange(1)
-        resultArray[0] = result
-        global ls
-        if self.microInput:
-            ls["micro"+str(self.microSampleIndex)] = [self.format(data), resultArray]
-            self.microSampleIndex += 1
-            ls['META'][0] = self.microSampleIndex
-        else:
-            ls["arduino"+str(self.arduinoSampleIndex)] = [self.format(data), resultArray]
-            self.arduinoSampleIndex += 1
-            ls['META'][1] = self.arduinoSampleIndex
 
 
 

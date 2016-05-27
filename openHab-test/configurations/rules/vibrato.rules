@@ -28,4 +28,19 @@ rule "Vibrato status updater"
 	then
 		logInfo("rule vibrato","vibrato a reçu " + receivedCommand)
 end
-S
+
+
+rule "hit treatment"
+	when 
+		Item scriptListener received command
+	then
+	 	logIngo("scriptListener a recu une commande " + receivedCommand)
+
+		var String cmd = transform("MAP","hiHandler.map",receivedCommand)
+		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
+		var String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
+		// switch(cmdStateRule)
+		case "SWITCH")
+
+		sendCommand(cmdStateRule, cmdItem)
+end

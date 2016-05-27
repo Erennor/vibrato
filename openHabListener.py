@@ -10,7 +10,9 @@ class Listener:
     connections = []
 
     def __init__(self):
-        self.availableData = "lol"
+        self.availableData = ""
+        self.hasCommand = False
+
 
     def openHabListener(self):
         # Create a TCP/IP socket
@@ -37,13 +39,14 @@ class Listener:
                 while True:
                     data = connection.recv(16)
                     print >>sys.stderr, 'received "%s"' % data
-                    self.availableData = data
+                    self.availableData += data
 
                     if data:
                         print >>sys.stderr, 'sending data back to the client'
                         connection.sendall(data)
                     else:
                         print >>sys.stderr, 'no more data from', client_address
+                        self.hasCommand = True
                         break
 
             finally:
@@ -52,6 +55,7 @@ class Listener:
 
     def start_listening(self):
         self.t = threading.Thread(target=self.openHabListener)
+        self.t.daemon=True
         self.t.start()
 
 if __name__ == "__main__":

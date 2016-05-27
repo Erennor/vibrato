@@ -2,7 +2,9 @@ from sklearn import svm
 import shelve
 import numpy as np
 
-
+"""
+	unknown usage
+"""
 if __name__ == "__main__":
     clf = svm.SVC(kernel='rbf')
 
