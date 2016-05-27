@@ -6868,3 +6868,1205 @@ org.eclipse.jetty.util.MultiException: Multiple exceptions
 2016-05-24 18:19:48.880 [INFO ] [t.AbstractSocketChannelBinding] - The channel for /127.0.0.1:5005 is now connected
 2016-05-24 18:19:49.132 [INFO ] [t.AbstractSocketChannelBinding] - The channel for /127.0.0.1:5005 is now connected
 2016-05-24 18:19:49.384 [INFO ] [t.AbstractSocketChannelBinding] - The channel for /127.0.0.1:5005 is now connected
+2016-05-27 11:50:15.296 [INFO ] [.o.core.internal.CoreActivator] - openHAB runtime has been started (v1.8.2).
+2016-05-27 11:50:17.046 [INFO ] [o.o.i.s.i.DiscoveryServiceImpl] - mDNS service has been started
+2016-05-27 11:50:17.169 [ERROR] [o.o.i.s.i.DiscoveryServiceImpl] - No such device
+2016-05-27 11:50:19.519 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:19.888 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:20.255 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:20.483 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:20.522 [INFO ] [.o.u.w.i.servlet.WebAppServlet] - Started Classic UI at /classicui/openhab.app
+2016-05-27 11:50:20.717 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:20.912 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:21.158 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:21.316 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:21.531 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:21.748 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:21.937 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:22.116 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:22.315 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:22.491 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:22.662 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:22.926 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:23.132 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:23.300 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:23.483 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:23.852 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:24.035 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:26.568 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'vibrato.sitemap'
+2016-05-27 11:50:26.806 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'vibrato.rules'
+2016-05-27 11:50:26.980 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'demo.script'
+2016-05-27 11:50:27.049 [INFO ] [c.internal.ModelRepositoryImpl] - Loading model 'vibrato.items'
+2016-05-27 11:50:27.794 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:27.843 [INFO ] [t.AbstractSocketChannelBinding] - The maximum buffer will be set to the default value of 1024
+2016-05-27 11:50:27.843 [INFO ] [t.AbstractSocketChannelBinding] - The interval to retry connection setups will be set to the default value of 5
+2016-05-27 11:50:27.843 [INFO ] [t.AbstractSocketChannelBinding] - The cron job to reset connections will be set to the default value of 0 0 0 * * ?
+2016-05-27 11:50:27.843 [INFO ] [t.AbstractSocketChannelBinding] - The setting to queue write operation until a channel gets connected will be set to the default value of true
+2016-05-27 11:50:27.844 [INFO ] [t.AbstractSocketChannelBinding] - The port to listen for incoming connections will be set to the default value of 0
+2016-05-27 11:50:27.844 [INFO ] [t.AbstractSocketChannelBinding] - The setting to share channels within an Item will be set to the default value of true
+2016-05-27 11:50:27.844 [INFO ] [t.AbstractSocketChannelBinding] - The setting to share channels between the items with the same direction will be set to the default value of true
+2016-05-27 11:50:27.844 [INFO ] [t.AbstractSocketChannelBinding] - The setting to share channels between directions will be set to the default value of true
+2016-05-27 11:50:27.844 [INFO ] [t.AbstractSocketChannelBinding] - The setting to use address masks for incoming connections will be set to the default value of true
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - The maximum time out for blocking write operations will be set to the default vaulue of 3000
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - The blocking nature of read/write operations will be set to the default vaulue of false
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - The preamble for all write operations will be set to the default vaulue of ""
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - The postamble for all write operations will be set to the default vaulue of ""
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - Updating states with returned values will be set to the default vaulue of true
+2016-05-27 11:50:27.845 [INFO ] [t.protocol.internal.TCPBinding] - The characterset will be set to the default vaulue of ASCII
+2016-05-27 11:50:27.845 [INFO ] [.service.AbstractActiveService] - TCP Refresh Service has been started
+2016-05-27 11:50:27.869 [INFO ] [t.AbstractSocketChannelBinding] - Connecting the channel Channel [item=VibratoTalk, command=0, direction=OUT, remote=/127.0.0.1:5005, buffer=, isBlocking=false, isReconnecting=false, channel=, host=127.0.0.1, port=5005] 
+2016-05-27 11:50:27.871 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:27.981 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.105 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.221 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.345 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.464 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.625 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.777 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:28.810 [INFO ] [.service.AbstractActiveService] - NTP Refresh Service has been started
+2016-05-27 11:50:28.914 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:29.034 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:29.045 [INFO ] [.service.AbstractActiveService] - HTTP Refresh Service has been started
+2016-05-27 11:50:29.217 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:29.349 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:29.361 [INFO ] [.p.rrd4j.internal.RRD4jService] - Removing invalid defintion component = null heartbeat = 0 min/max = 0.0/0.0 step = 0 0 archives(s) = [] 0 items(s) = []
+2016-05-27 11:50:29.494 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:29.667 [INFO ] [penhab.io.rest.RESTApplication] - Started REST API at /rest
+2016-05-27 11:50:32.898 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:33.140 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:38.143 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:38.150 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:43.152 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:43.159 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:48.161 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:48.169 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:53.171 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:53.178 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:50:58.180 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:50:58.188 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:03.191 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:03.197 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:08.199 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:08.207 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:13.209 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:13.217 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:18.219 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:18.226 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:23.228 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:23.244 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:28.246 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:28.254 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:33.256 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:33.265 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:38.270 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:38.277 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:43.279 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:43.286 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:48.289 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:48.295 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:53.297 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:53.304 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:51:58.306 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:51:58.313 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:03.315 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:03.322 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:08.324 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:08.330 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:13.333 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:13.338 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:18.341 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:18.347 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:23.349 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:23.355 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:28.357 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:28.363 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:33.366 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:33.371 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:38.373 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:38.380 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:43.382 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:43.387 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:48.389 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:48.394 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:53.397 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:53.402 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:52:58.405 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:52:58.410 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:03.412 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:03.418 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:08.420 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:08.425 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:13.427 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:13.433 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:18.436 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:18.440 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:23.442 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:23.448 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:28.450 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:28.455 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:33.457 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:33.462 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:38.464 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:38.470 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:43.472 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:43.478 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:48.483 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:48.489 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:53.491 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:53.496 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:53:58.498 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:53:58.504 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:03.506 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:03.512 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:08.513 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:08.519 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:13.521 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:13.526 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:18.528 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:18.534 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:23.536 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:23.541 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:28.543 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:28.548 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:33.550 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:33.555 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:38.557 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:38.562 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:43.564 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:43.569 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:48.572 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:48.576 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:53.579 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:53.583 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:54:58.586 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:54:58.590 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:03.592 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:03.597 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:08.600 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:08.604 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:13.606 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:13.611 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:18.613 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:18.618 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:23.620 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:23.625 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:28.628 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:28.632 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:33.634 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:33.639 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:38.641 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:38.646 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:43.648 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:43.654 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:48.656 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:48.661 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:53.663 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:53.668 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:55:58.670 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:55:58.675 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:03.677 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:03.682 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:08.685 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:08.689 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:13.692 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:13.696 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:18.698 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:18.703 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:23.705 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:23.711 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:28.714 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:28.719 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:33.721 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:33.726 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:38.727 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:38.732 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:43.734 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:43.739 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:48.741 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:48.746 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:53.748 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:53.753 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:56:58.755 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:56:58.760 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:03.762 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:03.767 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:08.769 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:08.774 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:13.775 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:13.781 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:18.782 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:18.788 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:23.789 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:23.795 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:28.797 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:28.802 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:33.803 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:33.808 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:38.811 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:38.815 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:43.817 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:43.822 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:48.824 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:48.829 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:53.831 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:53.836 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:57:58.838 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:57:58.842 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:03.844 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:03.850 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:08.852 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:08.857 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:13.859 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:13.864 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:18.865 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:18.870 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:23.872 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:23.877 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:28.879 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:28.884 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:33.887 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:33.891 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:38.893 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:38.899 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:43.901 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:43.905 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:48.907 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:48.912 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:53.914 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:53.920 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:58:58.922 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:58:58.927 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:03.929 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:03.934 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:08.936 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:08.941 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:13.942 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:13.948 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:18.950 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:18.955 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:23.957 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:23.961 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:28.962 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:28.968 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:33.970 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:33.975 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:38.977 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:38.982 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:43.984 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:43.988 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:48.990 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:48.995 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:53.997 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:54.002 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 11:59:59.004 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 11:59:59.008 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:04.010 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:04.016 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:09.017 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:09.022 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:14.025 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:14.030 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:19.032 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:19.036 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:24.038 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:24.043 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:29.045 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:29.050 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:34.051 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:34.055 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:39.058 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:39.062 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:44.063 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:44.068 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:49.070 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:49.075 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:54.077 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:54.082 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:00:59.083 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:00:59.088 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:04.090 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:04.094 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:09.097 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:09.100 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:14.102 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:14.107 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:19.109 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:19.114 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:24.115 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:24.120 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:29.122 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:29.126 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:34.128 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:34.133 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:39.135 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:39.139 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:44.141 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:44.146 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:49.148 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:49.153 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:54.155 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:54.159 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:01:59.162 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:01:59.166 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:04.167 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:04.172 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:09.173 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:09.178 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:14.180 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:14.185 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:19.187 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:19.191 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:24.193 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:24.198 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:29.199 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:29.203 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:34.205 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:34.209 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:39.211 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:39.216 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:44.218 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:44.222 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:49.224 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:49.228 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:54.230 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:54.235 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:02:59.237 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:02:59.241 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:04.243 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:04.247 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:09.249 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:09.254 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:14.256 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:14.260 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:19.262 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:19.266 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:24.268 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:24.273 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:29.275 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:29.279 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:34.281 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:34.286 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:39.288 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:39.292 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:44.294 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:44.298 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:49.300 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:49.305 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:54.307 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:54.311 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:03:59.313 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:03:59.318 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:04.319 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:04.324 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:09.326 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:09.331 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:14.332 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:14.337 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:19.339 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:19.343 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:24.345 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:24.349 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:29.351 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:29.356 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:34.358 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:34.362 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:39.363 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:39.368 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:44.370 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:44.374 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:49.376 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:49.381 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:54.382 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:54.387 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:04:59.389 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:04:59.393 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:04.395 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:04.399 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:09.401 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:09.405 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:14.407 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:14.411 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:19.413 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:19.417 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:24.419 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:24.424 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:29.426 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:29.430 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:34.432 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:34.436 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:39.439 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:39.442 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:44.444 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:44.449 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:49.450 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:49.455 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:54.457 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:54.461 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:05:59.462 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:05:59.467 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:04.469 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:04.473 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:09.475 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:09.479 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:14.481 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:14.485 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:19.487 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:19.491 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:24.493 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:24.497 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:29.500 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:29.503 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:34.505 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:34.509 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:39.511 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:39.515 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:44.517 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:44.521 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:49.523 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:49.527 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:54.528 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:54.533 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:06:59.534 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:06:59.539 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:04.541 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:04.545 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:09.546 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:09.551 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:14.553 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:14.557 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:19.559 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:19.563 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:24.565 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:24.569 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:29.571 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:29.575 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:34.577 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:34.581 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:39.583 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:39.587 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:44.588 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:44.593 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:49.594 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:49.599 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:54.600 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:54.605 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:07:59.606 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:07:59.610 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:04.612 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:04.616 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:09.618 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:09.622 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:14.624 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:14.628 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:19.629 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:19.634 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:24.636 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:24.640 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:29.642 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:29.646 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:34.648 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:34.652 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:39.654 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:39.658 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:44.660 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:44.664 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:49.664 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:49.670 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:54.671 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:54.676 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:08:59.677 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:08:59.682 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:04.683 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:04.688 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:09.690 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:09.694 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:14.696 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:14.700 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:19.702 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:19.706 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:24.708 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:24.712 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:29.714 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:29.718 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:34.720 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:34.724 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:39.726 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:39.730 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:44.731 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:44.736 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:49.737 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:49.742 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:54.743 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:54.748 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:09:59.749 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:09:59.754 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:04.756 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:04.760 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:09.760 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:09.766 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:14.767 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:14.772 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:19.774 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:19.778 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:24.779 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:24.783 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:29.785 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:29.790 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:34.791 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:34.795 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:39.797 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:39.801 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:44.802 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:44.808 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:49.808 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:49.814 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:54.815 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:54.820 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:10:59.821 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:10:59.825 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:04.827 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:04.831 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:09.833 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:09.837 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:14.839 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:14.843 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:19.844 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:19.849 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:24.851 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:24.855 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:29.856 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:29.860 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:34.862 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:34.867 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:39.869 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:39.874 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:44.876 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:44.880 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:49.881 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:49.886 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:54.888 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:54.892 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:11:59.894 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:11:59.898 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:04.899 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:04.904 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:09.906 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:09.909 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:14.911 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:14.915 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:19.916 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:19.920 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:24.922 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:24.926 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:29.928 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:29.932 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:34.933 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:34.938 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:39.939 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:39.943 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:44.945 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:44.949 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:49.950 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:49.954 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:54.956 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:54.960 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:12:59.962 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:12:59.966 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:04.968 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:04.972 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:09.974 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:09.977 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:14.979 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:14.983 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:19.985 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:19.989 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:24.991 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:24.995 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:29.996 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:30.001 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:35.003 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:35.006 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:40.008 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:40.012 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:45.014 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:45.018 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:50.019 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:50.023 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:13:55.025 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:13:55.028 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:00.030 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:00.034 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:05.036 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:05.039 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:10.041 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:10.044 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:15.046 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:15.050 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:20.051 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:20.055 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:25.057 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:25.060 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:30.062 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:30.066 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:35.067 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:35.071 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:40.073 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:40.076 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:45.078 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:45.082 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:50.083 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:50.087 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:14:55.089 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:14:55.092 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:00.094 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:00.097 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:05.099 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:05.103 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:10.104 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:10.108 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:15.110 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:15.113 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:20.115 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:20.119 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:25.120 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:25.124 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:30.126 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:30.130 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:35.131 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:35.135 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:40.136 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:40.140 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:45.142 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:45.146 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:50.147 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:50.151 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:15:55.153 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:15:55.157 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:00.158 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:00.161 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:05.163 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:05.166 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:10.168 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:10.172 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:15.174 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:15.177 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:20.178 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:20.182 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:25.184 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:25.188 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:30.189 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:30.193 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:35.195 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:35.199 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:40.199 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:40.204 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:45.206 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:45.210 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:50.211 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:50.215 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:16:55.217 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:16:55.221 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:00.222 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:00.226 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:05.226 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:05.231 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:10.233 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:10.237 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:15.239 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:15.242 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:20.243 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:20.247 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:25.249 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:25.252 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:30.254 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:30.258 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:35.259 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:35.262 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:40.264 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:40.268 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:45.269 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:45.273 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:50.275 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:50.279 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:17:55.280 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:17:55.284 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:00.285 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:00.289 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:05.291 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:05.294 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:10.296 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:10.299 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:15.301 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:15.305 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:20.306 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:20.310 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:25.311 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:25.315 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:30.317 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:30.320 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:35.322 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:35.325 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:40.327 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:40.330 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:45.332 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:45.335 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:50.337 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:50.341 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:18:55.341 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:18:55.346 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:00.348 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:00.351 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:05.353 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:05.356 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:10.358 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:10.361 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:15.362 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:15.366 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:20.368 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:20.371 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:25.373 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:25.376 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:30.378 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:30.382 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:35.384 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:35.387 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:40.389 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:40.392 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:45.394 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:45.397 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:50.399 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:50.403 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:19:55.404 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:19:55.408 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:00.409 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:00.413 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:05.415 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:05.418 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:10.420 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:10.424 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:15.425 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:15.429 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:20.431 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:20.435 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:25.436 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:25.440 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:30.442 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:30.445 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:35.447 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:35.451 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:40.451 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:40.456 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:45.458 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:45.461 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:50.463 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:50.467 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:20:55.467 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:20:55.472 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:00.473 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:00.477 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:05.477 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:05.482 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:10.483 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:10.487 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:15.489 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:15.492 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:20.494 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:20.498 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:25.499 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:25.503 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:30.505 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:30.508 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:35.509 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:35.514 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:40.516 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:40.520 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:45.520 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:45.525 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:50.525 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:50.530 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:21:55.532 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:21:55.535 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:00.537 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:00.541 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:05.541 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:05.546 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:10.548 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:10.552 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:15.554 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:15.557 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:20.559 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:20.563 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:25.564 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:25.569 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:30.571 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:30.575 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:35.576 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:35.580 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:40.582 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:40.586 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:45.587 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:45.591 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:50.592 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:50.596 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:22:55.596 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:22:55.601 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:00.601 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:00.606 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:05.608 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:05.611 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:10.611 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:10.616 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:15.618 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:15.621 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:20.622 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:20.626 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:25.626 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:25.631 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:30.633 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:30.636 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:35.638 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:35.641 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:40.643 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:40.647 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:45.648 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:45.652 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:50.654 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:50.658 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:23:55.659 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:23:55.663 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:00.665 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:00.668 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:05.670 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:05.674 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:10.676 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:10.679 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:15.681 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:15.684 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:20.686 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:20.690 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:25.691 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:25.694 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:30.696 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:30.700 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:35.701 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:35.705 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:40.707 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:40.710 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:45.712 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:45.715 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:50.717 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:50.721 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:24:55.721 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:24:55.725 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:00.727 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:00.731 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:05.732 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:05.736 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:10.738 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:10.741 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:15.742 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:15.746 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:20.748 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:20.751 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:25.753 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:25.756 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:30.758 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:30.761 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:35.763 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:35.766 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:40.768 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:40.771 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:45.773 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:45.776 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:50.778 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:50.781 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:25:55.783 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:25:55.786 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:00.788 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:00.791 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:05.793 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:05.796 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:10.798 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:10.802 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:15.803 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:15.807 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:20.807 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:20.812 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:25.812 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:25.817 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:30.819 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:30.822 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:35.825 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:35.828 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:40.829 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:40.834 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:45.836 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:45.839 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:50.841 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:50.844 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:26:55.846 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:26:55.849 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:00.851 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:00.855 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:05.856 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:05.859 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:10.861 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:10.865 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:15.866 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:15.870 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:20.872 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:20.875 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:25.877 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:25.880 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:30.882 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:30.886 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:35.887 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:35.891 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:40.891 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:40.896 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:45.896 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:45.901 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:50.902 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:50.906 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:27:55.908 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:27:55.911 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:00.913 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:00.916 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:05.918 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:05.922 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:10.923 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:10.927 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:15.927 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:15.932 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:20.934 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:20.937 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:25.939 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:25.942 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:30.944 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:30.947 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:35.948 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:35.953 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:40.955 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:40.958 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:45.960 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:45.963 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:50.965 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:50.969 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:28:55.969 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:28:55.974 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:00.976 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:00.979 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:05.981 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:05.985 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:10.986 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:10.990 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:15.991 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:15.995 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:20.996 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:21.000 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:26.001 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:26.005 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:31.007 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:31.010 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:36.011 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:36.015 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:41.017 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:41.020 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:46.022 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:46.025 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:51.027 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:51.030 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:29:56.032 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:29:56.036 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:01.036 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:01.041 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:06.043 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:06.046 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:11.048 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:11.051 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:16.053 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:16.057 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:21.058 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:21.061 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:26.063 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:26.066 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:31.068 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:31.071 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:36.073 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:36.076 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:41.078 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:41.081 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:46.083 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:46.086 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:51.088 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:51.091 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:30:56.093 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:30:56.097 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:01.097 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:01.102 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:06.102 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:06.107 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:11.107 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:11.111 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:16.113 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:16.116 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:21.118 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:21.121 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:26.123 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:26.126 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:31.126 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:31.131 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:36.132 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:36.136 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:41.138 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:41.141 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:46.143 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:46.146 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:51.148 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:51.151 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:31:56.152 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:31:56.156 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:01.158 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:01.161 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:06.163 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:06.166 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:11.168 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:11.172 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:16.172 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:16.177 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:21.178 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:21.182 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:26.183 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:26.187 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:31.189 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:31.192 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:36.194 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:36.197 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:41.199 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:41.203 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:46.203 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:46.208 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:51.208 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:51.213 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:32:56.214 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:32:56.218 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:01.220 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:01.223 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:06.226 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:06.229 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:11.232 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:11.235 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:16.237 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:16.240 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:21.242 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:21.245 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:26.247 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:26.250 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:31.252 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:31.255 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:36.255 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:36.260 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:41.261 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:41.265 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:46.266 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:46.270 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:51.271 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:51.275 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:33:56.276 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:33:56.280 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:01.282 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:01.285 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:06.287 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:06.291 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:11.292 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:11.296 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:16.297 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:16.301 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:21.303 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:21.306 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:26.308 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:26.312 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:31.314 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:31.317 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:36.319 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:36.322 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:41.324 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:41.327 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:46.329 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:46.332 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:51.334 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:51.337 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:34:56.339 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:34:56.342 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:01.344 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:01.348 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:06.349 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:06.353 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:11.353 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:11.358 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:16.359 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:16.362 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:21.364 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:21.367 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:26.369 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:26.373 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:31.373 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:31.377 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:36.379 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:36.382 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:41.384 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:41.388 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:46.389 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:46.392 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:51.394 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:51.397 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:35:56.399 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:35:56.402 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:01.404 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:01.407 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:06.409 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:06.412 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:11.412 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:11.417 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:16.419 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:16.422 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:21.424 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:21.427 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:26.429 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:26.432 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:31.434 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:31.438 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:36.438 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:36.442 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:41.444 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:41.448 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:46.449 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:46.453 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:51.454 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:51.458 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:36:56.459 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:36:56.462 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:01.464 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:01.467 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:06.469 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:06.472 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:11.474 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:11.477 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:16.477 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:16.482 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:21.483 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:21.487 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:26.489 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:26.492 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:31.492 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:31.497 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:36.498 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:36.502 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:41.502 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:41.507 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:46.509 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:46.512 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:51.514 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:51.517 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
+2016-05-27 12:37:56.519 [INFO ] [t.AbstractSocketChannelBinding] - Attempting to reconnect the channel for /127.0.0.1:5005
+2016-05-27 12:37:56.522 [WARN ] [t.AbstractSocketChannelBinding] - The channel java.nio.channels.SocketChannel[closed] has encountered an unknown IO Exception: Connection refused
