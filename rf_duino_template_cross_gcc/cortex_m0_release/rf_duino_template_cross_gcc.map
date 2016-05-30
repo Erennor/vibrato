@@ -8724,27 +8724,27 @@ OUTPUT(rf_duino_template_cross_gcc elf32-littlearm)
  .debug_ranges  0x00000568       0x80 ./rfduino_core/cores/arduino/wiring_analog.o
  .debug_ranges  0x000005e8       0x40 ./rf_duino_template_main.o
 
-.debug_line     0x00000000     0x4096
+.debug_line     0x00000000     0x4097
  .debug_line    0x00000000      0x510 ./rfduino_core/variants/RFduino/variant.o
  .debug_line    0x00000510      0x266 ./rfduino_core/system/RFduino/source/startup_nrf51822.o
  .debug_line    0x00000776      0x13b ./rfduino_core/system/RFduino/source/system_nrf51.o
  .debug_line    0x000008b1      0x37d ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_bitreversal.o
  .debug_line    0x00000c2e      0x208 ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q15.o
  .debug_line    0x00000e36      0xa7d ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q15.o
- .debug_line    0x000018b3      0x1f3 ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.o
- .debug_line    0x00001aa6      0x25e ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.o
- .debug_line    0x00001d04      0x1ab ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/CommonTables/arm_common_tables.o
- .debug_line    0x00001eaf      0x3df ./rfduino_core/libraries/RFduinoGZLL/RFduinoGZLL.o
- .debug_line    0x0000228e      0x2b1 ./rfduino_core/libraries/RFduinoBLE/RFduinoBLE.o
- .debug_line    0x0000253f      0x528 ./rfduino_core/cores/arduino/Print.o
- .debug_line    0x00002a67      0x148 ./rfduino_core/cores/arduino/RingBuffer.o
- .debug_line    0x00002baf      0x458 ./rfduino_core/cores/arduino/UARTClass.o
- .debug_line    0x00003007      0x256 ./rfduino_core/cores/arduino/WInterrupts.o
- .debug_line    0x0000325d       0x76 ./rfduino_core/cores/arduino/main.o
- .debug_line    0x000032d3      0x264 ./rfduino_core/cores/arduino/syscalls.o
- .debug_line    0x00003537      0x218 ./rfduino_core/cores/arduino/wiring.o
- .debug_line    0x0000374f      0x543 ./rfduino_core/cores/arduino/wiring_analog.o
- .debug_line    0x00003c92      0x404 ./rf_duino_template_main.o
+ .debug_line    0x000018b3      0x1f4 ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.o
+ .debug_line    0x00001aa7      0x25e ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.o
+ .debug_line    0x00001d05      0x1ab ./rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Source/CommonTables/arm_common_tables.o
+ .debug_line    0x00001eb0      0x3df ./rfduino_core/libraries/RFduinoGZLL/RFduinoGZLL.o
+ .debug_line    0x0000228f      0x2b1 ./rfduino_core/libraries/RFduinoBLE/RFduinoBLE.o
+ .debug_line    0x00002540      0x528 ./rfduino_core/cores/arduino/Print.o
+ .debug_line    0x00002a68      0x148 ./rfduino_core/cores/arduino/RingBuffer.o
+ .debug_line    0x00002bb0      0x458 ./rfduino_core/cores/arduino/UARTClass.o
+ .debug_line    0x00003008      0x256 ./rfduino_core/cores/arduino/WInterrupts.o
+ .debug_line    0x0000325e       0x76 ./rfduino_core/cores/arduino/main.o
+ .debug_line    0x000032d4      0x264 ./rfduino_core/cores/arduino/syscalls.o
+ .debug_line    0x00003538      0x218 ./rfduino_core/cores/arduino/wiring.o
+ .debug_line    0x00003750      0x543 ./rfduino_core/cores/arduino/wiring_analog.o
+ .debug_line    0x00003c93      0x404 ./rf_duino_template_main.o
 
 .debug_str      0x00000000     0x3b96
  .debug_str     0x00000000      0x985 ./rfduino_core/variants/RFduino/variant.o

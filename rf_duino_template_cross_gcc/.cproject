@@ -38,6 +38,7 @@
 								</option>
 								<option id="gnu.c.compiler.option.include.paths.1499852186" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/kiss_fft130"/>
 									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher/nrf51822/Include"/>
 									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/variants/RFduino}&quot;"/>
@@ -54,6 +55,7 @@
 								<option id="gnu.cpp.compiler.option.other.other.1990855224" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1449406727" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/libraries/RFduinoBLE}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/kiss_fft130"/>
 									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher/nrf51822/Include"/>
 									<listOptionValue builtIn="false" value="/home/robin/Travail/ProjetSpé/vibrato/rf_duino_template_cross_gcc/rfduino_core/libraries/memory_watcher"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/rfduino_core/cores/arduino}&quot;"/>
@@ -106,7 +108,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Examples|rfduino_core/source/libRFduinoGZLL|rfduino_core/system/CMSIS/CMSIS/SVD|rfduino_core/system/CMSIS/CMSIS/RTOS|rfduino_core/system/CMSIS/CMSIS/Lib|rfduino_core/system/CMSIS/Device|rfduino_core/libraries/RFduinoNonBLE/examples|rfduino_core/libraries/RFduinoGZLL/examples|rfduino_core/libraries/RFduinoBLE/examples|rfduino_core/libraries/Wire|rfduino_core/libraries/SPI|rfduino_core/libraries/Servo|rfduino_core/iPhone Apps|arduino_libraries" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="rfduino_core/libraries/kiss_fft130|rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Examples|rfduino_core/source/libRFduinoGZLL|rfduino_core/system/CMSIS/CMSIS/SVD|rfduino_core/system/CMSIS/CMSIS/RTOS|rfduino_core/system/CMSIS/CMSIS/Lib|rfduino_core/system/CMSIS/Device|rfduino_core/libraries/RFduinoNonBLE/examples|rfduino_core/libraries/RFduinoGZLL/examples|rfduino_core/libraries/RFduinoBLE/examples|rfduino_core/libraries/Wire|rfduino_core/libraries/SPI|rfduino_core/libraries/Servo|rfduino_core/iPhone Apps|arduino_libraries" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -214,7 +216,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Examples|rfduino_core/source/libRFduinoGZLL|rfduino_core/system/CMSIS/CMSIS/SVD|rfduino_core/system/CMSIS/CMSIS/RTOS|rfduino_core/system/CMSIS/CMSIS/Lib|rfduino_core/system/CMSIS/Device|rfduino_core/libraries/RFduinoNonBLE/examples|rfduino_core/libraries/RFduinoGZLL/examples|rfduino_core/libraries/RFduinoBLE/examples|rfduino_core/libraries/Wire|rfduino_core/libraries/SPI|rfduino_core/libraries/Servo|rfduino_core/iPhone Apps|arduino_libraries" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="rfduino_core/libraries/kiss_fft130|rfduino_core/system/CMSIS/CMSIS/DSP_Lib/Examples|rfduino_core/source/libRFduinoGZLL|rfduino_core/system/CMSIS/CMSIS/SVD|rfduino_core/system/CMSIS/CMSIS/RTOS|rfduino_core/system/CMSIS/CMSIS/Lib|rfduino_core/system/CMSIS/Device|rfduino_core/libraries/RFduinoNonBLE/examples|rfduino_core/libraries/RFduinoGZLL/examples|rfduino_core/libraries/RFduinoBLE/examples|rfduino_core/libraries/Wire|rfduino_core/libraries/SPI|rfduino_core/libraries/Servo|rfduino_core/iPhone Apps|arduino_libraries" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
