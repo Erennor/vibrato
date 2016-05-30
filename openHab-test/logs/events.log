@@ -1,116 +1,360 @@
-2016-05-23 10:23:51 - Date state updated to 2016-05-23T10:23:51
-2016-05-23 10:23:53 - DemoLocation state updated to 52.5200066,13.4049540
-2016-05-23 10:23:53 - Temperature_GF_Corridor state updated to 20.50000000
-2016-05-23 10:23:53 - Temperature_GF_Toilet state updated to 21.20000000
-2016-05-23 10:23:53 - Temperature_GF_Living state updated to 19.70000000
-2016-05-23 10:23:53 - Temperature_GF_Kitchen state updated to 21.90000000
-2016-05-23 10:23:53 - Temperature_FF_Bath state updated to 20.60000000
-2016-05-23 10:23:53 - Temperature_FF_Office state updated to 19.00000000
-2016-05-23 10:23:53 - Temperature_FF_Child state updated to 19.40000000
-2016-05-23 10:23:53 - Temperature_FF_Bed state updated to 21.90000000
-2016-05-23 10:25:29 - Date state updated to 2016-05-23T10:25:29
-2016-05-23 10:25:29 - Light_GF_Living_Table state updated to ON
-2016-05-23 10:25:29 - Light_GF_Corridor_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_GF_Kitchen_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_GF_Kitchen_Table state updated to ON
-2016-05-23 10:25:29 - Light_GF_Corridor_Wardrobe state updated to ON
-2016-05-23 10:25:29 - Light_GF_Toilet_Ceiling state updated to ON
-2016-05-23 10:25:29 - Light_GF_Toilet_Mirror state updated to OFF
-2016-05-23 10:25:29 - Light_FF_Bath_Ceiling state updated to ON
-2016-05-23 10:25:29 - Light_FF_Bath_Mirror state updated to OFF
-2016-05-23 10:25:29 - Light_FF_Corridor_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_FF_Office_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_FF_Child_Ceiling state updated to ON
-2016-05-23 10:25:29 - Light_FF_Bed_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_C_Corridor_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_C_Staircase state updated to OFF
-2016-05-23 10:25:29 - Light_C_Washing_Ceiling state updated to OFF
-2016-05-23 10:25:29 - Light_C_Workshop state updated to OFF
-2016-05-23 10:25:29 - Light_Outdoor_Garage state updated to OFF
-2016-05-23 10:25:29 - Light_Outdoor_Terrace state updated to ON
-2016-05-23 10:25:29 - Light_Outdoor_Frontdoor state updated to OFF
-2016-05-23 10:25:29 - Heating_GF_Corridor state updated to OFF
-2016-05-23 10:25:29 - Heating_GF_Toilet state updated to ON
-2016-05-23 10:25:29 - Heating_GF_Living state updated to OFF
-2016-05-23 10:25:29 - Heating_GF_Kitchen state updated to OFF
-2016-05-23 10:25:29 - Heating_FF_Bath state updated to ON
-2016-05-23 10:25:29 - Heating_FF_Office state updated to OFF
-2016-05-23 10:25:29 - Heating_FF_Child state updated to OFF
-2016-05-23 10:25:29 - Heating_FF_Bed state updated to OFF
-2016-05-23 10:25:29 - Temperature_Setpoint state updated to 22
-2016-05-23 10:25:29 - Window_GF_Frontdoor state updated to OPEN
-2016-05-23 10:25:29 - Window_GF_Kitchen state updated to OPEN
-2016-05-23 10:25:29 - Window_GF_Living state updated to OPEN
-2016-05-23 10:25:29 - Window_GF_Toilet state updated to CLOSED
-2016-05-23 10:25:29 - Window_FF_Bath state updated to CLOSED
-2016-05-23 10:25:29 - Window_FF_Bed state updated to OPEN
-2016-05-23 10:25:29 - Window_FF_Office_Window state updated to OPEN
-2016-05-23 10:25:29 - Window_FF_Office_Door state updated to OPEN
-2016-05-23 10:25:29 - Garage_Door state updated to OPEN
-2016-05-23 10:25:29 - DemoLocation state updated to 52.5200066,13.4049540
-2016-05-23 10:27:04 - Date state updated to 2016-05-23T10:27:04
-2016-05-23 10:28:43 - Date state updated to 2016-05-23T10:28:43
-2016-05-23 15:07:12 - VibratoListener received command on
-2016-05-23 15:07:33 - VibratoListener received command Hello
-2016-05-23 15:07:37 - VibratoListener received command ON
-2016-05-23 15:07:38 - Vibrato state updated to ON
-2016-05-23 15:07:44 - VibratoListener received command HELLO
-2016-05-23 15:07:44 - VibratoTalk received command HELLO
-2016-05-23 15:07:44 - VibratoTalk state updated to HELLO
-2016-05-23 15:07:45 - VibratoTalk state updated to HELLO
-2016-05-23 15:08:14 - VibratoListener received command yes
-2016-05-23 15:08:14 - VibratoTalk received command yes
-2016-05-23 15:08:14 - VibratoTalk state updated to yes
-2016-05-23 15:08:14 - VibratoTalk state updated to yes
-2016-05-23 15:18:42 - VibratoListener received command hgfg
-2016-05-23 15:18:42 - VibratoTalk received command hgfg
-2016-05-23 15:18:42 - VibratoTalk state updated to hgfg
-2016-05-23 15:18:43 - VibratoTalk state updated to hgfg
-2016-05-23 15:19:12 - VibratoListener received command 
-2016-05-23 15:19:12 - VibratoTalk received command 
-2016-05-23 15:19:12 - VibratoTalk state updated to 
-2016-05-23 17:21:52 - VibratoListener received command lo world
-2016-05-23 17:21:53 - VibratoTalk received command lo world
-2016-05-23 17:21:53 - VibratoTalk state updated to lo world
-2016-05-23 17:26:01 - VibratoTalk state updated to lo world
-2016-05-23 17:26:16 - VibratoListener received command yop
-2016-05-23 17:26:16 - VibratoTalk received command yop
-2016-05-23 17:26:16 - VibratoTalk state updated to yop
-2016-05-23 17:26:17 - VibratoTalk state updated to yop
-2016-05-23 17:26:23 - VibratoListener received command energie 12
-2016-05-23 17:26:23 - VibratoTalk state updated to energie 12
-2016-05-23 17:26:23 - VibratoTalk received command energie 12
-2016-05-23 17:26:24 - VibratoTalk state updated to energie 12
-2016-05-23 17:28:02 - VibratoListener received command coucou
-2016-05-23 17:28:02 - VibratoTalk received command coucou
-2016-05-23 17:28:02 - VibratoTalk state updated to coucou
-2016-05-23 17:28:02 - VibratoTalk state updated to coucou
-2016-05-23 17:34:10 - VibratoListener received command jean est unpd
-2016-05-23 17:34:10 - VibratoTalk received command jean est unpd
-2016-05-23 17:34:10 - VibratoTalk state updated to jean est unpd
-2016-05-24 13:57:56 - VibratoListener received command 
-2016-05-24 13:58:02 - VibratoListener received command ON
-2016-05-24 13:58:02 - Vibrato state updated to ON
-2016-05-24 13:58:09 - VibratoListener received command LOL
-2016-05-24 13:58:09 - VibratoTalk state updated to LOL
-2016-05-24 13:58:09 - VibratoTalk received command LOL
-2016-05-24 13:58:09 - VibratoTalk state updated to LOL
-2016-05-24 13:58:15 - VibratoListener received command KOK
-2016-05-24 13:58:15 - VibratoTalk received command KOK
-2016-05-24 13:58:15 - VibratoTalk state updated to KOK
-2016-05-24 13:58:16 - VibratoTalk state updated to KOK
-2016-05-24 18:03:02 - VibratoListener received command del 2
-2016-05-24 18:03:09 - VibratoListener received command ON
-2016-05-24 18:03:09 - Vibrato state updated to ON
-2016-05-24 18:03:20 - VibratoListener received command del 2
-2016-05-24 18:03:20 - VibratoTalk state updated to del 2
-2016-05-24 18:03:20 - VibratoTalk received command del 2
-2016-05-24 18:03:39 - VibratoListener received command gg
-2016-05-24 18:03:39 - VibratoTalk received command gg
-2016-05-24 18:03:39 - VibratoTalk state updated to gg
-2016-05-24 18:09:37 - VibratoListener received command del 2
-2016-05-24 18:09:37 - VibratoTalk received command del 2
-2016-05-24 18:09:37 - VibratoTalk state updated to del 2
-2016-05-24 18:09:46 - VibratoListener received command coucou
-2016-05-24 18:09:46 - VibratoTalk state updated to coucou
-2016-05-24 18:09:46 - VibratoTalk received command coucou
+2016-05-30 09:41:26 - VibratoListener received command hello
+2016-05-30 09:54:46 - BEDROOM_LIGHT1 received command ON
+2016-05-30 09:54:47 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:00:31 - scriptListener received command ON
+2016-05-30 10:00:43 - scriptListener received command 1
+2016-05-30 10:36:49 - scriptListener received command 1
+2016-05-30 10:36:49 - BEDROOM_LIGHT1 received command ON
+2016-05-30 10:36:58 - scriptListener received command 2
+2016-05-30 10:36:58 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:37:01 - scriptListener received command 2
+2016-05-30 10:37:01 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:37:03 - scriptListener received command 2
+2016-05-30 10:37:03 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:37:09 - scriptListener received command 3
+2016-05-30 10:37:09 - BEDROOM_LIGHT1 received command ON
+2016-05-30 10:37:15 - scriptListener received command 3
+2016-05-30 10:37:15 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:37:16 - scriptListener received command 3
+2016-05-30 10:37:16 - BEDROOM_LIGHT1 received command ON
+2016-05-30 10:37:17 - scriptListener received command 3
+2016-05-30 10:37:17 - BEDROOM_LIGHT1 received command OFF
+2016-05-30 10:37:18 - scriptListener received command 3
+2016-05-30 10:37:18 - BEDROOM_LIGHT1 received command ON
+2016-05-30 11:05:11 - VibratoListener received command c
+2016-05-30 11:05:17 - VibratoListener received command ON
+2016-05-30 11:05:17 - Vibrato state updated to ON
+2016-05-30 11:05:20 - VibratoListener received command c
+2016-05-30 11:05:20 - VibratoTalk received command c
+2016-05-30 11:05:20 - VibratoTalk state updated to c
+2016-05-30 11:16:47 - VibratoListener received command c
+2016-05-30 11:48:48 - VibratoListener received command on
+2016-05-30 11:48:52 - VibratoListener received command ON
+2016-05-30 11:48:52 - Vibrato state updated to ON
+2016-05-30 11:49:16 - VibratoListener received command c_4_itemFoo_ON
+2016-05-30 11:49:17 - VibratoTalk received command c_4_itemFoo_ON
+2016-05-30 11:49:17 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 11:51:14 - VibratoListener received command c_3_ITEMBAR_ON
+2016-05-30 11:51:14 - VibratoTalk received command c_3_ITEMBAR_ON
+2016-05-30 11:51:14 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 11:53:36 - VibratoListener received command c_3_item_rule
+2016-05-30 11:53:36 - VibratoTalk received command c_3_item_rule
+2016-05-30 11:53:36 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 12:37:50 - VibratoListener received command c_
+2016-05-30 12:38:31 - VibratoListener received command d_3
+2016-05-30 12:38:47 - VibratoListener received command ON
+2016-05-30 12:38:47 - Vibrato state updated to ON
+2016-05-30 12:38:54 - VibratoListener received command d_3
+2016-05-30 12:38:54 - VibratoTalk received command d_3
+2016-05-30 12:38:54 - VibratoTalk state updated to d_3
+2016-05-30 12:39:17 - VibratoListener received command c_3_5_5
+2016-05-30 12:39:17 - VibratoTalk received command c_3_5_5
+2016-05-30 12:39:17 - VibratoTalk state updated to c_3_5_5
+2016-05-30 12:39:33 - VibratoListener received command c_3_5_4
+2016-05-30 12:39:33 - VibratoTalk received command c_3_5_4
+2016-05-30 12:39:33 - VibratoTalk state updated to c_3_5_4
+2016-05-30 12:39:47 - VibratoListener received command yjh
+2016-05-30 12:39:47 - VibratoTalk received command yjh
+2016-05-30 12:39:47 - VibratoTalk state updated to yjh
+2016-05-30 12:46:01 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON2=BEDROOM_LIGHT1:OFF4=itemFoo:ON3=5:4
+2016-05-30 12:46:11 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:46:21 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:47:21 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:47:41 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:47:51 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:48:12 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:48:32 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+3=5:4
+
+2016-05-30 12:50:32 - VibratoListener received command d_3
+2016-05-30 12:50:46 - VibratoListener received command ON
+2016-05-30 12:50:46 - Vibrato state updated to ON
+2016-05-30 12:50:49 - VibratoListener received command d_3
+2016-05-30 12:50:49 - askUpdate received command foobar
+2016-05-30 12:50:49 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:34:22 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:34:32 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:34:52 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:48:55 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_4_itemFoo_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 13:48:55 - VibratoTalk state updated to c_3_ITEMBAR_ON
+2016-05-30 13:48:56 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 13:48:56 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 13:48:56 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 13:48:56 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 13:48:56 - VibratoTalk state updated to c_3_item_rule
+2016-05-30 13:48:56 - VibratoTalk state updated to d_3
+2016-05-30 13:48:56 - VibratoTalk state updated to d_3
+2016-05-30 13:48:56 - VibratoTalk state updated to d_3
+2016-05-30 13:48:56 - VibratoTalk state updated to d_3
+2016-05-30 13:48:56 - VibratoTalk state updated to d_3
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_5
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_5
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_5
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_5
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_5
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_4
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_4
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_4
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_4
+2016-05-30 13:48:57 - VibratoTalk state updated to c_3_5_4
+2016-05-30 13:48:58 - VibratoTalk state updated to yjh
+2016-05-30 13:48:58 - VibratoTalk state updated to yjh
+2016-05-30 13:48:58 - VibratoTalk state updated to yjh
+2016-05-30 13:48:58 - VibratoTalk state updated to yjh
+2016-05-30 13:48:58 - VibratoTalk state updated to yjh
+2016-05-30 13:53:22 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:53:32 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 13:53:57 - VibratoTalk state updated to c
+2016-05-30 14:05:35 - HitHandlerData received command 1=BEDROOM_LIGHT1:ON
+2=BEDROOM_LIGHT1:OFF
+4=itemFoo:ON
+
+2016-05-30 14:08:19 - VibratoListener received command c_1_foo_bar
+2016-05-30 14:08:24 - VibratoListener received command ON
+2016-05-30 14:08:24 - Vibrato state updated to ON
+2016-05-30 14:08:36 - VibratoListener received command c_1_99_88
+2016-05-30 14:08:37 - VibratoTalk state updated to c_1
+2016-05-30 14:08:37 - VibratoTalk received command c_1
+2016-05-30 14:08:37 - askUpdate received command foobar
+2016-05-30 14:08:37 - HitHandlerData received command 1=99:88
+
+2016-05-30 14:08:37 - VibratoTalk state updated to c_1
+2016-05-30 14:12:12 - VibratoListener received command c_2_8_8
+2016-05-30 14:12:12 - VibratoTalk state updated to c_2
+2016-05-30 14:12:12 - VibratoTalk received command c_2
+2016-05-30 14:12:12 - askUpdate received command foobar
+2016-05-30 14:12:12 - HitHandlerData received command 1=99:88
+2=8:8
+
+2016-05-30 14:12:13 - VibratoTalk state updated to c_2
+2016-05-30 14:19:11 - VibratoListener received command c_8_8_8
+2016-05-30 14:19:11 - VibratoTalk state updated to c_8
+2016-05-30 14:19:11 - VibratoTalk received command c_8
+2016-05-30 14:19:11 - askUpdate received command foobar
+2016-05-30 14:19:11 - HitHandlerData received command 8=8:8
+
+2016-05-30 14:19:12 - VibratoTalk state updated to c_8
+2016-05-30 14:22:49 - VibratoListener received command c_1_1_1
+2016-05-30 14:22:49 - VibratoTalk state updated to c_1
+2016-05-30 14:22:49 - VibratoTalk received command c_1
+2016-05-30 14:22:49 - askUpdate received command foobar
+2016-05-30 14:22:49 - HitHandlerData received command 8=8:8
+1=1:1
+
+2016-05-30 14:22:50 - VibratoTalk state updated to c_1
+2016-05-30 14:24:33 - VibratoListener received command c_1_1_1
+2016-05-30 14:25:00 - VibratoListener received command c_1_1_1
+2016-05-30 14:25:06 - VibratoListener received command ON
+2016-05-30 14:25:06 - Vibrato state updated to ON
+2016-05-30 14:25:13 - VibratoListener received command c_1_1_1
+2016-05-30 14:25:13 - VibratoTalk state updated to c_1
+2016-05-30 14:25:13 - VibratoTalk received command c_1
+2016-05-30 14:25:13 - askUpdate received command foobar
+2016-05-30 14:25:13 - HitHandlerData received command 1=1:1
+
+2016-05-30 14:25:13 - VibratoTalk state updated to c_1
+2016-05-30 14:25:13 - VibratoTalk state updated to c_1
+2016-05-30 14:25:24 - VibratoListener received command c_2_2_2
+2016-05-30 14:25:24 - VibratoTalk state updated to c_2
+2016-05-30 14:25:24 - VibratoTalk received command c_2
+2016-05-30 14:25:24 - askUpdate received command foobar
+2016-05-30 14:25:24 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 14:25:24 - VibratoTalk state updated to c_2
+2016-05-30 14:25:24 - VibratoTalk state updated to c_2
+2016-05-30 14:25:52 - VibratoListener received command c_hello_world_ye
+2016-05-30 14:25:52 - VibratoTalk state updated to c_hello
+2016-05-30 14:25:52 - VibratoTalk received command c_hello
+2016-05-30 14:25:52 - askUpdate received command foobar
+2016-05-30 14:25:52 - HitHandlerData received command 1=1:1
+2=2:2
+hello=world:ye
+
+2016-05-30 14:25:52 - VibratoTalk state updated to c_hello
+2016-05-30 14:25:52 - VibratoTalk state updated to c_hello
+2016-05-30 14:26:22 - VibratoListener received command d_1
+2016-05-30 14:26:22 - VibratoTalk state updated to d_1
+2016-05-30 14:26:22 - VibratoTalk received command d_1
+2016-05-30 14:26:22 - askUpdate received command foobar
+2016-05-30 14:26:22 - HitHandlerData received command 2=2:2
+hello=world:ye
+
+2016-05-30 14:26:22 - VibratoTalk state updated to d_1
+2016-05-30 14:26:22 - VibratoTalk state updated to d_1
+2016-05-30 14:26:45 - VibratoListener received command d_hello
+2016-05-30 14:26:45 - VibratoTalk received command d_hello
+2016-05-30 14:26:45 - VibratoTalk state updated to d_hello
+2016-05-30 14:26:45 - askUpdate received command foobar
+2016-05-30 14:26:45 - HitHandlerData received command 2=2:2
+
+2016-05-30 14:26:46 - VibratoTalk state updated to d_hello
+2016-05-30 14:26:46 - VibratoTalk state updated to d_hello
+2016-05-30 14:41:47 - VibratoListener received command c_1_1_1
+2016-05-30 14:41:47 - VibratoTalk state updated to c_1
+2016-05-30 14:41:47 - VibratoTalk received command c_1
+2016-05-30 14:41:47 - askUpdate received command foobar
+2016-05-30 14:41:47 - HitHandlerData received command 2=2:2
+1=1:1
+
+2016-05-30 14:42:26 - VibratoTalk state updated to c_1
+2016-05-30 14:42:26 - VibratoTalk state updated to c_1
+2016-05-30 14:42:58 - VibratoListener received command c_1_1_1
+2016-05-30 14:42:58 - VibratoTalk state updated to c_1
+2016-05-30 14:42:58 - VibratoTalk received command c_1
+2016-05-30 14:42:58 - askUpdate received command foobar
+2016-05-30 14:42:58 - HitHandlerData received command 1=1:1
+
+2016-05-30 14:43:07 - VibratoListener received command c_2_2_2
+2016-05-30 14:43:07 - VibratoTalk received command c_2
+2016-05-30 14:43:07 - VibratoTalk state updated to c_2
+2016-05-30 14:43:07 - askUpdate received command foobar
+2016-05-30 14:43:07 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 14:45:16 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 14:47:51 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 14:49:31 - VibratoListener received command c_2_2_2
+2016-05-30 14:49:36 - VibratoListener received command ON
+2016-05-30 14:49:36 - Vibrato state updated to ON
+2016-05-30 14:49:41 - VibratoListener received command c_2_2_2
+2016-05-30 14:49:42 - VibratoTalk received command c_2
+2016-05-30 14:49:42 - VibratoTalk state updated to c_2
+2016-05-30 14:49:42 - askUpdate received command foobar
+2016-05-30 14:49:42 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 14:49:42 - VibratoTalk state updated to c_2
+2016-05-30 14:53:07 - HitHandlerData received command 1=1:1
+2=2:2
+
+2016-05-30 15:04:04 - VibratoListener received command c_hello_1_1
+2016-05-30 15:04:08 - VibratoListener received command ON
+2016-05-30 15:04:08 - Vibrato state updated to ON
+2016-05-30 15:04:21 - VibratoListener received command c_hello_9_9
+2016-05-30 15:04:21 - VibratoTalk received command c_hello
+2016-05-30 15:04:21 - VibratoTalk state updated to c_hello
+2016-05-30 15:04:21 - askUpdate received command foobar
+2016-05-30 15:04:21 - HitHandlerData received command 1=1:1
+2=2:2
+hello=9:9
+
+2016-05-30 15:04:22 - VibratoTalk state updated to c_hello
+2016-05-30 15:04:33 - VibratoListener received command d_1
+2016-05-30 15:04:33 - VibratoTalk received command d_1
+2016-05-30 15:04:33 - VibratoTalk state updated to d_1
+2016-05-30 15:04:33 - askUpdate received command foobar
+2016-05-30 15:04:33 - HitHandlerData received command 2=2:2
+hello=9:9
+
+2016-05-30 15:04:33 - VibratoTalk state updated to d_1
+2016-05-30 15:07:20 - VibratoListener received command d_2
+2016-05-30 15:07:20 - VibratoTalk received command d_2
+2016-05-30 15:07:20 - VibratoTalk state updated to d_2
+2016-05-30 15:07:20 - askUpdate received command foobar
+2016-05-30 15:07:20 - HitHandlerData received command hello=9:9
+
+2016-05-30 15:07:20 - VibratoTalk state updated to d_2
+2016-05-30 15:07:31 - VibratoListener received command c_2_7_7
+2016-05-30 15:07:31 - VibratoTalk received command c_2
+2016-05-30 15:07:31 - VibratoTalk state updated to c_2
+2016-05-30 15:07:31 - askUpdate received command foobar
+2016-05-30 15:07:31 - HitHandlerData received command hello=9:9
+2=7:7
+
+2016-05-30 15:07:31 - VibratoTalk state updated to c_2
+2016-05-30 15:07:40 - VibratoListener received command c_7_7_7
+2016-05-30 15:07:40 - VibratoTalk received command c_7
+2016-05-30 15:07:40 - VibratoTalk state updated to c_7
+2016-05-30 15:07:40 - askUpdate received command foobar
+2016-05-30 15:07:40 - HitHandlerData received command hello=9:9
+2=7:7
+7=7:7
+
+2016-05-30 15:07:40 - VibratoTalk state updated to c_7
+2016-05-30 15:07:45 - VibratoListener received command d_7
+2016-05-30 15:07:45 - VibratoTalk received command d_7
+2016-05-30 15:07:45 - VibratoTalk state updated to d_7
+2016-05-30 15:07:45 - askUpdate received command foobar
+2016-05-30 15:07:45 - HitHandlerData received command hello=9:9
+2=7:7
+
+2016-05-30 15:07:46 - VibratoTalk state updated to d_7
+2016-05-30 15:07:52 - VibratoListener received command d_2
+2016-05-30 15:07:52 - VibratoTalk received command d_2
+2016-05-30 15:07:52 - VibratoTalk state updated to d_2
+2016-05-30 15:07:52 - askUpdate received command foobar
+2016-05-30 15:07:52 - HitHandlerData received command hello=9:9
+
+2016-05-30 15:07:52 - VibratoTalk state updated to d_2
+2016-05-30 15:07:58 - VibratoListener received command d_hello
+2016-05-30 15:07:58 - VibratoTalk received command d_hello
+2016-05-30 15:07:58 - VibratoTalk state updated to d_hello
+2016-05-30 15:07:58 - askUpdate received command foobar
+2016-05-30 15:07:58 - HitHandlerData received command 
+2016-05-30 15:07:59 - VibratoTalk state updated to d_hello
+2016-05-30 15:33:18 - HitHandlerData received command 

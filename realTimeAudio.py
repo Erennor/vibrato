@@ -40,6 +40,7 @@ def plotSomething():
     # Handle openHab listener
     # treat possible commands
     if listener.hasCommand:
+        print_debug("listener has command")
         handler.handle_cmd(listener.availableData)
         listener.availableData = ""
         listener.hasCommand = False
@@ -95,15 +96,13 @@ def plotSomething():
             curWait += 1
         else:
             if handler.learn:
-                print_debug('coup ' + str(absCpt))
                 ml.learn(datas,handler.recordLabel)
-                print_debug("coup enregistre sous l'identifiant " + str(handler.recordLabel))
+                print_debug("coup " + str(absCpt) + " enregistre sous l'identifiant " + handler.recordLabel)
                 handler.learn = False
             else:
-                id = ml.guessing(datas)
-                if(id != -1):
-                    print_debug("coup " + str(id) + " detected, gg!")
-                    handler.handle_hit(id)
+                hitId = ml.guessing(datas)
+                if(hitId != "-1"):
+                    handler.handle_hit(hitId)
             curWait = 0
             ct = 0
             datas = []

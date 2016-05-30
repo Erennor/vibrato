@@ -18,13 +18,14 @@ class MachineLearning:
         """
         from one hit data, return the label of the most look-alike hit from the database
         """            
+        if len(self.ls['samples']) > 1:
+            self.clf.fit(self.ls['samples'],np.arange(len(self.ls['labels'])))
         if len(self.ls['samples']) == 1:
             return self.ls['labels'][0]
         if len(self.ls['samples']) == 0:
             print_debug("Aucune action faite car bibliotheque de coup vide")
-            # todo : do nothing
-            return 0
-        return self.clf.predict(self.format(data).reshape(1, -1))[0]
+            return "-1"
+        return self.ls['labels'][self.clf.predict(self.format(data).reshape(1, -1))[0]]
 
     def __init__(self,ls):
         """Initialize shelves and algorithm"""
@@ -33,23 +34,21 @@ class MachineLearning:
         if not self.ls.has_key('samples'):
             self.ls['samples'] = []
             self.ls['labels'] = []
-        if not self.ls.has_key('links'):
-            self.ls['links'] = dict()
         if len(self.ls['samples']) != len(self.ls['labels']):
             print_debug("erreur : database malforme")
         if len(self.ls['samples']) > 1:
-            self.clf.fit(self.ls['samples'],self.ls['labels'])
-        print('DEBUG: nb samples audio: ' + str(len(self.ls['samples'])))
+            self.clf.fit(self.ls['samples'],np.arange(len(self.ls['labels'])))
 
-    def learn(self, data, id):
-        if id in self.ls['labels']:
-            index = self.ls['labels'].index(id)
+    def learn(self, data, hitId):
+        """
+            associate id to sample data in the database
+        """
+        if hitId in self.ls['labels']:
+            index = self.ls['labels'].index(hitId)
             self.ls['samples'][index] = self.format(data)
         else:
             self.ls['samples'].append(self.format(data))
-            self.ls['labels'].append(id)
-        if len(self.ls['samples']) > 1:
-            self.clf.fit(self.ls['samples'],self.ls['labels'])
+            self.ls['labels'].append(hitId)
 
 
 

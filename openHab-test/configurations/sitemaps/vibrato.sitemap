@@ -4,4 +4,7 @@ sitemap vibrato label="vibrato House test"
 		Switch item=Vibrato
 		Text item=VibratoListener
 	}
+	Frame label="bedroom" {
+		Switch item=BEDROOM_LIGHT1
+	}
 }

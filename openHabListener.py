@@ -43,6 +43,7 @@ class Listener:
 
                     if data:
                         print >>sys.stderr, 'sending data back to the client'
+                        self.hasCommand = True
                         connection.sendall(data)
                     else:
                         print >>sys.stderr, 'no more data from', client_address

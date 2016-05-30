@@ -3,25 +3,67 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import socket.*
 
+import java.io.*
+import java.nio.file.Path
+import java.nio.file.Paths
+import java.util.*
+import com.google.common.io.CharStreams.*
+// Used to handle request from android
+/** request should be either:
+ * c_id_item_itemRule -> link hit labeled by id to applying itemRule ( ON OFF SWITCH) to item
+ * d_id -> delete id
+ */
 rule "Vibrato request"
 	when
 		Item VibratoListener received command
 	then
-		logInfo("rule vibrato","DEBUGGGGG: vibratoListener a reçu " + receivedCommand)
 		if(receivedCommand == "OFF"){
-			logInfo("rule vibrato","vibrato set OFF")
 			postUpdate(Vibrato,OFF)}
 		else if(receivedCommand == "ON"){
-			logInfo("rule vibrato","vibrato set ON")
 			postUpdate(Vibrato,ON)}
 		else if(Vibrato.state == ON){
 			logInfo("rule vibrato","vibrato: command " + receivedCommand +" received")	
-			sendCommand("VibratoTalk",receivedCommand.toString())
+			val String[] cmd = receivedCommand.toString().splitByWholeSeparator("_")
+			val String filename = "configurations/transform/hiHandler.map";
+			val reader = new BufferedReader(new FileReader(filename))
+			var String currentLine = reader.readLine()
+			val lines = new LinkedList<String>()
+			while(currentLine != null){
+				//remove precedent occurence of id
+				lines.add(currentLine)
+
+				currentLine = reader.readLine()
 			}
+			reader.close()
+			if(cmd.get(0).equals("c") || cmd.get(0).equals("d")){
+				val id = cmd.get(1)
+				val FileWriter fileWriter = new FileWriter(filename)
+				val BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+				for(line : lines){
+					//deleting previous version of id
+					if (!line.splitByWholeSeparator("=").get(0).equals(id)){
+						bufferedWriter.write(line+"\n")
+					}
+				}
+				if(cmd.get(0).equals("c")){
+					bufferedWriter.write(cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3))
+					//TODO: send command to vibrato talk to listen a new hit
+					sendCommand("VibratoTalk","c_"+id)
+				}else{
+					sendCommand("VibratoTalk","d_"+id)
+				}
+				bufferedWriter.close()
+				sendCommand(askUpdate,"foobar")
+			}
+			else{
+				logInfo("vibratoListener","Error, command "+ receivedCommand + "not recognized")
+			}
+			//sendCommand("VibratoTalk",receivedCommand.toString())
+		}
 		else
 			logInfo("rule vibrato","vibrato: command " + receivedCommand +" received but not treated: Vibrato off")	
 end
-
+// log info
 rule "Vibrato status updater"
 	when 
 		Item Vibrato received command
@@ -29,18 +71,61 @@ rule "Vibrato status updater"
 		logInfo("rule vibrato","vibrato a reçu " + receivedCommand)
 end
 
-
+//used to handle hit received by vibrato
+//transformation file should be something like [ITEM:[ON|OFF|SWITCH|OTHERS]]*
 rule "hit treatment"
 	when 
 		Item scriptListener received command
 	then
-	 	logIngo("scriptListener a recu une commande " + receivedCommand)
+	 	logInfo("scriptListener","scriptListener a recu une commande " + receivedCommand)
 
-		var String cmd = transform("MAP","hiHandler.map",receivedCommand)
+		var String cmd = transform("MAP","hiHandler.map",receivedCommand.toString())
 		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
-		var String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
-		// switch(cmdStateRule)
-		case "SWITCH")
-
-		sendCommand(cmdStateRule, cmdItem)
+		val String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
+		logInfo("scriptListener","commande traduite en tant que " + cmdStateRule + " ->" + cmdItem)
+		switch(cmdStateRule){
+			case "SWITCH": {
+				val item = All.allMembers.findFirst(i | cmdItem.equals(i.name))
+				switch(item.state){
+					case ON:{
+						sendCommand(cmdItem,"OFF")
+					}
+					case OFF:{
+						sendCommand(cmdItem,"ON")
+					}
+					default :{
+						logInfo("scriptListener","Erreur, switch appliqué à un item non-switch")
+					}
+				}
+			}
+			default: {
+				sendCommand(cmdItem,cmdStateRule)
+			}
+		}
 end
+
+rule "keep hitHandlerData up to date"
+	when
+		 System started or
+		 Item askUpdate received command	 
+	then
+		val String filename = "configurations/transform/hiHandler.map"
+		val reader = new BufferedReader(new FileReader(filename))
+		var String currentLine = reader.readLine()
+		var lines = ""
+		while(currentLine != null){
+			lines = lines + currentLine + "\n"
+			currentLine = reader.readLine()
+		}
+		sendCommand(HitHandlerData,lines)
+		reader.close()
+end	 
+		 
+
+
+
+
+
+
+
+

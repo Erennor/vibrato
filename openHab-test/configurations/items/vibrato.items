@@ -1,5 +1,15 @@
+Group All
+
 Switch Vibrato "Vibrato [%s]" (All)// { tcp=">[ON:127.0.0.1:5005:'MAP(vibrato.map)'],>[OFF:127.0.0.1:5005:'MAP(vibrato.map)']" } 
 
 String VibratoListener "status" 
 
 String VibratoTalk "talker" { tcp=">[127.0.0.1:5005:'REGEX(.*)']" } 
+
+String scriptListener "Script listener"
+
+Switch BEDROOM_LIGHT1 "bedroom light" (All)
+
+String HitHandlerData "handle list of hits and associated item rules"(All)
+
+String askUpdate "assert every file related item is correctly udpated"
