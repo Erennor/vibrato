@@ -3,3 +3,10 @@ Put any file containing item definitions here. They will be activated automatica
 Note: Item definition files must have the extension '*.items'
 
 Demo-files can be obtained from the archive 'distribution-demo-*.zip'.
+
+vibratoList contains the list of all items available for vibrato remote control
+
+ITEM_ID:Item_talkative_name:(State1,State2,...)
+ex:
+BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)

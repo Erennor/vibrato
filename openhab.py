@@ -1,4 +1,5 @@
 import requests
+import base64
 class OpenHab:
 
     def __init__(self):      
@@ -58,11 +59,11 @@ class OpenHab:
 
     def basic_header(self):
         """ Header for OpenHAB REST request - standard """
-        self.auth = base64.encodestring('%s:%s'
+        """self.auth = base64.encodestring('%s:%s'
                            %(self.username, self.password)
-                           ).replace('\n', '')
+                           ).replace('\n', '')"""
         return {
-                "Authorization" : "Basic %s" %self.auth,
+                #"Authorization" : "Basic %s" %self.auth,
                 "Content-type": "text/plain"}
 
 
