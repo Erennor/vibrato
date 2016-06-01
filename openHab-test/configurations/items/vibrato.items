@@ -12,4 +12,10 @@ Switch BEDROOM_LIGHT1 "bedroom light" (All)
 
 String HitHandlerData "handle list of hits and associated item rules"(All)
 
+String VibratoAccessibleItems "keep track of the available items for vibrato remote access" (All) 
+
 String askUpdate "assert every file related item is correctly udpated"
+
+String readFile "read target file"
+
+String writeFile "read target file"

@@ -1,7 +1,7 @@
 from debug import print_debug
 from subprocess import call
 import shelve
-import openhab
+from openhab import *
 class Handler:
     """database controller, also handle commands"""
     def __init__(self, microInput,ls):
@@ -10,10 +10,12 @@ class Handler:
         self.ls = ls
         self.recordLabel = 42
         self.microInput = microInput
+        self.openHab = OpenHab()
 
     def handle_hit(self, hitId):
         print_debug("handle hit " + hitId)
         # openhab.post_command(scriptListener,hitId)
+        self.openHab.post_command("scriptListener",hitId)
         # TODO : send hit data back to openHab
 
     def learn_hit(self,hitId):

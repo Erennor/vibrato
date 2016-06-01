@@ -24,36 +24,24 @@ rule "Vibrato request"
 		else if(Vibrato.state == ON){
 			logInfo("rule vibrato","vibrato: command " + receivedCommand +" received")	
 			val String[] cmd = receivedCommand.toString().splitByWholeSeparator("_")
-			val String filename = "configurations/transform/hiHandler.map";
-			val reader = new BufferedReader(new FileReader(filename))
-			var String currentLine = reader.readLine()
-			val lines = new LinkedList<String>()
-			while(currentLine != null){
-				//remove precedent occurence of id
-				lines.add(currentLine)
 
-				currentLine = reader.readLine()
-			}
-			reader.close()
 			if(cmd.get(0).equals("c") || cmd.get(0).equals("d")){
 				val id = cmd.get(1)
-				val FileWriter fileWriter = new FileWriter(filename)
-				val BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+				val lines = HitHandlerData.toString.splitByWholeSeparator("\n")
+				var String newLines = ""
+				//deleting previous version of id
 				for(line : lines){
-					//deleting previous version of id
 					if (!line.splitByWholeSeparator("=").get(0).equals(id)){
-						bufferedWriter.write(line+"\n")
+						newLines = newLines + line +"\n"
 					}
 				}
 				if(cmd.get(0).equals("c")){
-					bufferedWriter.write(cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3))
-					//TODO: send command to vibrato talk to listen a new hit
+					newLines = newLines + "\n" + cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3)
 					sendCommand("VibratoTalk","c_"+id)
 				}else{
 					sendCommand("VibratoTalk","d_"+id)
 				}
-				bufferedWriter.close()
-				sendCommand(askUpdate,"foobar")
+				sendCommand(writeFile,"configurations/transform/hiHandler.map|" + newLines)
 			}
 			else{
 				logInfo("vibratoListener","Error, command "+ receivedCommand + "not recognized")
@@ -72,7 +60,7 @@ rule "Vibrato status updater"
 end
 
 //used to handle hit received by vibrato
-//transformation file should be something like [ITEM:[ON|OFF|SWITCH|OTHERS]]*
+//transformation file should be somethi ng like [ITEM:[ON|OFF|SWITCH|OTHERS]]*
 rule "hit treatment"
 	when 
 		Item scriptListener received command
@@ -82,7 +70,7 @@ rule "hit treatment"
 		var String cmd = transform("MAP","hiHandler.map",receivedCommand.toString())
 		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
 		val String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
-		logInfo("scriptListener","commande traduite en tant que " + cmdStateRule + " ->" + cmdItem)
+		logInfo("scriptListener","commande traduite en tant que " + cmdStateRule + " -> " + cmdItem)
 		switch(cmdStateRule){
 			case "SWITCH": {
 				val item = All.allMembers.findFirst(i | cmdItem.equals(i.name))
@@ -109,18 +97,62 @@ rule "keep hitHandlerData up to date"
 		 System started or
 		 Item askUpdate received command	 
 	then
-		val String filename = "configurations/transform/hiHandler.map"
-		val reader = new BufferedReader(new FileReader(filename))
+		var reader = new BufferedReader(new FileReader("configurations/transform/hiHandler.map"))
 		var String currentLine = reader.readLine()
-		var lines = ""
+		var String lines = ""
 		while(currentLine != null){
+			//remove precedent occurence of id
 			lines = lines + currentLine + "\n"
 			currentLine = reader.readLine()
 		}
-		sendCommand(HitHandlerData,lines)
 		reader.close()
+		postUpdate(HitHandlerData,lines)
+		
+		reader = new BufferedReader(new FileReader("configurations/items/vibratoList"))
+		currentLine = reader.readLine()
+		lines = ""
+		while(currentLine != null){
+			//remove precedent occurence of id
+			lines = lines + currentLine + "\n"
+			currentLine = reader.readLine()
+		}
+		reader.close()
+		postUpdate(VibratoAccessibleItems,lines)
 end	 
-		 
+	/**	 
+rule " file reader"
+	when 
+		Item readFile received command
+	then
+		val reader = new BufferedReader(new FileReader(receivedCommand.toString))
+		var String currentLine = reader.readLine()
+		var String lines = ""
+		while(currentLine != null){
+			//remove precedent occurence of id
+			lines = lines + currentLine + "\n"
+			currentLine = reader.readLine()
+		}
+		reader.close()
+		postUpdate(readFile,lines)
+end **/
+
+rule " file writer"
+	when 
+		Item writeFile received command
+	then
+		val parsedCmd = receivedCommand.toString.splitByWholeSeparator("|")
+		val writer = new BufferedWriter(new FileWriter(parsedCmd.get(0)))
+		writer.write(parsedCmd.get(1))
+		writer.close()
+		sendCommand(askUpdate,"toto")
+end
+
+
+
+
+
+
+
 
 
 

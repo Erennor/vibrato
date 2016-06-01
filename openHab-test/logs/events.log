@@ -358,3 +358,479 @@ hello=9:9
 2016-05-30 15:07:58 - HitHandlerData received command 
 2016-05-30 15:07:59 - VibratoTalk state updated to d_hello
 2016-05-30 15:33:18 - HitHandlerData received command 
+2016-05-30 16:34:57 - HitHandlerData received command 
+2016-05-30 17:05:18 - HitHandlerData received command 
+2016-05-30 17:07:08 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+
+2016-05-30 17:08:18 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+
+2016-05-30 17:08:28 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+
+2016-05-30 17:08:39 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+
+2016-05-30 17:08:59 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+
+2016-05-30 17:12:47 - VibratoListener received command c_1_1_1
+2016-05-30 17:12:55 - VibratoListener received command ON
+2016-05-30 17:12:55 - Vibrato state updated to ON
+2016-05-30 17:13:01 - VibratoListener received command c_1_1_1
+2016-05-30 17:13:01 - VibratoTalk state updated to c_1
+2016-05-30 17:13:01 - VibratoTalk received command c_1
+2016-05-30 17:13:01 - askUpdate received command foobar
+2016-05-30 17:13:01 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+
+2016-05-30 17:13:02 - VibratoTalk state updated to c_1
+2016-05-30 17:13:02 - VibratoTalk state updated to c_1
+2016-05-30 17:13:02 - VibratoTalk state updated to c_1
+2016-05-30 17:21:50 - scriptListener received command 1
+2016-05-30 17:21:52 - scriptListener received command 1
+2016-05-30 17:21:53 - scriptListener received command 1
+2016-05-30 17:21:55 - scriptListener received command 1
+2016-05-30 17:21:57 - scriptListener received command 1
+2016-05-30 17:21:59 - scriptListener received command 1
+2016-05-30 17:22:01 - scriptListener received command 1
+2016-05-30 17:22:02 - scriptListener received command 1
+2016-05-30 17:22:04 - scriptListener received command 1
+2016-05-30 17:22:06 - scriptListener received command 1
+2016-05-30 17:35:19 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+
+2016-05-30 17:35:19 - VibratoAccessibleItems received command BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 17:35:26 - scriptListener received command 1
+2016-05-30 17:35:28 - scriptListener received command 1
+2016-05-30 17:35:30 - scriptListener received command 1
+2016-05-30 17:35:32 - scriptListener received command 1
+2016-05-30 17:35:33 - scriptListener received command 1
+2016-05-30 17:35:35 - scriptListener received command 1
+2016-05-30 17:35:37 - scriptListener received command 1
+2016-05-30 17:35:39 - scriptListener received command 1
+2016-05-30 17:35:40 - VibratoListener received command c_2_2_2
+2016-05-30 17:35:40 - VibratoTalk state updated to c_2
+2016-05-30 17:35:40 - VibratoTalk received command c_2
+2016-05-30 17:35:40 - askUpdate received command foobar
+2016-05-30 17:35:40 - HitHandlerData received command frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 17:35:40 - VibratoAccessibleItems received command BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 17:35:40 - VibratoTalk state updated to c_2
+2016-05-30 17:35:40 - VibratoTalk state updated to c_2
+2016-05-30 17:35:40 - VibratoTalk state updated to c_2
+2016-05-30 17:35:42 - scriptListener received command 2
+2016-05-30 17:35:44 - scriptListener received command 2
+2016-05-30 17:35:46 - scriptListener received command 2
+2016-05-30 17:35:48 - scriptListener received command 2
+2016-05-30 17:35:50 - scriptListener received command 2
+2016-05-30 17:35:52 - scriptListener received command 2
+2016-05-30 17:35:53 - scriptListener received command 2
+2016-05-30 17:35:55 - scriptListener received command 2
+2016-05-30 17:35:57 - scriptListener received command 2
+2016-05-30 17:35:59 - scriptListener received command 2
+2016-05-30 17:36:01 - scriptListener received command 2
+2016-05-30 17:36:03 - scriptListener received command 2
+2016-05-30 17:36:04 - scriptListener received command 2
+2016-05-30 17:36:06 - scriptListener received command 2
+2016-05-30 17:36:08 - scriptListener received command 2
+2016-05-30 17:58:53 - scriptListener received command 1
+2016-05-30 17:58:53 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 17:58:53 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 17:58:53 - readFile received command configurations/items/vibratoList
+2016-05-30 17:58:53 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 17:58:54 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON|1=1:1|2=2:2|
+2016-05-30 17:58:54 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)|KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)|
+2016-05-30 17:58:55 - scriptListener received command 2
+2016-05-30 17:58:58 - scriptListener received command 2
+2016-05-30 17:59:00 - scriptListener received command 1
+2016-05-30 17:59:03 - scriptListener received command 1
+2016-05-30 17:59:05 - scriptListener received command 2
+2016-05-30 17:59:07 - scriptListener received command 1
+2016-05-30 17:59:10 - scriptListener received command 1
+2016-05-30 17:59:12 - scriptListener received command 2
+2016-05-30 17:59:15 - scriptListener received command 2
+2016-05-30 17:59:17 - scriptListener received command 1
+2016-05-30 17:59:20 - scriptListener received command 1
+2016-05-30 17:59:22 - scriptListener received command 1
+2016-05-30 17:59:25 - scriptListener received command 1
+2016-05-30 17:59:27 - scriptListener received command 2
+2016-05-30 17:59:30 - scriptListener received command 2
+2016-05-30 17:59:32 - scriptListener received command 1
+2016-05-30 17:59:34 - VibratoListener received command c_3_3_3
+2016-05-30 17:59:35 - scriptListener received command 1
+2016-05-30 17:59:37 - scriptListener received command 1
+2016-05-30 17:59:39 - scriptListener received command 2
+2016-05-30 17:59:42 - scriptListener received command 1
+2016-05-30 17:59:44 - scriptListener received command 2
+2016-05-30 17:59:46 - VibratoListener received command ON
+2016-05-30 17:59:46 - Vibrato state updated to ON
+2016-05-30 17:59:47 - scriptListener received command 2
+2016-05-30 17:59:49 - scriptListener received command 2
+2016-05-30 17:59:51 - scriptListener received command 2
+2016-05-30 17:59:54 - scriptListener received command 2
+2016-05-30 17:59:56 - scriptListener received command 2
+2016-05-30 17:59:56 - VibratoListener received command c_3_3_3
+2016-05-30 17:59:59 - scriptListener received command 2
+2016-05-30 18:00:01 - scriptListener received command 2
+2016-05-30 18:00:04 - scriptListener received command 2
+2016-05-30 18:00:06 - scriptListener received command 2
+2016-05-30 18:02:14 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:02:14 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:02:14 - readFile received command configurations/items/vibratoList
+2016-05-30 18:02:14 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:02:14 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)|KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)|
+2016-05-30 18:02:14 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON|1=1:1|2=2:2|
+2016-05-30 18:02:34 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:02:34 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:02:34 - readFile received command configurations/items/vibratoList
+2016-05-30 18:02:34 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:02:34 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:02:34 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:02:44 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:02:44 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:02:44 - readFile received command configurations/items/vibratoList
+2016-05-30 18:02:44 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:02:44 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:02:44 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:03:44 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:03:44 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:03:44 - readFile received command configurations/items/vibratoList
+2016-05-30 18:03:44 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:03:44 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:03:44 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:03:54 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:03:54 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:03:54 - readFile received command configurations/items/vibratoList
+2016-05-30 18:03:54 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:03:54 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:03:54 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:04:04 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:04:05 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:04:05 - readFile received command configurations/items/vibratoList
+2016-05-30 18:04:05 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:04:05 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:04:05 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:04:45 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:04:45 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:04:45 - readFile received command configurations/items/vibratoList
+2016-05-30 18:04:45 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:04:45 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:04:45 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:06:25 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:06:25 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:06:25 - readFile received command configurations/items/vibratoList
+2016-05-30 18:06:25 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:06:25 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:06:25 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:06:45 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:06:45 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:06:45 - readFile received command configurations/items/vibratoList
+2016-05-30 18:06:45 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:06:45 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:06:45 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:07:25 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:07:25 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:07:25 - readFile received command configurations/items/vibratoList
+2016-05-30 18:07:25 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:07:25 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:07:25 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:21:55 - scriptListener received command 2
+2016-05-30 18:21:57 - scriptListener received command 2
+2016-05-30 18:22:00 - scriptListener received command 2
+2016-05-30 18:22:02 - scriptListener received command 1
+2016-05-30 18:22:05 - scriptListener received command 2
+2016-05-30 18:22:07 - scriptListener received command 2
+2016-05-30 18:22:09 - scriptListener received command 2
+2016-05-30 18:22:11 - scriptListener received command 2
+2016-05-30 18:22:15 - scriptListener received command 2
+2016-05-30 18:22:17 - scriptListener received command 2
+2016-05-30 18:22:19 - scriptListener received command 2
+2016-05-30 18:22:23 - scriptListener received command 2
+2016-05-30 18:22:30 - scriptListener received command 2
+2016-05-30 18:23:22 - scriptListener received command 1
+2016-05-30 18:23:24 - scriptListener received command 1
+2016-05-30 18:23:25 - scriptListener received command 1
+2016-05-30 18:33:04 - scriptListener received command 2
+2016-05-30 18:33:06 - scriptListener received command 2
+2016-05-30 18:33:09 - scriptListener received command 2
+2016-05-30 18:33:11 - scriptListener received command 2
+2016-05-30 18:33:18 - scriptListener received command 2
+2016-05-30 18:33:22 - scriptListener received command 1
+2016-05-30 18:33:26 - scriptListener received command 1
+2016-05-30 18:33:28 - scriptListener received command 2
+2016-05-30 18:33:30 - scriptListener received command 2
+2016-05-30 18:33:35 - scriptListener received command 2
+2016-05-30 18:33:39 - scriptListener received command 2
+2016-05-30 18:35:35 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:35:35 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:35:35 - readFile received command configurations/items/vibratoList
+2016-05-30 18:35:35 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:35:35 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:35:35 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:36:25 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:36:25 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:36:25 - readFile received command configurations/items/vibratoList
+2016-05-30 18:36:25 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:36:25 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:36:25 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:36:45 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:36:45 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:36:45 - readFile received command configurations/items/vibratoList
+2016-05-30 18:36:45 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:36:46 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:36:46 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:37:42 - VibratoListener received command ON
+2016-05-30 18:37:42 - Vibrato state updated to ON
+2016-05-30 18:37:48 - VibratoListener received command c_4_4_4
+2016-05-30 18:37:48 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:37:48 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:37:48 - VibratoTalk received command c_4
+2016-05-30 18:37:48 - VibratoTalk state updated to c_4
+2016-05-30 18:37:48 - writeFile received command configurations/transform/hiHandler.map|readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+
+4=4:4
+2016-05-30 18:37:48 - askUpdate received command foobar
+2016-05-30 18:37:48 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:37:48 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:37:48 - readFile received command configurations/items/vibratoList
+2016-05-30 18:37:48 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:37:48 - readFile state updated to frappeLongue=LIGTHBEDROOM:ON
+1=1:1
+2=2:2
+
+2016-05-30 18:37:48 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:38:35 - VibratoListener received command 988
+2016-05-30 18:38:43 - VibratoListener received command c_9_9_9
+2016-05-30 18:38:43 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:38:43 - readFile state updated to 
+2016-05-30 18:38:43 - VibratoTalk received command c_9
+2016-05-30 18:38:43 - VibratoTalk state updated to c_9
+2016-05-30 18:38:43 - writeFile received command configurations/transform/hiHandler.map|readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+
+9=9:9
+2016-05-30 18:38:43 - askUpdate received command foobar
+2016-05-30 18:38:43 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:38:43 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:38:43 - readFile state updated to 
+2016-05-30 18:38:43 - readFile received command configurations/items/vibratoList
+2016-05-30 18:38:43 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:38:43 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:40:26 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:40:26 - HitHandlerData received command readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+2016-05-30 18:40:26 - readFile received command configurations/items/vibratoList
+2016-05-30 18:40:26 - VibratoAccessibleItems received command readFile (Type=StringItem, State=configurations/items/vibratoList)
+2016-05-30 18:40:26 - readFile state updated to 
+2016-05-30 18:40:26 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:40:36 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:40:36 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:40:36 - readFile received command configurations/items/vibratoList
+2016-05-30 18:40:36 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:40:36 - readFile state updated to 
+2016-05-30 18:40:36 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:48:16 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:48:16 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:48:16 - readFile received command configurations/items/vibratoList
+2016-05-30 18:48:16 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:48:16 - readFile state updated to 
+2016-05-30 18:48:16 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:48:59 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:48:59 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:48:59 - readFile received command configurations/items/vibratoList
+2016-05-30 18:48:59 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:48:59 - readFile state updated to 
+2016-05-30 18:48:59 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:51:59 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:51:59 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:51:59 - readFile received command configurations/items/vibratoList
+2016-05-30 18:51:59 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:51:59 - readFile state updated to 
+2016-05-30 18:51:59 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:52:49 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:52:49 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:52:49 - readFile received command configurations/items/vibratoList
+2016-05-30 18:52:49 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:52:50 - readFile state updated to 
+2016-05-30 18:52:50 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:53:30 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:53:30 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:53:30 - readFile received command configurations/items/vibratoList
+2016-05-30 18:53:30 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:53:31 - readFile state updated to 
+2016-05-30 18:53:31 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-30 18:57:41 - readFile received command configurations/transform/hiHandler.map
+2016-05-30 18:57:41 - HitHandlerData received command configurations/transform/hiHandler.map
+2016-05-30 18:57:41 - readFile received command configurations/items/vibratoList
+2016-05-30 18:57:41 - VibratoAccessibleItems received command configurations/items/vibratoList
+2016-05-30 18:57:41 - readFile state updated to 
+2016-05-30 18:57:41 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-31 10:06:33 - readFile state updated to configurations/transform/hiHandler.map
+2016-05-31 10:06:33 - readFile state updated to 
+2016-05-31 10:06:33 - HitHandlerData received command 
+2016-05-31 10:06:33 - readFile received command configurations/items/vibratoList
+2016-05-31 10:06:33 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-31 10:06:33 - VibratoAccessibleItems received command BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-31 10:07:24 - VibratoListener received command ON
+2016-05-31 10:07:24 - Vibrato state updated to ON
+2016-05-31 10:07:35 - VibratoListener received command c_1_1_1
+2016-05-31 10:07:35 - readFile received command configurations/transform/hiHandler.map
+2016-05-31 10:07:35 - VibratoTalk received command c_1
+2016-05-31 10:07:35 - VibratoTalk state updated to c_1
+2016-05-31 10:07:35 - writeFile received command configurations/transform/hiHandler.map|readFile (Type=StringItem, State=configurations/transform/hiHandler.map)
+
+1=1:1
+2016-05-31 10:07:35 - askUpdate received command foobar
+2016-05-31 10:07:35 - readFile state updated to configurations/transform/hiHandler.map
+2016-05-31 10:07:35 - readFile state updated to 
+2016-05-31 10:07:35 - HitHandlerData received command 
+2016-05-31 10:07:35 - readFile received command configurations/items/vibratoList
+2016-05-31 10:07:35 - readFile state updated to BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-31 10:07:35 - VibratoAccessibleItems received command BEDROOM_LIGHT3:"wall light":(ON,OFF)
+KITCHEN_STORE2:"south store":(OPEN,CLOSE,HALFWAY)
+
+2016-05-31 10:35:01 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:35:41 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:35:41 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:38:31 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:38:31 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:39:21 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:39:21 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:40:02 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:40:02 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:40:22 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:40:22 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:43:12 - HitHandlerData state updated to 2=2:2
+1=1:1
+
+2016-05-31 10:43:12 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+
+2016-05-31 10:43:43 - scriptListener received command 2
+2016-05-31 10:43:49 - scriptListener received command 1
+2016-05-31 10:43:53 - scriptListener received command 2
+2016-05-31 10:43:56 - scriptListener received command 2
+2016-05-31 10:44:08 - scriptListener received command 2
+2016-05-31 10:44:19 - scriptListener received command 2
+2016-05-31 10:44:21 - scriptListener received command 2
+2016-05-31 10:44:24 - scriptListener received command 2
+2016-05-31 10:44:26 - scriptListener received command 2
+2016-05-31 10:44:29 - scriptListener received command 2
+2016-05-31 10:44:32 - scriptListener received command 2
+2016-05-31 10:44:34 - scriptListener received command 2
+2016-05-31 10:44:37 - scriptListener received command 2
+2016-05-31 10:44:39 - scriptListener received command 2
+2016-05-31 10:44:42 - scriptListener received command 2
+2016-05-31 10:45:20 - scriptListener received command 2
