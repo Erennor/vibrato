@@ -19,3 +19,5 @@ String askUpdate "assert every file related item is correctly udpated"
 String readFile "read target file"
 
 String writeFile "read target file"
+
+Switch ITEMTEST "light test" (All)

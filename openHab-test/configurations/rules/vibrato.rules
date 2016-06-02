@@ -10,8 +10,8 @@ import java.util.*
 import com.google.common.io.CharStreams.*
 // Used to handle request from android
 /** request should be either:
- * c_id_item_itemRule -> link hit labeled by id to applying itemRule ( ON OFF SWITCH) to item
- * d_id -> delete id
+ * c%id%item%itemRule -> link hit labeled by id to applying itemRule ( ON OFF SWITCH) to item
+ * d%id -> delete id
  */
 rule "Vibrato request"
 	when
@@ -21,27 +21,45 @@ rule "Vibrato request"
 			postUpdate(Vibrato,OFF)}
 		else if(receivedCommand == "ON"){
 			postUpdate(Vibrato,ON)}
-		else if(Vibrato.state == ON){
-			logInfo("rule vibrato","vibrato: command " + receivedCommand +" received")	
-			val String[] cmd = receivedCommand.toString().splitByWholeSeparator("_")
-
+		else {//if(Vibrato.state == ON){
+			logInfo("rule Vibrato","vibrato: command " + receivedCommand +" received")	
+			val String[] cmd = receivedCommand.toString().splitByWholeSeparator("%")
 			if(cmd.get(0).equals("c") || cmd.get(0).equals("d")){
-				val id = cmd.get(1)
-				val lines = HitHandlerData.toString.splitByWholeSeparator("\n")
+				val id = cmd.get(1)			
+				val lines = HitHandlerData.state.toString().splitByWholeSeparator("\n")
 				var String newLines = ""
 				//deleting previous version of id
 				for(line : lines){
-					if (!line.splitByWholeSeparator("=").get(0).equals(id)){
+					
+					if (line.splitByWholeSeparator("=").size()!= 0 && !line.splitByWholeSeparator("=").get(0).equals(id)){
 						newLines = newLines + line +"\n"
 					}
 				}
 				if(cmd.get(0).equals("c")){
-					newLines = newLines + "\n" + cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3)
-					sendCommand("VibratoTalk","c_"+id)
+					//assert that id belongs to vibratoList
+					val String item = VibratoAccessibleItems.state.toString().splitByWholeSeparator("\n").findFirst(
+						i | (i.splitByWholeSeparator(":").size != 0 && i.splitByWholeSeparator(":").get(0).equals(cmd.get(2))))
+					if(item == null){
+						logInfo("Erreur","item " + cmd.get(2) + " ne correspond pas à un item valable")
+					}	
+					logInfo(item,item)
+					//asserting item is accessible and command is correct thanks to VibratoList
+					logInfo("parsing",cmd.get(1) +" with " + item.toString())
+					val String itemId = item.splitByWholeSeparator(":").get(0)
+					val itemAction = item.splitByWholeSeparator(":").get(2).splitByWholeSeparator(",")
+					if(!itemId.equals(cmd.get(2))){
+						logInfo("Error",cmd.get(2) + "isn't an available item for vibrato applications")
+					}else if(!itemAction.contains(cmd.get(3))){
+						logInfo("Error",cmd.get(3) + " not an available state for item " + cmd.get(2))
+					}else{
+						logInfo("success","success!")
+						newLines = newLines + "\n" + cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3)
+						sendCommand("VibratoTalk","c_"+id)
+					}
 				}else{
 					sendCommand("VibratoTalk","d_"+id)
 				}
-				sendCommand(writeFile,"configurations/transform/hiHandler.map|" + newLines)
+				sendCommand(writeFile,"configurations/transform/hitHandler.map|" + newLines)
 			}
 			else{
 				logInfo("vibratoListener","Error, command "+ receivedCommand + "not recognized")
@@ -67,7 +85,7 @@ rule "hit treatment"
 	then
 	 	logInfo("scriptListener","scriptListener a recu une commande " + receivedCommand)
 
-		var String cmd = transform("MAP","hiHandler.map",receivedCommand.toString())
+		var String cmd = transform("MAP","hitHandler.map",receivedCommand.toString())
 		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
 		val String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
 		logInfo("scriptListener","commande traduite en tant que " + cmdStateRule + " -> " + cmdItem)
@@ -92,16 +110,16 @@ rule "hit treatment"
 		}
 end
 
-rule "keep hitHandlerData up to date"
+rule "keep hitHandlerData up to date" 
 	when
 		 System started or
 		 Item askUpdate received command	 
 	then
-		var reader = new BufferedReader(new FileReader("configurations/transform/hiHandler.map"))
+		var reader = new BufferedReader(new FileReader("configurations/transform/hitHandler.map"))
 		var String currentLine = reader.readLine()
 		var String lines = ""
 		while(currentLine != null){
-			//remove precedent occurence of id
+			//remove precedent occurence of id 
 			lines = lines + currentLine + "\n"
 			currentLine = reader.readLine()
 		}
@@ -141,8 +159,13 @@ rule " file writer"
 		Item writeFile received command
 	then
 		val parsedCmd = receivedCommand.toString.splitByWholeSeparator("|")
+		logInfo("args",parsedCmd.get(0) + " and " + parsedCmd.get(1))
+		val lines = parsedCmd.get(1).splitByWholeSeparator("\n")
 		val writer = new BufferedWriter(new FileWriter(parsedCmd.get(0)))
-		writer.write(parsedCmd.get(1))
+		for(line : lines){
+			logInfo("lolllll", line)
+			writer.write(line + "\n")
+		}
 		writer.close()
 		sendCommand(askUpdate,"toto")
 end
