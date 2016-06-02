@@ -1,26 +1,16 @@
 import binascii
 import struct
 import numpy as np
-from bluepy.btle import UUID, Peripheral
+import bluepy.btle as btle
+from bluepy.btle import UUID, Peripheral, DefaultDelegate
 
-rx_uuid = UUID(0x2221)
-sample_size = 128
-fft = np.arange(0, 2*sample_size)
+# delegate class thant handles notifications
+class MyDelegate(DefaultDelegate):
+    def __init__(self):
+        DefaultDelegate.__init__(self)
 
-# p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
-
-try:
-    ch = p.getCharacteristics(uuid=rx_uuid)[0]
-    if (ch.supportsRead()):
-        print "Connected..."
-        while 1:
-            p.waitForNotifications(1)  # 1 semaine d'attente
-            p.waitForNotifications(1)  # 1 semaine d'attente
-            p.waitForNotifications(604800)  # 1 semaine d'attente
-            print "Notification received..."
-
-            fft_input = binascii.b2a_hex(ch.read())
+    def handleNotification(self, cHandle, data):
+            fft_input = binascii.b2a_hex(data)
             fft_input = binascii.unhexlify(fft_input)
 
             longueur = len(fft_input)
@@ -82,6 +72,31 @@ try:
 
             fft[indice3] = valReelle3
             fft[indice3 + 1] = valIm3
+            
+
+rx_uuid = UUID(0x2221)
+sample_size = 128
+fft = np.arange(0, 2*sample_size)
+
+p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
+p.withDelegate(MyDelegate())
+#p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
+
+print "Connected..."
+
+try:
+    p.getServices()
+    ch = p.getCharacteristics(uuid=rx_uuid)[0]
+    print ("notify characteristic with uuid 0x" + rx_uuid.getCommonName())
+    cccid = AssignedNumbers.client_characteristic_configuration
+    # Ox000F : handle of Client Characteristic Configuration descriptor Rx - (generic uuid 0x2902)
+    p.writeCharacteristic( 0x000F , struct.pack('<bb', 0x01, 0x00), False)
+
+    if (ch.supportsRead()):
+        while 1:
+            p.waitForNotifications(604800)  # 1 semaine d'attente
+            # handleNotification() was called
+            continue
 
 finally:
     p.disconnect()
