@@ -7,16 +7,14 @@ rx_uuid = UUID(0x2221)
 sample_size = 128
 fft = np.arange(0, 2*sample_size)
 
-# p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
+p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
+# p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
 
 try:
     ch = p.getCharacteristics(uuid=rx_uuid)[0]
     if (ch.supportsRead()):
         print "Connected..."
         while 1:
-            p.waitForNotifications(1)  # 1 semaine d'attente
-            p.waitForNotifications(1)  # 1 semaine d'attente
             p.waitForNotifications(604800)  # 1 semaine d'attente
             print "Notification received..."
 
