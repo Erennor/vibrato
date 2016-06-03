@@ -89,7 +89,7 @@ void loop() {
   int j = 0;
   bool envoi = false;
   for (int i = 1; i < SAMPLE_SIZE; i++) {
-    if (cx_out[i].r > 80) {   //valeur empirique
+    if (cx_out[i].r > 300) {   //valeur empirique
 
       blinker.setPixel(0, blinker.packRGB(0, 64, 0));
       blinker.render();
