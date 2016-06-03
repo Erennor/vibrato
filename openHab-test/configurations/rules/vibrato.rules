@@ -25,6 +25,8 @@ rule "Vibrato request"
 			logInfo("rule Vibrato","vibrato: command " + receivedCommand +" received")	
 			val String[] cmd = receivedCommand.toString().splitByWholeSeparator("%")
 			if(cmd.get(0).equals("c") || cmd.get(0).equals("d")){
+				sendCommand(Waiting,ON)
+				sendCommand(WaitCreate,ON)
 				val id = cmd.get(1)			
 				val lines = HitHandlerData.state.toString().splitByWholeSeparator("\n")
 				var String newLines = ""
@@ -54,9 +56,11 @@ rule "Vibrato request"
 					}else{
 						logInfo("success","success!")
 						newLines = newLines + "\n" + cmd.get(1) + "=" + cmd.get(2) + ":" + cmd.get(3)
+
 						sendCommand("VibratoTalk","c_"+id)
 					}
 				}else{
+					sendCommand(Waiting,ON)
 					sendCommand("VibratoTalk","d_"+id)
 				}
 				sendCommand(writeFile,"configurations/transform/hitHandler.map|" + newLines)
@@ -66,8 +70,6 @@ rule "Vibrato request"
 			}
 			//sendCommand("VibratoTalk",receivedCommand.toString())
 		}
-		else
-			logInfo("rule vibrato","vibrato: command " + receivedCommand +" received but not treated: Vibrato off")	
 end
 // log info
 rule "Vibrato status updater"
@@ -83,8 +85,10 @@ rule "hit treatment"
 	when 
 		Item scriptListener received command
 	then
-	 	logInfo("scriptListener","scriptListener a recu une commande " + receivedCommand)
-
+	 	sendCommand(Waiting,OFF)
+	 	if(receivedCommand.toString().equals("%creationComplete")){
+	 		sendCommand(WaitCreate,OFF)
+	 	}
 		var String cmd = transform("MAP","hitHandler.map",receivedCommand.toString())
 		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
 		val String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
@@ -93,6 +97,9 @@ rule "hit treatment"
 			case "SWITCH": {
 				val item = All.allMembers.findFirst(i | cmdItem.equals(i.name))
 				switch(item.state){
+					case Uninitialized:{
+						sendCommand(cmdItem,"ON")
+					}
 					case ON:{
 						sendCommand(cmdItem,"OFF")
 					}
@@ -170,6 +177,13 @@ rule " file writer"
 		sendCommand(askUpdate,"toto")
 end
 
+rule "Wait for the python script to connect"
+	when 
+		System started
+	then
+	sendCommand(Waiting,ON)
+	sendCommand(WaitCreate,OFF)
+end
 
 
 

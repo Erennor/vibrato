@@ -10,7 +10,7 @@ String scriptListener "Script listener"
 
 Switch BEDROOM_LIGHT1 "bedroom light" (All)
 
-String HitHandlerData "handle list of hits and associated item rules"(All)
+String HitHandlerData "handle list of hits and associated item rules" (All)
 
 String VibratoAccessibleItems "keep track of the available items for vibrato remote access" (All) 
 
@@ -21,3 +21,9 @@ String readFile "read target file"
 String writeFile "read target file"
 
 Switch ITEMTEST "light test" (All)
+
+Switch Waiting
+
+Switch WaitCreate "Assert the python server do not have created a new hit"
+
+Switch serverConnected

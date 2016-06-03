@@ -9,10 +9,10 @@ class Listener:
     my_connection = None
     connections = []
 
-    def __init__(self):
+    def __init__(self,cmd_handler):
         self.availableData = ""
         self.hasCommand = False
-
+        self.cmd_handler = cmd_handler
 
     def openHabListener(self):
         # Create a TCP/IP socket
@@ -43,11 +43,11 @@ class Listener:
 
                     if data:
                         print >>sys.stderr, 'sending data back to the client'
-                        self.hasCommand = True
+                        self.cmd_handler(data)
                         connection.sendall(data)
                     else:
                         print >>sys.stderr, 'no more data from', client_address
-                        self.hasCommand = True
+                        self.cmd_handler(data)
                         break
 
             finally:

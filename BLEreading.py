@@ -2,19 +2,23 @@ import binascii
 import struct
 import numpy as np
 from bluepy.btle import UUID, Peripheral
-
+from tcp_listener import Listener
+from hit_analyser import Analyser
 rx_uuid = UUID(0x2221)
 sample_size = 128
 fft = np.arange(0, 2*sample_size)
 
 # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
 p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
-
+listener = Listener(Analyser.cmd_handler)
+listener.start_listening()
 try:
     ch = p.getCharacteristics(uuid=rx_uuid)[0]
     if (ch.supportsRead()):
-        print "Connected..."
+        print "Bluetooth Connected..."
         while 1:
+            print "waiting notification..."
+
             p.waitForNotifications(1)  # 1 semaine d'attente
             p.waitForNotifications(1)  # 1 semaine d'attente
             p.waitForNotifications(604800)  # 1 semaine d'attente
@@ -82,6 +86,7 @@ try:
 
             fft[indice3] = valReelle3
             fft[indice3 + 1] = valIm3
+            print(fft)
 
 finally:
     p.disconnect()

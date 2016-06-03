@@ -16,7 +16,6 @@ class Handler:
         print_debug("handle hit " + hitId)
         # openhab.post_command(scriptListener,hitId)
         self.openHab.post_command("scriptListener",hitId)
-        # TODO : send hit data back to openHab
 
     def learn_hit(self,hitId):
         self.recordLabel = hitId

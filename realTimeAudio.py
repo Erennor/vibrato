@@ -12,7 +12,7 @@ import os
 from math import *
 from machineLearning import *
 from arduinoReader import *
-from openHabListener import *
+from tcp_listener import *
 from hit_handler import *
 from debug import *
 
@@ -41,6 +41,7 @@ def plotSomething():
     # treat possible commands
     if listener.hasCommand:
         print_debug("listener has command")
+        handler.openHab.post_command("Waiting","OFF")
         handler.handle_cmd(listener.availableData)
         listener.availableData = ""
         listener.hasCommand = False
@@ -99,6 +100,7 @@ def plotSomething():
                 ml.learn(datas,handler.recordLabel)
                 print_debug("coup " + str(absCpt) + " enregistre sous l'identifiant " + handler.recordLabel)
                 handler.learn = False
+                handler.openHab.post_command("WaitCreate","OFF")
             else:
                 hitId = ml.guessing(datas)
                 if(hitId != "-1"):
@@ -115,6 +117,8 @@ def plotSomething():
         AR.newArduino = False
 
 def close_all():
+    handler.openHab.post_command("Waiting","ON")
+
     try:
         print_debug("trying to close connection")
         Listener.my_connection.close()
@@ -165,6 +169,7 @@ if __name__ == "__main__":
     listener = Listener()
     listener.start_listening()
     handler = Handler(microInput,ls)
+    handler.openHab.post_command("Waiting","OFF")
     ###Arguments analysis
     if len(sys.argv) == 2 or len(sys.argv) == 4:
         if sys.argv[1] == "micro":

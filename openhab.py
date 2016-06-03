@@ -7,6 +7,7 @@ class OpenHab:
         self.openhab_port = "8080"
 
     def post_command(self, key, value):
+        print("appel de post_command(" + key +","+ value +")")
         """ Post a command to OpenHAB - key is item, value is command """
         url = 'http://%s:%s/rest/items/%s'%(self.openhab_host,
                                     self.openhab_port, key)
