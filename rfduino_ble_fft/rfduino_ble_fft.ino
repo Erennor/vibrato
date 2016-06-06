@@ -4,18 +4,53 @@
 #include <Ai_RFD_WS2812.h>
 
 #define SAMPLE_SIZE 128
-#define SEUIL_DUREE 5   //valeur empirique
 
 #define PIN 3
 RFD_WS2812 blinker = RFD_WS2812(1, PIN);
+bool led = false;
 
 const int analogInPin = 4; // Analog input pin that the potentiometer is attached to
 int sensorValue;
+bool debutCalcul = true;
+bool finCalcul = false;
 
 kiss_fft_cpx cx_in[SAMPLE_SIZE];
 kiss_fft_cpx cx_out[SAMPLE_SIZE];
 
 char fft_input[20];   //20 octets
+
+unsigned long valeur_seuil = 0;
+unsigned int inc = 0;
+
+unsigned int valeur_abs(int val) {
+  if (val < 0) return (-1) * val;
+  else return val;
+}
+
+/**
+   Renvoi l'écart moyen d'une mesure
+*/
+unsigned long ecart_moyen() {
+  blinker.setPixel(0, blinker.packRGB(0, 0, 255));
+  blinker.render();
+  unsigned long moyenne = 0;
+  unsigned long ecart_moyen = 0;
+  for (int i = 0; i < SAMPLE_SIZE; i++) {
+    sensorValue = analogRead(analogInPin);
+    moyenne = moyenne + sensorValue;
+    //Serial.println(sensorValue);
+    cx_in[i].r = sensorValue;
+    cx_in[i].i = sensorValue;
+  }
+  moyenne = moyenne / SAMPLE_SIZE;
+  for (int i = 0; i < SAMPLE_SIZE; i++) {
+    ecart_moyen = ecart_moyen + valeur_abs(cx_in[i].r - moyenne);
+  }
+  ecart_moyen = ecart_moyen / SAMPLE_SIZE;
+  inc = 0;
+  Serial.println("calibrage...");
+  return ecart_moyen;
+}
 
 /**
    Return : duree du signal ou 0 si erreur
@@ -25,23 +60,28 @@ long calcul_fft() {
 
   long t0 = micros();
   long t1 = 0;
-  bool cal = false;
   for (int i = 0; i < SAMPLE_SIZE; i++) {
     sensorValue = analogRead(analogInPin);
     //Serial.println(sensorValue);
-    //delay(2);
     cx_in[i].r = sensorValue;
     cx_in[i].i = sensorValue;
-    if (i > 5
-        && abs(cx_in[i].r - cx_in[i - 3].r) < SEUIL_DUREE
-        && abs(cx_in[i].r - cx_in[i - 2].r) < SEUIL_DUREE
-        && abs(cx_in[i].r - cx_in[i - 1].r) < SEUIL_DUREE
-        && !cal) {
+    if (i > 10
+        && valeur_abs(cx_in[i].r - cx_in[i - 10].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 9].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 8].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 7].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 6].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 5].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 4].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 3].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 2].r) < valeur_seuil
+        && valeur_abs(cx_in[i].r - cx_in[i - 1].r) < valeur_seuil
+        && !finCalcul) {
       t1 = micros();
-      cal = true;
+      finCalcul = true;
     }
   }
-  if (!cal) t1 = micros();
+  if (!finCalcul) t1 = micros();
 
   kiss_fft( cfg , cx_in , cx_out );
   // transformed. DC is in cx_out[0].r and cx_out[0].i
@@ -77,34 +117,33 @@ void setup() {
 
   // Initialize WS2812 modules with all LEDs turned off
   blinker.initialize();
-  blinker.setPixel(0, blinker.packRGB(64, 0, 0));
+  blinker.setPixel(0, blinker.packRGB(255, 0, 0));
   blinker.render();
+  valeur_seuil = ecart_moyen();
 }
 
 void loop() {
+  inc++;
   //Serial.println("LOOP...");
-  //digitalWrite(pinLed, HIGH);
   long t = calcul_fft();
   //if (t > 1000) Serial.println(t);
   int j = 0;
-  bool envoi = false;
+  long t1 = 0;
   for (int i = 1; i < SAMPLE_SIZE; i++) {
     if (cx_out[i].r > 300) {   //valeur empirique
 
-      blinker.setPixel(0, blinker.packRGB(0, 64, 0));
+      if (debutCalcul) {
+        RFduinoBLE.sendByte(255);
+        //Serial.println(255);
+        debutCalcul = false;
+      }
+
+      blinker.setPixel(0, blinker.packRGB(0, 255, 0));
       blinker.render();
-      //Envoi du max, min et duree
-      /*if (!envoi) {
-        Serial.println("LQ?QSJDOQSJFKLC?JQKLDJFVKLFSDJVKLD?VKL?KLSD?VKDS");
-        int mini = min_sample(cx_in);
-        int maxi = max_sample(cx_in);
-        fft_input[0] = mini;
-        fft_input[1] = mini >> 8;
-        fft_input[2] = maxi;
-        fft_input[3] = maxi >> 8;
-        RFduinoBLE.send(fft_input, 4);
-        envoi = true;
-        }*/
+      if (!led) {
+        t1 = millis();
+        led = true;
+      }
 
       fft_input[j] = i;
       fft_input[j + 1] = cx_out[i].r;
@@ -121,20 +160,40 @@ void loop() {
 
       //On arrive au bout du tableau, on envoi ce qu'on a enregistré
       if (i == SAMPLE_SIZE - 1 && j != 0) {
-        RFduinoBLE.send(fft_input, j);
+        for (int k = j; k < 20; k++) {
+          fft_input[k] = 0;
+        }
+        RFduinoBLE.send(fft_input, 20);
       }
 
-      Serial.print("fft[");
-      Serial.print(i);
-      Serial.print("] = ");
-      Serial.print(cx_out[i].r);
-      Serial.print("  ");
-      Serial.println(cx_out[i].i);
+      /*Serial.print("fft[");
+        Serial.print(i);
+        Serial.print("] = ");
+        Serial.print(cx_out[i].r);
+        Serial.print("  ");
+        Serial.println(cx_out[i].i);*/
+
+
     }
   }
-  blinker.setPixel(0, blinker.packRGB(64, 0, 0));
-  blinker.render();
-  //delay(1000);
+  //Tout le signal a été calculé, on envoi un octet de 0 pour signaler la fin du signal
+  if (finCalcul && !debutCalcul) {
+    //RFduinoBLE.sendByte(0);
+    //Serial.println(0);
+    finCalcul = false;
+    debutCalcul = true;
+  }
+
+  long t2 = millis();
+  if (t2 - t1 > 3000) {
+    t1 = 0;
+    t2 = 0;
+    blinker.setPixel(0, blinker.packRGB(2550, 0, 0));
+    blinker.render();
+    led = false;
+  }
+  //Serial.println(inc);
+  if (inc > 5000) valeur_seuil = ecart_moyen() - 1;
 }
 
 void RFduinoBLE_onReceive(char *data, int len) {

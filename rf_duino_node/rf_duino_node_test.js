@@ -82,36 +82,6 @@ function (callback) {
 },
 
 function (callback) {
-	rfDuino.readAppearance(function (appearance) {
-		debug('rf_duino_node apparance bytes are name is : ');
-		for (var index = 0; index < appearance.length; index++) {
-			debug('0x' + appearance[index].toString(16) + ' ');
-		}
-		callback();
-	});
-},
-
-function (callback) {
-	rfDuino.readPreferredConnParams(function (preferredConnParams) {
-		debug('rf_duino_node preferred conn params are : ');
-		for (var index = 0; index < preferredConnParams.length; index++) {
-			debug('0x' + preferredConnParams[index].toString(16) + ' ');
-		}
-		callback();
-	});
-},
-
-function (callback) {
-	debug('writing data to rf_duino_node');
-
-	/** PREREQUISITIES : Some data must read on discovered RFDuino using serial interface */
-	rfDuino.writeData(new Buffer([0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc, 0xde, 0xf0]), function () {
-		debug('data written to  rf_duino_node');
-		callback();
-	});
-},
-
-function (callback) {
 	debug('notify for new data');
 
 	/** PREREQUISITIES : Some data must written on discovered RFDuino using serial interface */
@@ -125,36 +95,6 @@ function (callback) {
 		debug('you will be notified on new data');
 		callback();
 	});
-},
-
-function (callback) {
-	setTimeout(callback, 2000);
-},
-
-function (callback) {
-	debug('unnotity for new data');
-	rfDuino.unnotifyDataReceive(function () {
-		debug('you will not be notified on new data');
-		callback();
-	});
-},
-
-function (callback) {
-	setTimeout(callback, 2000);
-},
-
-
-function (callback) {
-	debug('re-notity for new data');
-	rfDuino.notifyDataReceive(function () {
-		debug('you will be notified on new data');
-		callback();
-	});
-},
-
-function (callback) {
-	debug('test on going...');
-	// Insert other things to do...
 }],
 
 function (error, results) {
