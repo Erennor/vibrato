@@ -15,8 +15,8 @@ listener.start_listening()
 class MyDelegate(DefaultDelegate):
 
     def send_signal(self):
-        print(self.fft)
-        print (str(len(self.fft)))
+        #print(self.fft)
+        #print (str(len(self.fft)))
         Analyser.analyse(self.fft)
         self.fft = [0] * 256
         self.current_index = 0
