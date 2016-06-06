@@ -13,10 +13,9 @@ class Analyser:
         ls['labels'] = []
     if len(ls['samples']) != len(ls['labels']):
         print("[WARN] erreur : database malforme")
-    mode = "learning"
-    label = "sample2"
+    mode = "deducting"
+    label = "unitialized"
     openhab = OpenHab()
-    i = 0
 
     @staticmethod
     def format(datas):
@@ -38,11 +37,8 @@ class Analyser:
     @staticmethod
     def analyse(data):
         if Analyser.mode == "learning":
-            print "learning"
-            Analyser.label = "sample" + str(Analyser.i)
-            Analyser.i += 1
             Analyser.learn(data)
-            Analyser.mode = "learning"
+            Analyser.mode = "deducting"
             return 0
         else:
             clf = svm.SVC(kernel='poly')

@@ -21,7 +21,6 @@ class MyDelegate(DefaultDelegate):
         self.fft = [0] * 256
         self.current_index = 0
 
-
     def read_val(self, fft_input, index):
         """Read value from fft_input[index] to fft_input[index+4] and
             fill fft with detected value"""
