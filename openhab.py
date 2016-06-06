@@ -11,11 +11,14 @@ class OpenHab:
         """ Post a command to OpenHAB - key is item, value is command """
         url = 'http://%s:%s/rest/items/%s'%(self.openhab_host,
                                     self.openhab_port, key)
-        req = requests.post(url, data=value,
-                                headers=self.basic_header())
-        if req.status_code != requests.codes.ok:
+        try:
+            req = requests.post(url, data=value,
+                                    headers=self.basic_header())
+            if req.status_code != requests.codes.ok:
+                req.raise_for_status()
+        except requests.ConnectionError:
+            print (" Erreur dans l'adressage du serveur openHab")
             req.raise_for_status()
-
 
 
     def put_status(self, key, value):
@@ -24,7 +27,7 @@ class OpenHab:
                                     self.openhab_port, key)
         req = requests.put(url, data=value, headers=self.basic_header())
         if req.status_code != requests.codes.ok:
-            req.raise_for_status()     
+            req.raise_for_status()
 
     def get_status(self, name):
         """ Request updates for any item in group NAME from OpenHAB.
