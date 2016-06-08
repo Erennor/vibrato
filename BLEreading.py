@@ -20,11 +20,14 @@ class MyDelegate(DefaultDelegate):
         self.current_index = 0
 
     def fill(self, fft_input, index, position):
+        """ fill fft with ffit input from fft_input[index] """
         self.current_index = position + 2
         val_reelle = fft_input[index + 1] + (fft_input[index + 2] << 8)
         val_img = fft_input[index + 3] + (fft_input[index + 4] << 8)
         if val_img > 60000:
             val_img -= 65536
+        if val_reelle > 60000:
+            val_reelle -= 65536
         self.fft[position] = val_reelle
         self.fft[position + 1] = val_img
 
@@ -70,8 +73,6 @@ class MyDelegate(DefaultDelegate):
         fft_treated = []
         for i in range(0, 20):
             fft_treated.append(ord(fft_input[i]))
-        print("FFT_TREATED")
-        print fft_treated
         for i in range(0, longueur, 5):
             self.read_val(fft_treated, i)
 

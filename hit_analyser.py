@@ -4,10 +4,14 @@ import numpy as np
 from openhab import OpenHab
 
 
+
+
+
 class Analyser:
     """ supposed to choose what to do from hearing a hit"""
     biblio = "new_sample.db"
     ls = shelve.open(biblio, writeback=True)
+    samples = shelve.open("samples.db", writeback=False)
     if not ls.has_key('samples'):
         ls['samples'] = []
         ls['labels'] = []
@@ -15,7 +19,18 @@ class Analyser:
         print("[WARN] erreur : database malforme")
     mode = "deducting"
     label = "unitialized"
+    # todo : assert no values from ls belongs to samples
+    lib = {"samples": ls["samples"] + samples["samples"],
+           "labels": ls["labels"] + samples["labels"]}
+    print lib["labels"]
+
     openhab = OpenHab()
+
+    @staticmethod
+    def parse(data):
+        print "DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, tu fais chier robichou"
+        print data
+        return data
 
     @staticmethod
     def format(datas):
@@ -33,27 +48,38 @@ class Analyser:
         else:
             Analyser.ls['samples'].append(data)
             Analyser.ls['labels'].append(Analyser.label)
+        Analyser.lib = {"samples": Analyser.ls["samples"] + Analyser.samples["samples"],
+                        "labels": Analyser.ls["labels"] + Analyser.samples["labels"]}
+        print Analyser.lib["labels"]
 
     @staticmethod
     def analyse(data):
+        data = Analyser.parse(data)
         if Analyser.mode == "learning":
             Analyser.learn(data)
             Analyser.mode = "deducting"
             return 0
         else:
             clf = svm.SVC(kernel='poly', probability=True)
-            if len(Analyser.ls['samples']) > 1:
-                clf.fit(Analyser.ls['samples'], np.arange(len(Analyser.ls['labels'])))
-            if len(Analyser.ls['samples']) == 1:
-                return Analyser.ls['labels'][0]
             if len(Analyser.ls['samples']) == 0:
                 print("HitAnalyser : Aucune action faite car bibliotheque de coup vide")
                 return "-1"
+            clf.fit(Analyser.lib['samples'], np.arange(len(Analyser.lib['labels'])))
             print "clf.predict_proba(data)"
-            print clf.predict_proba(data)
-            res = Analyser.ls['labels'][clf.predict(data)[0]]
-            Analyser.openhab.post_command("scriptListener", res)
-            return res
+            probas = clf.predict_proba(data)
+            print "probas = " + str(probas)
+            int_res = clf.predict(data)[0]
+            print "int_res = " + str(int_res)
+            res = Analyser.lib['labels'][int_res]
+            print res
+            if res in Analyser.ls['labels']:
+                print "best candidate is a registered hit"
+                print probas[0][int_res]
+                if probas[0][int_res] > 0.5:
+                    print "probability over 50% : proceeding"
+                    Analyser.openhab.post_command("scriptListener", res)
+                    return res
+            return 0
 
     @staticmethod
     def set_learning(label):
@@ -87,6 +113,8 @@ class Analyser:
         except:
             print ("Error parsing command " + str(cmd))
         return
+
+
 
 if __name__ == "__main__":
     print(Analyser.ls)
