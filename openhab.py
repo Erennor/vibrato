@@ -14,12 +14,8 @@ class OpenHab:
         try:
             req = requests.post(url, data=value,
                                     headers=self.basic_header())
-            if req.status_code != requests.codes.ok:
-                req.raise_for_status()
         except requests.ConnectionError:
             print (" Erreur dans l'adressage du serveur openHab")
-            req.raise_for_status()
-
 
     def put_status(self, key, value):
         """ Put a status update to OpenHAB  key is item, value is state """

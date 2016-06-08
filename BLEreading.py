@@ -1,6 +1,7 @@
 import binascii
 import struct
 import numpy as np
+from matplotlib.backends.backend_pdf import fill
 
 import bluepy.btle as btle
 from bluepy.btle import UUID, Peripheral, DefaultDelegate
@@ -13,30 +14,49 @@ listener.start_listening()
 
 
 class MyDelegate(DefaultDelegate):
-
     def send_signal(self):
-        #print(self.fft)
-        #print (str(len(self.fft)))
         Analyser.analyse(self.fft)
         self.fft = [0] * 256
         self.current_index = 0
 
-    def read_val(self, fft_input, index):
-        """Read value from fft_input[index] to fft_input[index+4] and
-            fill fft with detected value"""
-        position = fft_input[index]
-        if position < self.current_index:
-            self.send_signal()
-        for i in range(self.current_index, position):
-            self.fft[i] = 0
-        self.current_index = position
+    def fill(self, fft_input, index, position):
+        self.current_index = position + 2
         val_reelle = fft_input[index + 1] + (fft_input[index + 2] << 8)
         val_img = fft_input[index + 3] + (fft_input[index + 4] << 8)
         if val_img > 60000:
-            val_img = val_img - 65536
+            val_img -= 65536
         self.fft[position] = val_reelle
         self.fft[position + 1] = val_img
-        return
+
+    def read_val(self, fft_input, index):
+        """Read value from fft_input[index] to fft_input[index+4] and
+            fill fft with detected value"""
+        position = fft_input[index] * 2
+        if position == 0:
+            if self.current_index > 2:
+                # position is null : end of current fft array, send signal to controller
+                if self.current_index != 256:
+                    print "sending signal, but self.current_index = " + str(self.current_index)
+                    print "some values were lost"
+                self.send_signal()
+                return
+            else:
+                # multiple 0 values can follow, this should caught these
+                self.fill(fft_input, index, position)
+        # In any other case, self.current_index should be equal to position
+        elif position < self.current_index:
+            # Should not happen, loss of value, end of array
+            print ("Erreur , current index" + str(self.current_index) +
+                   " inferieur a position " + str(position) + " mais non nul.")
+            self.send_signal()
+            self.fill(fft_input, index, position)
+        elif position > self.current_index:
+            # Some values were lost
+            print("position = " + str(position) + " current index = " + str(self.current_index))
+            print "Erreur, some  value were lost, auto filling with 0"
+            self.fill(fft_input, index, position)
+        else:
+            self.fill(fft_input, index, position)
 
     def __init__(self):
         DefaultDelegate.__init__(self)
@@ -50,15 +70,17 @@ class MyDelegate(DefaultDelegate):
         fft_treated = []
         for i in range(0, 20):
             fft_treated.append(ord(fft_input[i]))
-
+        print("FFT_TREATED")
+        print fft_treated
         for i in range(0, longueur, 5):
             self.read_val(fft_treated, i)
+
 
 rx_uuid = UUID(0x2221)
 sample_size = 128
 
 # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-p = Peripheral("FE:CE:2E:0F:7D:51", "random")   # Rfduino sur pcb
+p = Peripheral("FE:CE:2E:0F:7D:51", "random")  # Rfduino sur pcb
 
 p.withDelegate(MyDelegate())
 

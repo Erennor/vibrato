@@ -41,7 +41,7 @@ class Analyser:
             Analyser.mode = "deducting"
             return 0
         else:
-            clf = svm.SVC(kernel='poly')
+            clf = svm.SVC(kernel='poly', probability=True)
             if len(Analyser.ls['samples']) > 1:
                 clf.fit(Analyser.ls['samples'], np.arange(len(Analyser.ls['labels'])))
             if len(Analyser.ls['samples']) == 1:
@@ -49,6 +49,8 @@ class Analyser:
             if len(Analyser.ls['samples']) == 0:
                 print("HitAnalyser : Aucune action faite car bibliotheque de coup vide")
                 return "-1"
+            print "clf.predict_proba(data)"
+            print clf.predict_proba(data)
             res = Analyser.ls['labels'][clf.predict(data)[0]]
             Analyser.openhab.post_command("scriptListener", res)
             return res
