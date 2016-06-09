@@ -8,4 +8,5 @@ device = uinput.Device([
 
 if __name__ == "__main__":
 	device.emit_click(uinput.KEY_RIGHT)
+
 	

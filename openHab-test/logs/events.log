@@ -3815,3 +3815,487 @@ COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
 2016-06-09 18:34:31 - TURN_SLIDE received command OFF
 2016-06-09 18:48:45 - TURN_SLIDE received command ON
 2016-06-09 18:48:53 - TURN_SLIDE received command OFF
+2016-06-09 20:10:03 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 20:10:04 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:10:04 - Waiting received command ON
+2016-06-09 20:10:04 - WaitCreate received command OFF
+2016-06-09 20:26:42 - VibratoListener received command c%toc%TURN_SLIDE%ON
+2016-06-09 20:26:42 - Waiting received command ON
+2016-06-09 20:26:42 - WaitCreate received command ON
+2016-06-09 20:26:43 - VibratoTalk received command c_toc
+2016-06-09 20:26:43 - VibratoTalk state updated to c_toc
+2016-06-09 20:26:43 - writeFile received command configurations/transform/hitHandler.map|lol=BEDROOM_LIGHT3:ON
+
+toc=TURN_SLIDE:ON
+2016-06-09 20:26:43 - askUpdate received command toto
+2016-06-09 20:26:43 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:26:43 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:26:43 - VibratoTalk state updated to c_toc
+2016-06-09 20:26:54 - WaitCreate received command OFF
+2016-06-09 20:26:55 - scriptListener received command toc
+2016-06-09 20:26:56 - Waiting received command OFF
+2016-06-09 20:26:56 - TURN_SLIDE received command ON
+2016-06-09 20:26:58 - scriptListener received command toc
+2016-06-09 20:26:58 - Waiting received command OFF
+2016-06-09 20:26:58 - TURN_SLIDE received command ON
+2016-06-09 20:26:59 - scriptListener received command toc
+2016-06-09 20:26:59 - Waiting received command OFF
+2016-06-09 20:26:59 - TURN_SLIDE received command ON
+2016-06-09 20:27:07 - scriptListener received command toc
+2016-06-09 20:27:07 - Waiting received command OFF
+2016-06-09 20:27:07 - TURN_SLIDE received command ON
+2016-06-09 20:27:12 - scriptListener received command toc
+2016-06-09 20:27:12 - Waiting received command OFF
+2016-06-09 20:27:12 - TURN_SLIDE received command ON
+2016-06-09 20:27:14 - scriptListener received command toc
+2016-06-09 20:27:14 - Waiting received command OFF
+2016-06-09 20:27:14 - TURN_SLIDE received command ON
+2016-06-09 20:27:26 - scriptListener received command toc
+2016-06-09 20:27:26 - Waiting received command OFF
+2016-06-09 20:27:26 - TURN_SLIDE received command ON
+2016-06-09 20:27:27 - scriptListener received command toc
+2016-06-09 20:27:27 - Waiting received command OFF
+2016-06-09 20:27:27 - TURN_SLIDE received command ON
+2016-06-09 20:27:30 - scriptListener received command toc
+2016-06-09 20:27:30 - Waiting received command OFF
+2016-06-09 20:27:30 - TURN_SLIDE received command ON
+2016-06-09 20:28:07 - scriptListener received command toc
+2016-06-09 20:28:07 - Waiting received command OFF
+2016-06-09 20:28:07 - TURN_SLIDE received command ON
+2016-06-09 20:28:08 - scriptListener received command toc
+2016-06-09 20:28:08 - Waiting received command OFF
+2016-06-09 20:28:08 - TURN_SLIDE received command ON
+2016-06-09 20:28:10 - scriptListener received command toc
+2016-06-09 20:28:10 - Waiting received command OFF
+2016-06-09 20:28:10 - TURN_SLIDE received command ON
+2016-06-09 20:28:13 - scriptListener received command toc
+2016-06-09 20:28:13 - Waiting received command OFF
+2016-06-09 20:28:13 - TURN_SLIDE received command ON
+2016-06-09 20:28:15 - scriptListener received command toc
+2016-06-09 20:28:15 - Waiting received command OFF
+2016-06-09 20:28:15 - TURN_SLIDE received command ON
+2016-06-09 20:28:16 - scriptListener received command toc
+2016-06-09 20:28:16 - Waiting received command OFF
+2016-06-09 20:28:16 - TURN_SLIDE received command ON
+2016-06-09 20:28:17 - scriptListener received command toc
+2016-06-09 20:28:17 - Waiting received command OFF
+2016-06-09 20:28:18 - TURN_SLIDE received command ON
+2016-06-09 20:28:18 - scriptListener received command toc
+2016-06-09 20:28:18 - Waiting received command OFF
+2016-06-09 20:28:18 - TURN_SLIDE received command ON
+2016-06-09 20:28:20 - scriptListener received command toc
+2016-06-09 20:28:20 - Waiting received command OFF
+2016-06-09 20:28:20 - TURN_SLIDE received command ON
+2016-06-09 20:28:21 - scriptListener received command toc
+2016-06-09 20:28:21 - Waiting received command OFF
+2016-06-09 20:28:21 - TURN_SLIDE received command ON
+2016-06-09 20:28:22 - scriptListener received command toc
+2016-06-09 20:28:22 - Waiting received command OFF
+2016-06-09 20:28:22 - TURN_SLIDE received command ON
+2016-06-09 20:28:23 - scriptListener received command toc
+2016-06-09 20:28:23 - Waiting received command OFF
+2016-06-09 20:28:23 - TURN_SLIDE received command ON
+2016-06-09 20:28:28 - scriptListener received command toc
+2016-06-09 20:28:28 - Waiting received command OFF
+2016-06-09 20:28:28 - TURN_SLIDE received command ON
+2016-06-09 20:28:30 - scriptListener received command toc
+2016-06-09 20:28:30 - Waiting received command OFF
+2016-06-09 20:28:30 - TURN_SLIDE received command ON
+2016-06-09 20:28:31 - scriptListener received command toc
+2016-06-09 20:28:31 - Waiting received command OFF
+2016-06-09 20:28:31 - TURN_SLIDE received command ON
+2016-06-09 20:28:33 - scriptListener received command toc
+2016-06-09 20:28:33 - Waiting received command OFF
+2016-06-09 20:28:33 - TURN_SLIDE received command ON
+2016-06-09 20:28:36 - scriptListener received command toc
+2016-06-09 20:28:36 - Waiting received command OFF
+2016-06-09 20:28:36 - TURN_SLIDE received command ON
+2016-06-09 20:28:38 - scriptListener received command toc
+2016-06-09 20:28:38 - Waiting received command OFF
+2016-06-09 20:28:38 - TURN_SLIDE received command ON
+2016-06-09 20:28:40 - scriptListener received command toc
+2016-06-09 20:28:40 - Waiting received command OFF
+2016-06-09 20:28:40 - TURN_SLIDE received command ON
+2016-06-09 20:28:42 - scriptListener received command toc
+2016-06-09 20:28:42 - Waiting received command OFF
+2016-06-09 20:28:42 - TURN_SLIDE received command ON
+2016-06-09 20:30:01 - scriptListener received command toc
+2016-06-09 20:30:04 - scriptListener received command toc
+2016-06-09 20:30:08 - scriptListener received command toc
+2016-06-09 20:30:09 - Waiting received command OFF
+2016-06-09 20:30:09 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:30:09 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:30:09 - Waiting received command ON
+2016-06-09 20:30:09 - WaitCreate received command OFF
+2016-06-09 20:30:10 - scriptListener received command toc
+2016-06-09 20:30:10 - Waiting received command OFF
+2016-06-09 20:30:11 - scriptListener received command toc
+2016-06-09 20:30:11 - Waiting received command OFF
+2016-06-09 20:30:13 - scriptListener received command toc
+2016-06-09 20:30:13 - Waiting received command OFF
+2016-06-09 20:30:18 - TURN_SLIDE received command ON
+2016-06-09 20:30:18 - TURN_SLIDE received command ON
+2016-06-09 20:30:18 - TURN_SLIDE received command ON
+2016-06-09 20:30:19 - TURN_SLIDE received command ON
+2016-06-09 20:34:18 - scriptListener received command toc
+2016-06-09 20:34:18 - Waiting received command OFF
+2016-06-09 20:34:18 - TURN_SLIDE received command ON
+2016-06-09 20:35:49 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:35:50 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:35:50 - Waiting received command ON
+2016-06-09 20:35:50 - WaitCreate received command OFF
+2016-06-09 20:36:08 - scriptListener received command toc
+2016-06-09 20:36:08 - Waiting received command OFF
+2016-06-09 20:36:08 - TURN_SLIDE received command ON
+2016-06-09 20:36:10 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:36:10 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:36:10 - Waiting received command ON
+2016-06-09 20:36:10 - WaitCreate received command OFF
+2016-06-09 20:36:10 - scriptListener received command toc
+2016-06-09 20:36:10 - Waiting received command OFF
+2016-06-09 20:36:10 - TURN_SLIDE received command ON
+2016-06-09 20:36:13 - scriptListener received command toc
+2016-06-09 20:36:13 - Waiting received command OFF
+2016-06-09 20:36:13 - TURN_SLIDE received command ON
+2016-06-09 20:36:15 - scriptListener received command toc
+2016-06-09 20:36:15 - Waiting received command OFF
+2016-06-09 20:36:15 - TURN_SLIDE received command ON
+2016-06-09 20:36:25 - scriptListener received command toc
+2016-06-09 20:36:25 - Waiting received command OFF
+2016-06-09 20:36:25 - TURN_SLIDE received command ON
+2016-06-09 20:36:27 - scriptListener received command toc
+2016-06-09 20:36:27 - Waiting received command OFF
+2016-06-09 20:36:27 - TURN_SLIDE received command ON
+2016-06-09 20:36:29 - scriptListener received command toc
+2016-06-09 20:36:29 - Waiting received command OFF
+2016-06-09 20:36:29 - TURN_SLIDE received command ON
+2016-06-09 20:36:35 - scriptListener received command toc
+2016-06-09 20:36:35 - Waiting received command OFF
+2016-06-09 20:36:35 - TURN_SLIDE received command ON
+2016-06-09 20:36:39 - scriptListener received command toc
+2016-06-09 20:36:39 - Waiting received command OFF
+2016-06-09 20:36:39 - TURN_SLIDE received command ON
+2016-06-09 20:37:22 - scriptListener received command toc
+2016-06-09 20:37:22 - Waiting received command OFF
+2016-06-09 20:37:22 - TURN_SLIDE received command ON
+2016-06-09 20:37:50 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:37:50 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:37:50 - Waiting received command ON
+2016-06-09 20:37:50 - WaitCreate received command OFF
+2016-06-09 20:38:01 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:38:01 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:38:01 - Waiting received command ON
+2016-06-09 20:38:01 - WaitCreate received command OFF
+2016-06-09 20:39:01 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:39:01 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:39:01 - Waiting received command ON
+2016-06-09 20:39:01 - WaitCreate received command OFF
+2016-06-09 20:39:21 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:39:21 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:39:21 - Waiting received command ON
+2016-06-09 20:39:21 - WaitCreate received command OFF
+2016-06-09 20:39:26 - scriptListener received command toc
+2016-06-09 20:39:26 - Waiting received command OFF
+2016-06-09 20:39:26 - TURN_SLIDE received command ON
+2016-06-09 20:39:40 - scriptListener received command toc
+2016-06-09 20:39:40 - Waiting received command OFF
+2016-06-09 20:39:40 - TURN_SLIDE received command ON
+2016-06-09 20:40:23 - scriptListener received command toc
+2016-06-09 20:40:23 - Waiting received command OFF
+2016-06-09 20:40:23 - TURN_SLIDE received command ON
+2016-06-09 20:42:01 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:42:01 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:42:01 - Waiting received command ON
+2016-06-09 20:42:01 - WaitCreate received command OFF
+2016-06-09 20:42:11 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:42:12 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:42:12 - Waiting received command ON
+2016-06-09 20:42:12 - WaitCreate received command OFF
+2016-06-09 20:43:49 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:43:49 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:43:49 - Waiting received command ON
+2016-06-09 20:43:49 - WaitCreate received command OFF
+2016-06-09 20:43:55 - TURN_SLIDE received command ON
+2016-06-09 20:44:00 - TURN_SLIDE received command OFF
+2016-06-09 20:44:01 - TURN_SLIDE received command ON
+2016-06-09 20:44:09 - TURN_SLIDE received command OFF
+2016-06-09 20:48:20 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:48:20 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:48:20 - Waiting received command ON
+2016-06-09 20:48:20 - WaitCreate received command OFF
+2016-06-09 20:48:59 - scriptListener received command toc
+2016-06-09 20:48:59 - Waiting received command OFF
+2016-06-09 20:48:59 - TURN_SLIDE received command ON
+2016-06-09 20:49:00 - scriptListener received command toc
+2016-06-09 20:49:00 - Waiting received command OFF
+2016-06-09 20:49:00 - TURN_SLIDE received command ON
+2016-06-09 20:49:07 - scriptListener received command toc
+2016-06-09 20:49:07 - Waiting received command OFF
+2016-06-09 20:49:07 - TURN_SLIDE received command ON
+2016-06-09 20:49:22 - scriptListener received command toc
+2016-06-09 20:49:22 - Waiting received command OFF
+2016-06-09 20:49:22 - TURN_SLIDE received command ON
+2016-06-09 20:49:24 - scriptListener received command toc
+2016-06-09 20:49:24 - Waiting received command OFF
+2016-06-09 20:49:24 - TURN_SLIDE received command ON
+2016-06-09 20:49:26 - scriptListener received command toc
+2016-06-09 20:49:26 - Waiting received command OFF
+2016-06-09 20:49:26 - TURN_SLIDE received command ON
+2016-06-09 20:49:29 - scriptListener received command toc
+2016-06-09 20:49:29 - Waiting received command OFF
+2016-06-09 20:49:29 - TURN_SLIDE received command ON
+2016-06-09 20:49:31 - scriptListener received command toc
+2016-06-09 20:49:31 - Waiting received command OFF
+2016-06-09 20:49:31 - TURN_SLIDE received command ON
+2016-06-09 20:49:33 - scriptListener received command toc
+2016-06-09 20:49:33 - Waiting received command OFF
+2016-06-09 20:49:33 - TURN_SLIDE received command ON
+2016-06-09 20:49:44 - scriptListener received command toc
+2016-06-09 20:49:44 - Waiting received command OFF
+2016-06-09 20:49:44 - TURN_SLIDE received command ON
+2016-06-09 20:49:53 - scriptListener received command toc
+2016-06-09 20:49:53 - Waiting received command OFF
+2016-06-09 20:49:53 - TURN_SLIDE received command ON
+2016-06-09 20:51:40 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 20:51:40 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 20:51:40 - Waiting received command ON
+2016-06-09 20:51:40 - WaitCreate received command OFF
+2016-06-09 20:52:45 - scriptListener received command toc
+2016-06-09 20:52:45 - Waiting received command OFF
+2016-06-09 20:52:45 - TURN_SLIDE received command ON
+2016-06-09 20:56:18 - scriptListener received command toc
+2016-06-09 20:56:18 - Waiting received command OFF
+2016-06-09 20:56:18 - TURN_SLIDE received command ON
+2016-06-09 20:57:56 - scriptListener received command toc
+2016-06-09 20:57:56 - Waiting received command OFF
+2016-06-09 20:57:56 - TURN_SLIDE received command ON
+2016-06-09 20:58:52 - scriptListener received command toc
+2016-06-09 20:58:52 - Waiting received command OFF
+2016-06-09 20:58:52 - TURN_SLIDE received command ON
+2016-06-09 20:59:00 - scriptListener received command toc
+2016-06-09 20:59:00 - Waiting received command OFF
+2016-06-09 20:59:01 - TURN_SLIDE received command ON
+2016-06-09 20:59:26 - scriptListener received command toc
+2016-06-09 20:59:26 - Waiting received command OFF
+2016-06-09 20:59:26 - TURN_SLIDE received command ON
+2016-06-09 21:00:19 - scriptListener received command toc
+2016-06-09 21:00:19 - Waiting received command OFF
+2016-06-09 21:00:19 - TURN_SLIDE received command ON
+2016-06-09 21:00:24 - scriptListener received command toc
+2016-06-09 21:00:24 - Waiting received command OFF
+2016-06-09 21:00:24 - TURN_SLIDE received command ON
+2016-06-09 21:00:31 - scriptListener received command toc
+2016-06-09 21:00:31 - Waiting received command OFF
+2016-06-09 21:00:31 - TURN_SLIDE received command ON
+2016-06-09 21:01:18 - scriptListener received command toc
+2016-06-09 21:01:18 - Waiting received command OFF
+2016-06-09 21:01:18 - TURN_SLIDE received command ON
+2016-06-09 21:02:57 - scriptListener received command toc
+2016-06-09 21:02:57 - Waiting received command OFF
+2016-06-09 21:02:57 - TURN_SLIDE received command ON
+2016-06-09 21:03:05 - scriptListener received command toc
+2016-06-09 21:03:05 - Waiting received command OFF
+2016-06-09 21:03:05 - TURN_SLIDE received command ON
+2016-06-09 21:04:10 - scriptListener received command toc
+2016-06-09 21:04:10 - Waiting received command OFF
+2016-06-09 21:04:10 - TURN_SLIDE received command ON
+2016-06-09 21:44:02 - scriptListener received command toc
+2016-06-09 21:44:02 - Waiting received command OFF
+2016-06-09 21:44:02 - TURN_SLIDE received command ON
+2016-06-09 21:44:04 - scriptListener received command toc
+2016-06-09 21:44:04 - Waiting received command OFF
+2016-06-09 21:44:04 - TURN_SLIDE received command ON
+2016-06-09 21:44:05 - scriptListener received command toc
+2016-06-09 21:44:05 - Waiting received command OFF
+2016-06-09 21:44:05 - TURN_SLIDE received command ON
+2016-06-09 21:44:06 - scriptListener received command toc
+2016-06-09 21:44:06 - Waiting received command OFF
+2016-06-09 21:44:06 - TURN_SLIDE received command ON
+2016-06-09 21:44:11 - scriptListener received command toc
+2016-06-09 21:44:11 - Waiting received command OFF
+2016-06-09 21:44:11 - TURN_SLIDE received command ON
+2016-06-09 21:44:27 - scriptListener received command toc
+2016-06-09 21:44:27 - Waiting received command OFF
+2016-06-09 21:44:27 - TURN_SLIDE received command ON
+2016-06-09 21:45:15 - scriptListener received command toc
+2016-06-09 21:45:15 - Waiting received command OFF
+2016-06-09 21:45:15 - TURN_SLIDE received command ON
+2016-06-09 21:45:16 - scriptListener received command toc
+2016-06-09 21:45:16 - Waiting received command OFF
+2016-06-09 21:45:16 - TURN_SLIDE received command ON
+2016-06-09 21:45:28 - scriptListener received command toc
+2016-06-09 21:45:28 - Waiting received command OFF
+2016-06-09 21:45:28 - TURN_SLIDE received command ON
+2016-06-09 21:46:24 - scriptListener received command toc
+2016-06-09 21:46:24 - Waiting received command OFF
+2016-06-09 21:46:24 - TURN_SLIDE received command ON
+2016-06-09 21:48:42 - scriptListener received command toc
+2016-06-09 21:48:42 - Waiting received command OFF
+2016-06-09 21:48:42 - TURN_SLIDE received command ON
+2016-06-09 21:50:00 - scriptListener received command toc
+2016-06-09 21:50:00 - Waiting received command OFF
+2016-06-09 21:50:00 - TURN_SLIDE received command ON
+2016-06-09 21:50:30 - VibratoListener received command k
+2016-06-09 21:50:30 - VibratoTalk received command k
+2016-06-09 21:50:30 - VibratoTalk state updated to k
+2016-06-09 21:50:31 - VibratoTalk state updated to k
+2016-06-09 21:50:49 - scriptListener received command toc
+2016-06-09 21:50:50 - Waiting received command OFF
+2016-06-09 21:50:50 - TURN_SLIDE received command ON
+2016-06-09 21:50:51 - scriptListener received command toc
+2016-06-09 21:50:51 - Waiting received command OFF
+2016-06-09 21:50:51 - TURN_SLIDE received command ON
+2016-06-09 21:51:30 - VibratoListener received command k
+2016-06-09 21:51:30 - VibratoTalk received command k
+2016-06-09 21:51:30 - VibratoTalk state updated to k
+2016-06-09 21:51:31 - VibratoTalk state updated to k
+2016-06-09 21:51:39 - VibratoListener received command k
+2016-06-09 21:51:40 - VibratoTalk received command k
+2016-06-09 21:51:40 - VibratoTalk state updated to k
+2016-06-09 21:51:40 - VibratoTalk state updated to k
+2016-06-09 21:51:44 - scriptListener received command toc
+2016-06-09 21:51:44 - Waiting received command OFF
+2016-06-09 21:51:44 - TURN_SLIDE received command ON
+2016-06-09 21:51:51 - scriptListener received command toc
+2016-06-09 21:51:51 - Waiting received command OFF
+2016-06-09 21:51:51 - TURN_SLIDE received command ON
+2016-06-09 21:51:53 - scriptListener received command toc
+2016-06-09 21:51:53 - Waiting received command OFF
+2016-06-09 21:51:53 - TURN_SLIDE received command ON
+2016-06-09 21:51:56 - scriptListener received command toc
+2016-06-09 21:51:56 - Waiting received command OFF
+2016-06-09 21:51:56 - TURN_SLIDE received command ON
+2016-06-09 21:51:57 - scriptListener received command toc
+2016-06-09 21:51:57 - Waiting received command OFF
+2016-06-09 21:51:57 - TURN_SLIDE received command ON
+2016-06-09 21:51:58 - scriptListener received command toc
+2016-06-09 21:51:58 - Waiting received command OFF
+2016-06-09 21:51:58 - TURN_SLIDE received command ON
+2016-06-09 21:51:59 - scriptListener received command toc
+2016-06-09 21:51:59 - Waiting received command OFF
+2016-06-09 21:51:59 - TURN_SLIDE received command ON

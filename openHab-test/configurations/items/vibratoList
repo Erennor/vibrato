@@ -1,0 +1,7 @@
+BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON

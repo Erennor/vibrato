@@ -66,7 +66,11 @@ rule "Vibrato request"
 				}
 				sendCommand(writeFile,"configurations/transform/hitHandler.map|" + newLines)
 			}
-			else{
+			else if(cmd.get(0).equals("k")){
+				sendCommand("VibratoTalk","k")
+			}	
+			else
+				{
 				logInfo("vibratoListener","Error, command "+ receivedCommand + "not recognized")
 			}
 			//sendCommand("VibratoTalk",receivedCommand.toString())
@@ -106,6 +110,7 @@ rule "hit treatment"
 						sendCommand(cmdItem,"ON")
 					}
 					default :{
+						sendCommand(cmdItem,cmdStateRule)
 						logInfo("scriptListener","Erreur, switch appliqué à un item non-switch")
 					}
 				}
@@ -186,7 +191,7 @@ rule "Turn slide rule"
 	when
 		Item TURN_SLIDE received command
 	then
-		executeCommandLine("python2.7@@slider.py")
+		executeCommandLine("./slider.sh")
 end
 
 
