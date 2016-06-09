@@ -43,6 +43,7 @@ rule "Vibrato request"
 						i | (i.splitByWholeSeparator(":").size != 0 && i.splitByWholeSeparator(":").get(0).equals(cmd.get(2))))
 					if(item == null){
 						logInfo("Erreur","item " + cmd.get(2) + " ne correspond pas à un item valable")
+						logInfo("lol","La regle va crasher")
 					}	
 					logInfo(item,item)
 					//asserting item is accessible and command is correct thanks to VibratoList

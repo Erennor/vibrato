@@ -6,5 +6,8 @@ sitemap vibrato label="vibrato House test"
 	}
 	Frame label="test of remote item" {
 		Switch item=ITEMTEST
+		Switch item=ITEMTEST2
+		Switch item=ITEMTEST3
+		Switch item=ITEMTEST4
 	}
 }

@@ -4,6 +4,8 @@ import threading
 import signal
 from subprocess import call
 
+import time
+
 
 class Listener:
     my_connection = None
@@ -59,6 +61,4 @@ class Listener:
         self.t.daemon=True
         self.t.start()
 
-if __name__ == "__main__":
-    Listener().openHabListener()
-
+time.sleep(5)
