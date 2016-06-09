@@ -8,7 +8,7 @@ from bluepy.btle import UUID, Peripheral, DefaultDelegate
 from bluepy.btle import UUID, Peripheral
 from tcp_listener import Listener
 from hit_analyser import Analyser
-
+import time
 listener = Listener(Analyser.cmd_handler)
 listener.start_listening()
 
@@ -84,7 +84,14 @@ if __name__ == "__main__":
     rx_uuid = UUID(0x2221)
     sample_size = 128
     # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-    p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
+    continuer = True
+    while(continuer):
+        try:
+            p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
+            continuer = False
+        except:
+            print "Module bluetooth deja connecte, nouvel essai dans 3 sec..."
+            time.sleep(3)
     p.withDelegate(MyDelegate())
     Analyser.set_p(p)
     print " device connected..."

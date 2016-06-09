@@ -1,6 +1,9 @@
 import shelve
 from sklearn import svm, neighbors
 import numpy as np
+
+import struct
+
 from openhab import OpenHab
 from mel_transform import *
 from bluepy.btle import UUID
@@ -17,6 +20,8 @@ def normalize_array(data):
     for i in data:
         somme += i
     return [i*100*127/somme for i in data]
+
+
 
 
 """ Give more importance to small frequencies thanks to this"""
@@ -51,7 +56,7 @@ def reduce_array(data):
 class Analyser:
     """ supposed to choose what to do from hearing a hit"""
     sample_learning = 3
-    biblio = "new_sample.db"
+    biblio = "samples.db"
     ls = shelve.open(biblio, writeback=True)
     samples = shelve.open("samples.db", writeback=False)
     if not ls.has_key('samples'):
@@ -92,15 +97,7 @@ class Analyser:
         # eliminating la composante continue
         #data = data[:]
         data = dft_to_dct(data) #data = data[2:64]
-        print data
-        Analyser.datas.append(data)
-        if len(Analyser.datas) == 20:
-            print "DATTTTTTTTTTTTTTTTAAAAAAAAAAAAAAAAAAAAAAAAAS"
-            moy = [0] * len(data)
-            for data in Analyser.datas:
-                for i in np.arange(len(moy)):
-                    moy[i] = float(moy[i] + data[i]) / 20.0
-            print Analyser.datas
+        data = data[:8]
         return data
 
     @staticmethod
@@ -190,17 +187,35 @@ class Analyser:
                 Analyser.set_learning(cmd[2:])
             elif cmd[0] == "k":
                 Analyser.calibrate()
+            elif cmd[0] == "s":
+                Analyser.use_parasite()
+            elif cmd[0] == "n":
+                Analyser.no_parasite()
         except:
             print ("Error parsing command " + str(cmd))
         return
 
     @classmethod
     def calibrate(cls):
-        Analyser.p.writeCharacteristic(UUID(0x2221), 0x1, False)
+        Analyser.p.writeCharacteristic(UUID(0x2222), struct.pack('<bb', 0x01, 0x00), False)
 
     @classmethod
     def set_p(cls, p):
         Analyser.p = p
+
+    @classmethod
+    def use_parasite(cls):
+        Analyser.samples['samples'] = [[434.29, 13.01, -13.84, -4.32, -0.85, -0.73, -3.13, -3.85]]
+        Analyser.samples['labels'] = ["neutral_hit"]
+        Analyser.lib = {"samples": Analyser.ls["samples"] + Analyser.samples["samples"],
+               "labels": Analyser.ls["labels"] + Analyser.samples["labels"]}
+
+    @classmethod
+    def no_parasite(cls):
+        Analyser.samples['samples'] = []
+        Analyser.samples['labels'] = []
+        Analyser.lib = {"samples": Analyser.ls["samples"] + Analyser.samples["samples"],
+               "labels": Analyser.ls["labels"] + Analyser.samples["labels"]}
 
 
 if __name__ == "__main__":

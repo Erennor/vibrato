@@ -6,6 +6,8 @@ String VibratoListener "status"
 
 String VibratoTalk "talker" { tcp=">[127.0.0.1:5005:'REGEX(.*)']" } 
 
+String TURN_SLIDE "talker" { tcp=">[127.0.0.1:5006:'REGEX(.*)']" } 
+
 String scriptListener "Script listener"
 
 Switch BEDROOM_LIGHT1 "bedroom light" (All)
@@ -39,7 +41,5 @@ Switch COFFEE_MACHINE "coffee machine" (All)
 Switch COFFEE_REMOTE {mqtt=">[mosquitto:/amiqual4home/machine_place/saeco_intelia/power:command:ON:1]"} 
 
 Switch COFFEE_REMOTE2 {mqtt=">[mosquitto:/amiqual4home/machine_place/saeco_intelia/small_cup:command:ON:1]"} 
-
-Switch TURN_SLIDE "avance d'un slide" (All)
 
 Rollershutter KITCHEN_STORE2 " store de la cuisine"

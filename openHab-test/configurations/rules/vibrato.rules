@@ -68,6 +68,12 @@ rule "Vibrato request"
 			}
 			else if(cmd.get(0).equals("k")){
 				sendCommand("VibratoTalk","k")
+			}
+			else if(cmd.get(0).equals("s")){
+				sendCommand("VibratoTalk","s")
+			}
+			else if(cmd.get(0).equals("n")){
+				sendCommand("VibratoTalk","n")
 			}	
 			else
 				{

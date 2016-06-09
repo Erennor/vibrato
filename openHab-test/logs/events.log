@@ -4368,3 +4368,606 @@ COFFEE_REMOTE2:"sert un cafe":ON
 2016-06-09 22:09:01 - VibratoListener received command k
 2016-06-09 22:09:01 - VibratoTalk received command k
 2016-06-09 22:09:01 - VibratoTalk state updated to k
+2016-06-09 22:13:16 - VibratoListener received command k
+2016-06-09 22:13:16 - VibratoTalk received command k
+2016-06-09 22:13:16 - VibratoTalk state updated to k
+2016-06-09 22:13:48 - VibratoTalk state updated to k
+2016-06-09 22:13:49 - scriptListener received command toc
+2016-06-09 22:13:49 - Waiting received command OFF
+2016-06-09 22:13:49 - TURN_SLIDE received command ON
+2016-06-09 22:15:14 - TURN_SLIDE received command OFF
+2016-06-09 22:17:22 - scriptListener received command toc
+2016-06-09 22:17:22 - Waiting received command OFF
+2016-06-09 22:17:22 - TURN_SLIDE received command ON
+2016-06-09 22:17:28 - scriptListener received command toc
+2016-06-09 22:17:28 - Waiting received command OFF
+2016-06-09 22:17:28 - TURN_SLIDE received command ON
+2016-06-09 22:17:29 - scriptListener received command toc
+2016-06-09 22:17:29 - Waiting received command OFF
+2016-06-09 22:17:29 - TURN_SLIDE received command ON
+2016-06-09 22:17:36 - scriptListener received command toc
+2016-06-09 22:17:36 - Waiting received command OFF
+2016-06-09 22:17:36 - TURN_SLIDE received command ON
+2016-06-09 22:17:37 - scriptListener received command toc
+2016-06-09 22:17:37 - Waiting received command OFF
+2016-06-09 22:17:37 - TURN_SLIDE received command ON
+2016-06-09 22:17:40 - scriptListener received command toc
+2016-06-09 22:17:40 - Waiting received command OFF
+2016-06-09 22:17:40 - TURN_SLIDE received command ON
+2016-06-09 22:17:51 - scriptListener received command toc
+2016-06-09 22:17:51 - Waiting received command OFF
+2016-06-09 22:17:51 - TURN_SLIDE received command ON
+2016-06-09 22:17:53 - scriptListener received command toc
+2016-06-09 22:17:53 - Waiting received command OFF
+2016-06-09 22:17:53 - TURN_SLIDE received command ON
+2016-06-09 22:29:41 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+
+
+2016-06-09 22:29:41 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:29:41 - Waiting received command ON
+2016-06-09 22:29:41 - WaitCreate received command OFF
+2016-06-09 22:30:24 - scriptListener received command toc
+2016-06-09 22:30:24 - Waiting received command OFF
+2016-06-09 22:30:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:25 - TURN_SLIDE received command ON
+2016-06-09 22:30:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:30 - scriptListener received command toc
+2016-06-09 22:30:30 - Waiting received command OFF
+2016-06-09 22:30:30 - TURN_SLIDE received command ON
+2016-06-09 22:30:30 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:31 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:42 - scriptListener received command toc
+2016-06-09 22:30:42 - Waiting received command OFF
+2016-06-09 22:30:42 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:42 - TURN_SLIDE received command ON
+2016-06-09 22:30:43 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:45 - scriptListener received command toc
+2016-06-09 22:30:45 - Waiting received command OFF
+2016-06-09 22:30:45 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:45 - TURN_SLIDE received command ON
+2016-06-09 22:30:45 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:48 - scriptListener received command toc
+2016-06-09 22:30:48 - Waiting received command OFF
+2016-06-09 22:30:48 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:48 - TURN_SLIDE received command ON
+2016-06-09 22:30:48 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:50 - scriptListener received command toc
+2016-06-09 22:30:50 - Waiting received command OFF
+2016-06-09 22:30:50 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:50 - TURN_SLIDE received command ON
+2016-06-09 22:30:50 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:55 - scriptListener received command toc
+2016-06-09 22:30:55 - Waiting received command OFF
+2016-06-09 22:30:55 - TURN_SLIDE state updated to ON
+2016-06-09 22:30:55 - TURN_SLIDE received command ON
+2016-06-09 22:30:56 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:06 - scriptListener received command toc
+2016-06-09 22:31:06 - Waiting received command OFF
+2016-06-09 22:31:06 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:06 - TURN_SLIDE received command ON
+2016-06-09 22:31:06 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:07 - scriptListener received command toc
+2016-06-09 22:31:07 - Waiting received command OFF
+2016-06-09 22:31:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:07 - TURN_SLIDE received command ON
+2016-06-09 22:31:08 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:14 - scriptListener received command toc
+2016-06-09 22:31:14 - Waiting received command OFF
+2016-06-09 22:31:14 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:14 - TURN_SLIDE received command ON
+2016-06-09 22:31:14 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:18 - scriptListener received command toc
+2016-06-09 22:31:18 - Waiting received command OFF
+2016-06-09 22:31:18 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:18 - TURN_SLIDE received command ON
+2016-06-09 22:31:18 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:24 - scriptListener received command toc
+2016-06-09 22:31:24 - Waiting received command OFF
+2016-06-09 22:31:24 - TURN_SLIDE received command ON
+2016-06-09 22:31:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:31:33 - VibratoListener received command d%toc
+2016-06-09 22:31:33 - Waiting received command ON
+2016-06-09 22:31:33 - WaitCreate received command ON
+2016-06-09 22:31:33 - Waiting received command ON
+2016-06-09 22:31:33 - VibratoTalk received command d_toc
+2016-06-09 22:31:33 - VibratoTalk state updated to d_toc
+2016-06-09 22:31:33 - writeFile received command configurations/transform/hitHandler.map|
+2016-06-09 22:31:33 - askUpdate received command toto
+2016-06-09 22:31:33 - HitHandlerData state updated to 
+2016-06-09 22:31:33 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:31:34 - VibratoTalk state updated to d_toc
+2016-06-09 22:31:53 - VibratoListener received command c%toc%TURN_SLIDE%ON
+2016-06-09 22:31:53 - Waiting received command ON
+2016-06-09 22:31:53 - WaitCreate received command ON
+2016-06-09 22:31:53 - VibratoTalk state updated to c_toc
+2016-06-09 22:31:53 - VibratoTalk received command c_toc
+2016-06-09 22:31:53 - writeFile received command configurations/transform/hitHandler.map|
+toc=TURN_SLIDE:ON
+2016-06-09 22:31:53 - askUpdate received command toto
+2016-06-09 22:31:53 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+
+2016-06-09 22:31:53 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:31:54 - VibratoTalk state updated to c_toc
+2016-06-09 22:32:01 - WaitCreate received command OFF
+2016-06-09 22:32:07 - scriptListener received command toc
+2016-06-09 22:32:07 - Waiting received command OFF
+2016-06-09 22:32:07 - TURN_SLIDE received command ON
+2016-06-09 22:32:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:08 - scriptListener received command toc
+2016-06-09 22:32:08 - Waiting received command OFF
+2016-06-09 22:32:08 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:08 - TURN_SLIDE received command ON
+2016-06-09 22:32:09 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:17 - scriptListener received command toc
+2016-06-09 22:32:17 - Waiting received command OFF
+2016-06-09 22:32:17 - TURN_SLIDE received command ON
+2016-06-09 22:32:17 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:17 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:21 - scriptListener received command toc
+2016-06-09 22:32:21 - Waiting received command OFF
+2016-06-09 22:32:21 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:21 - TURN_SLIDE received command ON
+2016-06-09 22:32:21 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:23 - scriptListener received command toc
+2016-06-09 22:32:23 - Waiting received command OFF
+2016-06-09 22:32:23 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:23 - TURN_SLIDE received command ON
+2016-06-09 22:32:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:25 - scriptListener received command toc
+2016-06-09 22:32:25 - Waiting received command OFF
+2016-06-09 22:32:25 - TURN_SLIDE received command ON
+2016-06-09 22:32:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:26 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:27 - scriptListener received command toc
+2016-06-09 22:32:27 - Waiting received command OFF
+2016-06-09 22:32:27 - TURN_SLIDE received command ON
+2016-06-09 22:32:27 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:28 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:37 - scriptListener received command toc
+2016-06-09 22:32:37 - Waiting received command OFF
+2016-06-09 22:32:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:37 - TURN_SLIDE received command ON
+2016-06-09 22:32:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:38 - scriptListener received command toc
+2016-06-09 22:32:38 - Waiting received command OFF
+2016-06-09 22:32:38 - TURN_SLIDE received command ON
+2016-06-09 22:32:38 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:38 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:39 - scriptListener received command toc
+2016-06-09 22:32:39 - Waiting received command OFF
+2016-06-09 22:32:39 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:39 - TURN_SLIDE received command ON
+2016-06-09 22:32:40 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:41 - scriptListener received command toc
+2016-06-09 22:32:41 - Waiting received command OFF
+2016-06-09 22:32:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:41 - TURN_SLIDE received command ON
+2016-06-09 22:32:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:46 - scriptListener received command toc
+2016-06-09 22:32:46 - Waiting received command OFF
+2016-06-09 22:32:46 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:46 - TURN_SLIDE received command ON
+2016-06-09 22:32:46 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:48 - scriptListener received command toc
+2016-06-09 22:32:48 - Waiting received command OFF
+2016-06-09 22:32:49 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:49 - TURN_SLIDE received command ON
+2016-06-09 22:32:49 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:56 - scriptListener received command toc
+2016-06-09 22:32:56 - Waiting received command OFF
+2016-06-09 22:32:56 - TURN_SLIDE state updated to ON
+2016-06-09 22:32:56 - TURN_SLIDE received command ON
+2016-06-09 22:32:56 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:02 - scriptListener received command toc
+2016-06-09 22:33:02 - Waiting received command OFF
+2016-06-09 22:33:02 - TURN_SLIDE received command ON
+2016-06-09 22:33:02 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:02 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:06 - scriptListener received command toc
+2016-06-09 22:33:06 - Waiting received command OFF
+2016-06-09 22:33:06 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:06 - TURN_SLIDE received command ON
+2016-06-09 22:33:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:10 - scriptListener received command toc
+2016-06-09 22:33:10 - Waiting received command OFF
+2016-06-09 22:33:10 - TURN_SLIDE received command ON
+2016-06-09 22:33:10 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:10 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:12 - scriptListener received command toc
+2016-06-09 22:33:12 - Waiting received command OFF
+2016-06-09 22:33:12 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:12 - TURN_SLIDE received command ON
+2016-06-09 22:33:13 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:18 - scriptListener received command toc
+2016-06-09 22:33:18 - Waiting received command OFF
+2016-06-09 22:33:18 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:18 - TURN_SLIDE received command ON
+2016-06-09 22:33:19 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:20 - scriptListener received command toc
+2016-06-09 22:33:20 - Waiting received command OFF
+2016-06-09 22:33:20 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:20 - TURN_SLIDE received command ON
+2016-06-09 22:33:21 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:38 - VibratoListener received command c%fourchette%ITEMTEST%SWITCH
+2016-06-09 22:33:38 - Waiting received command ON
+2016-06-09 22:33:38 - WaitCreate received command ON
+2016-06-09 22:33:38 - VibratoTalk received command c_fourchette
+2016-06-09 22:33:38 - VibratoTalk state updated to c_fourchette
+2016-06-09 22:33:38 - writeFile received command configurations/transform/hitHandler.map|toc=TURN_SLIDE:ON
+
+fourchette=ITEMTEST:SWITCH
+2016-06-09 22:33:38 - askUpdate received command toto
+2016-06-09 22:33:38 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+fourchette=ITEMTEST:SWITCH
+
+2016-06-09 22:33:38 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:33:39 - VibratoTalk state updated to c_fourchette
+2016-06-09 22:33:46 - WaitCreate received command OFF
+2016-06-09 22:33:47 - scriptListener received command toc
+2016-06-09 22:33:47 - Waiting received command OFF
+2016-06-09 22:33:47 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:47 - TURN_SLIDE received command ON
+2016-06-09 22:33:48 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:54 - scriptListener received command toc
+2016-06-09 22:33:54 - Waiting received command OFF
+2016-06-09 22:33:54 - TURN_SLIDE received command ON
+2016-06-09 22:33:54 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:55 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:59 - scriptListener received command toc
+2016-06-09 22:33:59 - Waiting received command OFF
+2016-06-09 22:33:59 - TURN_SLIDE state updated to ON
+2016-06-09 22:33:59 - TURN_SLIDE received command ON
+2016-06-09 22:33:59 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:01 - scriptListener received command toc
+2016-06-09 22:34:01 - Waiting received command OFF
+2016-06-09 22:34:01 - TURN_SLIDE received command ON
+2016-06-09 22:34:01 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:01 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:02 - scriptListener received command toc
+2016-06-09 22:34:02 - Waiting received command OFF
+2016-06-09 22:34:02 - TURN_SLIDE received command ON
+2016-06-09 22:34:02 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:03 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:04 - scriptListener received command toc
+2016-06-09 22:34:04 - Waiting received command OFF
+2016-06-09 22:34:04 - TURN_SLIDE received command ON
+2016-06-09 22:34:04 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:04 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:05 - scriptListener received command toc
+2016-06-09 22:34:05 - Waiting received command OFF
+2016-06-09 22:34:05 - TURN_SLIDE received command ON
+2016-06-09 22:34:05 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:05 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:10 - scriptListener received command fourchette
+2016-06-09 22:34:10 - Waiting received command OFF
+2016-06-09 22:34:10 - ITEMTEST received command ON
+2016-06-09 22:34:12 - scriptListener received command fourchette
+2016-06-09 22:34:12 - Waiting received command OFF
+2016-06-09 22:34:12 - ITEMTEST received command OFF
+2016-06-09 22:34:13 - scriptListener received command fourchette
+2016-06-09 22:34:13 - Waiting received command OFF
+2016-06-09 22:34:13 - ITEMTEST received command ON
+2016-06-09 22:34:16 - scriptListener received command toc
+2016-06-09 22:34:16 - Waiting received command OFF
+2016-06-09 22:34:16 - TURN_SLIDE received command ON
+2016-06-09 22:34:16 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:17 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:20 - scriptListener received command fourchette
+2016-06-09 22:34:20 - Waiting received command OFF
+2016-06-09 22:34:20 - ITEMTEST received command OFF
+2016-06-09 22:34:23 - scriptListener received command fourchette
+2016-06-09 22:34:23 - Waiting received command OFF
+2016-06-09 22:34:23 - ITEMTEST received command ON
+2016-06-09 22:34:25 - scriptListener received command fourchette
+2016-06-09 22:34:25 - Waiting received command OFF
+2016-06-09 22:34:25 - ITEMTEST received command OFF
+2016-06-09 22:34:29 - scriptListener received command fourchette
+2016-06-09 22:34:29 - Waiting received command OFF
+2016-06-09 22:34:29 - ITEMTEST received command ON
+2016-06-09 22:34:30 - scriptListener received command toc
+2016-06-09 22:34:30 - Waiting received command OFF
+2016-06-09 22:34:30 - TURN_SLIDE received command ON
+2016-06-09 22:34:30 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:30 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:31 - scriptListener received command toc
+2016-06-09 22:34:31 - Waiting received command OFF
+2016-06-09 22:34:31 - TURN_SLIDE received command ON
+2016-06-09 22:34:31 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:32 - TURN_SLIDE state updated to ON
+2016-06-09 22:34:33 - scriptListener received command fourchette
+2016-06-09 22:34:33 - Waiting received command OFF
+2016-06-09 22:34:33 - ITEMTEST received command OFF
+2016-06-09 22:34:34 - scriptListener received command fourchette
+2016-06-09 22:34:34 - Waiting received command OFF
+2016-06-09 22:34:34 - ITEMTEST received command ON
+2016-06-09 22:34:44 - scriptListener received command fourchette
+2016-06-09 22:34:44 - Waiting received command OFF
+2016-06-09 22:34:44 - ITEMTEST received command OFF
+2016-06-09 22:34:46 - scriptListener received command fourchette
+2016-06-09 22:34:46 - Waiting received command OFF
+2016-06-09 22:34:46 - ITEMTEST received command ON
+2016-06-09 22:40:17 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+fourchette=ITEMTEST:SWITCH
+
+2016-06-09 22:40:17 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:40:17 - Waiting received command ON
+2016-06-09 22:40:17 - WaitCreate received command OFF
+2016-06-09 22:41:16 - scriptListener received command toc
+2016-06-09 22:41:16 - Waiting received command OFF
+2016-06-09 22:41:16 - TURN_SLIDE received command ON
+2016-06-09 22:41:16 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:16 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:17 - scriptListener received command toc
+2016-06-09 22:41:17 - Waiting received command OFF
+2016-06-09 22:41:17 - TURN_SLIDE received command ON
+2016-06-09 22:41:17 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:17 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:18 - scriptListener received command fourchette
+2016-06-09 22:41:18 - Waiting received command OFF
+2016-06-09 22:41:18 - ITEMTEST received command ON
+2016-06-09 22:41:19 - scriptListener received command toc
+2016-06-09 22:41:19 - Waiting received command OFF
+2016-06-09 22:41:19 - TURN_SLIDE received command ON
+2016-06-09 22:41:19 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:20 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:21 - scriptListener received command toc
+2016-06-09 22:41:21 - Waiting received command OFF
+2016-06-09 22:41:21 - TURN_SLIDE received command ON
+2016-06-09 22:41:21 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:21 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:22 - scriptListener received command toc
+2016-06-09 22:41:22 - Waiting received command OFF
+2016-06-09 22:41:22 - TURN_SLIDE received command ON
+2016-06-09 22:41:22 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:22 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:23 - scriptListener received command toc
+2016-06-09 22:41:23 - Waiting received command OFF
+2016-06-09 22:41:23 - TURN_SLIDE received command ON
+2016-06-09 22:41:23 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:25 - scriptListener received command toc
+2016-06-09 22:41:25 - Waiting received command OFF
+2016-06-09 22:41:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:25 - TURN_SLIDE received command ON
+2016-06-09 22:41:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:27 - scriptListener received command toc
+2016-06-09 22:41:27 - Waiting received command OFF
+2016-06-09 22:41:27 - TURN_SLIDE received command ON
+2016-06-09 22:41:27 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:27 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:28 - scriptListener received command toc
+2016-06-09 22:41:28 - Waiting received command OFF
+2016-06-09 22:41:28 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:28 - TURN_SLIDE received command ON
+2016-06-09 22:41:29 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:30 - scriptListener received command toc
+2016-06-09 22:41:30 - Waiting received command OFF
+2016-06-09 22:41:30 - TURN_SLIDE received command ON
+2016-06-09 22:41:30 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:31 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:34 - scriptListener received command toc
+2016-06-09 22:41:34 - Waiting received command OFF
+2016-06-09 22:41:34 - TURN_SLIDE received command ON
+2016-06-09 22:41:34 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:34 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:37 - scriptListener received command toc
+2016-06-09 22:41:37 - Waiting received command OFF
+2016-06-09 22:41:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:37 - TURN_SLIDE received command ON
+2016-06-09 22:41:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:38 - scriptListener received command fourchette
+2016-06-09 22:41:38 - Waiting received command OFF
+2016-06-09 22:41:38 - ITEMTEST received command OFF
+2016-06-09 22:41:39 - scriptListener received command toc
+2016-06-09 22:41:39 - Waiting received command OFF
+2016-06-09 22:41:39 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:39 - TURN_SLIDE received command ON
+2016-06-09 22:41:39 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:41 - scriptListener received command toc
+2016-06-09 22:41:41 - Waiting received command OFF
+2016-06-09 22:41:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:41 - TURN_SLIDE received command ON
+2016-06-09 22:41:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:43 - scriptListener received command toc
+2016-06-09 22:41:43 - Waiting received command OFF
+2016-06-09 22:41:43 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:43 - TURN_SLIDE received command ON
+2016-06-09 22:41:43 - TURN_SLIDE state updated to ON
+2016-06-09 22:41:45 - scriptListener received command fourchette
+2016-06-09 22:41:45 - Waiting received command OFF
+2016-06-09 22:41:45 - ITEMTEST received command ON
+2016-06-09 22:41:46 - scriptListener received command fourchette
+2016-06-09 22:41:46 - Waiting received command OFF
+2016-06-09 22:41:46 - ITEMTEST received command OFF
+2016-06-09 22:41:49 - scriptListener received command fourchette
+2016-06-09 22:41:49 - Waiting received command OFF
+2016-06-09 22:41:49 - ITEMTEST received command ON
+2016-06-09 22:41:51 - scriptListener received command fourchette
+2016-06-09 22:41:51 - Waiting received command OFF
+2016-06-09 22:41:51 - ITEMTEST received command OFF
+2016-06-09 22:45:24 - scriptListener received command toc
+2016-06-09 22:45:24 - Waiting received command OFF
+2016-06-09 22:45:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:45:24 - TURN_SLIDE received command ON
+2016-06-09 22:45:25 - TURN_SLIDE state updated to ON
+2016-06-09 22:46:23 - scriptListener received command fourchette
+2016-06-09 22:46:23 - Waiting received command OFF
+2016-06-09 22:46:23 - ITEMTEST received command ON
+2016-06-09 22:47:03 - scriptListener received command toc
+2016-06-09 22:47:03 - Waiting received command OFF
+2016-06-09 22:47:03 - TURN_SLIDE received command ON
+2016-06-09 22:47:03 - TURN_SLIDE state updated to ON
+2016-06-09 22:47:04 - TURN_SLIDE state updated to ON
+2016-06-09 22:47:05 - scriptListener received command fourchette
+2016-06-09 22:47:05 - Waiting received command OFF
+2016-06-09 22:47:05 - ITEMTEST received command OFF
+2016-06-09 22:47:07 - scriptListener received command toc
+2016-06-09 22:47:07 - Waiting received command OFF
+2016-06-09 22:47:07 - TURN_SLIDE received command ON
+2016-06-09 22:47:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:47:07 - TURN_SLIDE state updated to ON
+2016-06-09 22:47:09 - scriptListener received command fourchette
+2016-06-09 22:47:09 - Waiting received command OFF
+2016-06-09 22:47:09 - ITEMTEST received command ON
+2016-06-09 22:48:21 - scriptListener received command toc
+2016-06-09 22:48:22 - Waiting received command OFF
+2016-06-09 22:48:22 - TURN_SLIDE received command ON
+2016-06-09 22:48:22 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:22 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:24 - scriptListener received command toc
+2016-06-09 22:48:24 - Waiting received command OFF
+2016-06-09 22:48:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:24 - TURN_SLIDE received command ON
+2016-06-09 22:48:24 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:26 - scriptListener received command toc
+2016-06-09 22:48:26 - Waiting received command OFF
+2016-06-09 22:48:26 - TURN_SLIDE received command ON
+2016-06-09 22:48:26 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:26 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:27 - scriptListener received command toc
+2016-06-09 22:48:27 - Waiting received command OFF
+2016-06-09 22:48:27 - TURN_SLIDE received command ON
+2016-06-09 22:48:27 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:28 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:29 - scriptListener received command toc
+2016-06-09 22:48:29 - Waiting received command OFF
+2016-06-09 22:48:29 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:29 - TURN_SLIDE received command ON
+2016-06-09 22:48:29 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:31 - scriptListener received command toc
+2016-06-09 22:48:31 - Waiting received command OFF
+2016-06-09 22:48:31 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:31 - TURN_SLIDE received command ON
+2016-06-09 22:48:31 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:32 - scriptListener received command toc
+2016-06-09 22:48:32 - Waiting received command OFF
+2016-06-09 22:48:32 - TURN_SLIDE received command ON
+2016-06-09 22:48:32 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:32 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:33 - scriptListener received command toc
+2016-06-09 22:48:33 - Waiting received command OFF
+2016-06-09 22:48:33 - TURN_SLIDE received command ON
+2016-06-09 22:48:33 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:34 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:36 - scriptListener received command toc
+2016-06-09 22:48:36 - Waiting received command OFF
+2016-06-09 22:48:36 - TURN_SLIDE received command ON
+2016-06-09 22:48:36 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:36 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:37 - scriptListener received command toc
+2016-06-09 22:48:37 - Waiting received command OFF
+2016-06-09 22:48:37 - TURN_SLIDE received command ON
+2016-06-09 22:48:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:37 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:38 - scriptListener received command toc
+2016-06-09 22:48:38 - Waiting received command OFF
+2016-06-09 22:48:38 - TURN_SLIDE received command ON
+2016-06-09 22:48:38 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:38 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:39 - scriptListener received command toc
+2016-06-09 22:48:39 - Waiting received command OFF
+2016-06-09 22:48:39 - TURN_SLIDE received command ON
+2016-06-09 22:48:39 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:40 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:41 - scriptListener received command toc
+2016-06-09 22:48:41 - Waiting received command OFF
+2016-06-09 22:48:41 - TURN_SLIDE received command ON
+2016-06-09 22:48:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:41 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:43 - scriptListener received command toc
+2016-06-09 22:48:43 - Waiting received command OFF
+2016-06-09 22:48:43 - TURN_SLIDE received command ON
+2016-06-09 22:48:43 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:43 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:44 - scriptListener received command toc
+2016-06-09 22:48:44 - Waiting received command OFF
+2016-06-09 22:48:44 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:44 - TURN_SLIDE received command ON
+2016-06-09 22:48:44 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:51 - scriptListener received command toc
+2016-06-09 22:48:51 - Waiting received command OFF
+2016-06-09 22:48:51 - TURN_SLIDE received command ON
+2016-06-09 22:48:51 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:52 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:54 - scriptListener received command toc
+2016-06-09 22:48:54 - Waiting received command OFF
+2016-06-09 22:48:54 - TURN_SLIDE received command ON
+2016-06-09 22:48:54 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:54 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:56 - scriptListener received command toc
+2016-06-09 22:48:56 - Waiting received command OFF
+2016-06-09 22:48:56 - TURN_SLIDE received command ON
+2016-06-09 22:48:56 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:56 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:58 - scriptListener received command toc
+2016-06-09 22:48:58 - Waiting received command OFF
+2016-06-09 22:48:58 - TURN_SLIDE received command ON
+2016-06-09 22:48:58 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:58 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:59 - scriptListener received command toc
+2016-06-09 22:48:59 - Waiting received command OFF
+2016-06-09 22:48:59 - TURN_SLIDE state updated to ON
+2016-06-09 22:48:59 - TURN_SLIDE received command ON
+2016-06-09 22:49:00 - TURN_SLIDE state updated to ON
+2016-06-09 22:58:47 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+fourchette=ITEMTEST:SWITCH
+
+2016-06-09 22:58:47 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:58:47 - Waiting received command ON
+2016-06-09 22:58:47 - WaitCreate received command OFF
+2016-06-09 23:05:16 - VibratoListener received command s
+2016-06-09 23:05:16 - VibratoTalk received command s
+2016-06-09 23:05:16 - VibratoTalk state updated to s
+2016-06-09 23:05:17 - VibratoTalk state updated to s
+2016-06-09 23:05:22 - VibratoListener received command n
+2016-06-09 23:05:22 - VibratoTalk state updated to n
+2016-06-09 23:05:22 - VibratoTalk received command n
+2016-06-09 23:05:22 - VibratoTalk state updated to n
+2016-06-09 23:05:24 - VibratoListener received command k
+2016-06-09 23:05:24 - VibratoTalk received command k
+2016-06-09 23:05:24 - VibratoTalk state updated to k
+2016-06-09 23:05:25 - VibratoTalk state updated to k
