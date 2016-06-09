@@ -84,7 +84,7 @@ class MyDelegate(DefaultDelegate):
 rx_uuid = UUID(0x2221)
 sample_size = 128
 # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-p = Peripheral("FE:CE:2E:0F:7D:51", "random")  # Rfduino sur pcb
+p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
 p.withDelegate(MyDelegate())
 print " device connected..."
 

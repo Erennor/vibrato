@@ -18,12 +18,14 @@ def normalize_array(data):
         sum += i
     moy = sum / 126
     mult = 100 / moy
-    return [i*mult for i in data]
+    return [i*100*127/sum for i in data]
 
 
 def reduce_array(data):
+
+    # return data
     new_data = [0]
-    group_len = len(data)/16
+    group_len = 16
     j = 0
     k = 0
     for i in data:
@@ -34,7 +36,11 @@ def reduce_array(data):
             new_data.append(0)
             k = 0
             j += 1
-    int(new_data[j] / (k + 1))
+            # group_len = #eventually update group_len
+    if k == 0:
+        new_data.pop(j)
+    else:
+        new_data[j] /= k
     print new_data
     return new_data
 
@@ -48,11 +54,13 @@ class Analyser:
     if not ls.has_key('samples'):
         ls['samples'] = []
         ls['labels'] = []
+        ls['bary'] = []
     if len(ls['samples']) != len(ls['labels']):
         print("[WARN] erreur : database malforme")
     if 'samples' not in samples:
         samples['samples'] = []
         samples['labels'] = []
+        samples['bary'] = {}
     if len(samples['samples']) != len(samples['labels']):
         print("[WARN] erreur : database malforme")
     mode = "deducting"
@@ -63,24 +71,24 @@ class Analyser:
     print lib["labels"]
 
     curr_data = []
-    openhab = OpenHab()
+    curr_barycentre = 0
+    openHab = OpenHab()
 
     @staticmethod
-    def parse(data):
-        real_data = []
-        for i in np.arange(len(data)):
-            if i % 2 == 0:
-                real_data.append(data[i])
-        data = normalize_array(real_data)
-        data = reduce_array(data)
-        print_data(data)
+    def calculate_barycentre(data):
         barycentre = 0
         weight = 0
         for i, elt in enumerate(data):
             barycentre += i*elt
             weight += elt
-        barycentre /= weight
-        print "Barycentre : " + str(barycentre)
+        return float(barycentre) / weight
+    @staticmethod
+    def parse(data):
+        # eliminating la composante continue
+        data = data[2:64]
+        print data
+        # eliminating imaginary values and taking absolute values
+        data = [abs(elt) for i, elt in enumerate(data)]#if i % 2 == 0]
         return data
 
     @staticmethod
@@ -94,24 +102,22 @@ class Analyser:
     @staticmethod
     def learn(data):
         Analyser.curr_data.append(data)
+        Analyser.curr_barycentre += Analyser.calculate_barycentre(data)
         if len(Analyser.curr_data) <= 3:
-            return
-        data = [0] * len(data)
-        for i in np.arange(len(data)):
-            for sample in Analyser.curr_data:
-                data[i] += sample[i]/3
-        print_data(data)
-        Analyser.curr_data = []
-        Analyser.mode = "deducting"
-        if Analyser.label in Analyser.ls['labels']:
-            index = Analyser.ls['labels'].index(Analyser.label)
-            Analyser.ls['samples'][index] = data
+            print "result added to array of hit"
         else:
-            Analyser.ls['samples'].append(data)
-            Analyser.ls['labels'].append(Analyser.label)
-        Analyser.lib = {"samples": Analyser.ls["samples"] + Analyser.samples["samples"],
-               "labels": Analyser.ls["labels"] + Analyser.samples["labels"]}
-        print Analyser.lib["labels"]
+            Analyser.mode = "deducting"
+            Analyser.delete(Analyser.label)
+            for data in Analyser.curr_data:
+                Analyser.ls['samples'].append(data)
+                Analyser.ls['labels'].append(Analyser.label)
+                Analyser.ls['bary'][Analyser.label] = Analyser.curr_barycentre/4
+            print "barycentre moyen = " + str(Analyser.curr_barycentre/4)
+            Analyser.curr_data = []
+            Analyser.curr_barycentre = 0
+            Analyser.lib = {"samples": Analyser.ls["samples"] + Analyser.samples["samples"],
+                   "labels": Analyser.ls["labels"] + Analyser.samples["labels"]}
+            print Analyser.lib["labels"]
 
     @staticmethod
     def analyse(data):
@@ -120,7 +126,7 @@ class Analyser:
             Analyser.learn(data)
             return 0
         else:
-            clf = svm.SVC(kernel='poly')
+            clf = svm.SVC(kernel='poly',probability=True)
             if len(Analyser.ls['samples']) == 0:
                 print("HitAnalyser : Aucune action faite car bibliotheque de coup vide")
                 return "-1"
@@ -129,7 +135,7 @@ class Analyser:
                 return "-1"
             clf.fit(Analyser.lib['samples'], np.arange(len(Analyser.lib['labels'])))
             print "clf.predict_proba(data)"
-            probas = clf.decision_function(data)
+            probas = clf.predict_proba(data)
             print "probas = " + str(probas)
             int_res = clf.predict(data)[0]
             print
@@ -147,22 +153,21 @@ class Analyser:
 
     @staticmethod
     def set_learning(label):
+        Analyser.curr_data = []
         Analyser.label = label
         Analyser.mode = "learning"
 
     @staticmethod
     def delete(label):
-        try:
-            index = Analyser.ls['labels'].index(label)
-            Analyser.ls['samples'].pop(index)
-            Analyser.ls['labels'].pop(index)
-        except:
-            print("Error, label not present in database")
+        Analyser.ls['samples'] = [data for i,data in enumerate(Analyser.ls['samples'])
+                                  if Analyser.ls['labels'][i] !=label]
+        Analyser.ls['labels'] = [elt for elt in Analyser.ls['labels'] if elt != label]
+        Analyser.ls['bary'].pop(label)
 
     @staticmethod
     def change_adress(host, port):
-        Analyser.openhab.openhab_port = port
-        Analyser.openhab.openhab_host = host
+        Analyser.openHab.openhab_port = port
+        Analyser.openHab.openhab_host = host
 
     @staticmethod
     def cmd_handler(cmd):
@@ -172,8 +177,7 @@ class Analyser:
             if cmd[0] == "d":
                 Analyser.delete(cmd[2:])
             elif cmd[0] == "c":
-                Analyser.mode = "learning"
-                Analyser.label = cmd[2:]
+                Analyser.set_learning(cmd[2:])
         except:
             print ("Error parsing command " + str(cmd))
         return
