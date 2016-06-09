@@ -80,7 +80,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   while (!coup_detecte) {
     sensorValue = analogRead(analogInPin);
-    //Serial.println(sensorValue);
+    Serial.println(sensorValue);
     if (valeur_abs(valeur_ecart - sensorValue) > valeur_seuil) {
       coup_detecte = true;
       Serial.println("COUP DETECTE !");
