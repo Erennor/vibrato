@@ -3359,3 +3359,459 @@ ITEMTEST:"test_command_parser":ON,OFF,SWITCH
 COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
 
 2016-06-09 13:32:23 - VibratoTalk state updated to d_igloo
+2016-06-09 14:11:15 - VibratoListener received command c%lol%BEDROOM_LIGHT3%ON
+2016-06-09 14:11:15 - Waiting received command ON
+2016-06-09 14:11:15 - WaitCreate received command ON
+2016-06-09 14:11:16 - VibratoTalk received command c_lol
+2016-06-09 14:11:16 - VibratoTalk state updated to c_lol
+2016-06-09 14:11:16 - writeFile received command configurations/transform/hitHandler.map|
+lol=BEDROOM_LIGHT3:ON
+2016-06-09 14:11:16 - askUpdate received command toto
+2016-06-09 14:11:16 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:11:16 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:11:16 - VibratoTalk state updated to c_lol
+2016-06-09 14:12:12 - VibratoListener received command d%lol
+2016-06-09 14:12:12 - Waiting received command ON
+2016-06-09 14:12:12 - WaitCreate received command ON
+2016-06-09 14:12:12 - Waiting received command ON
+2016-06-09 14:12:12 - VibratoTalk state updated to d_lol
+2016-06-09 14:12:12 - VibratoTalk received command d_lol
+2016-06-09 14:12:12 - writeFile received command configurations/transform/hitHandler.map|
+2016-06-09 14:12:12 - askUpdate received command toto
+2016-06-09 14:12:12 - HitHandlerData state updated to 
+2016-06-09 14:12:12 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:12:43 - VibratoListener received command c%igloo%BEDROOM_LIGHT3%ON
+2016-06-09 14:12:43 - Waiting received command ON
+2016-06-09 14:12:43 - WaitCreate received command ON
+2016-06-09 14:12:43 - VibratoTalk received command c_igloo
+2016-06-09 14:12:43 - VibratoTalk state updated to c_igloo
+2016-06-09 14:12:43 - writeFile received command configurations/transform/hitHandler.map|
+igloo=BEDROOM_LIGHT3:ON
+2016-06-09 14:12:43 - askUpdate received command toto
+2016-06-09 14:12:43 - HitHandlerData state updated to igloo=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:12:43 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:13:05 - VibratoTalk state updated to d_lol
+2016-06-09 14:13:05 - VibratoTalk state updated to c_igloo
+2016-06-09 14:16:23 - VibratoListener received command d%igloo
+2016-06-09 14:16:23 - Waiting received command ON
+2016-06-09 14:16:23 - WaitCreate received command ON
+2016-06-09 14:16:23 - Waiting received command ON
+2016-06-09 14:16:23 - VibratoTalk received command d_igloo
+2016-06-09 14:16:23 - VibratoTalk state updated to d_igloo
+2016-06-09 14:16:23 - writeFile received command configurations/transform/hitHandler.map|
+2016-06-09 14:16:23 - askUpdate received command toto
+2016-06-09 14:16:23 - HitHandlerData state updated to 
+2016-06-09 14:16:23 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:16:24 - VibratoTalk state updated to d_igloo
+2016-06-09 14:16:31 - VibratoListener received command c%lol%BEDROOM_LIGHT3%ON
+2016-06-09 14:16:31 - Waiting received command ON
+2016-06-09 14:16:31 - WaitCreate received command ON
+2016-06-09 14:16:31 - VibratoTalk state updated to c_lol
+2016-06-09 14:16:31 - VibratoTalk received command c_lol
+2016-06-09 14:16:31 - writeFile received command configurations/transform/hitHandler.map|
+lol=BEDROOM_LIGHT3:ON
+2016-06-09 14:16:31 - askUpdate received command toto
+2016-06-09 14:16:31 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:16:31 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:16:32 - VibratoTalk state updated to c_lol
+2016-06-09 14:16:50 - VibratoListener received command c%boom%BEDROOM_LIGHT3%ON
+2016-06-09 14:16:50 - Waiting received command ON
+2016-06-09 14:16:50 - WaitCreate received command ON
+2016-06-09 14:16:50 - VibratoTalk received command c_boom
+2016-06-09 14:16:50 - VibratoTalk state updated to c_boom
+2016-06-09 14:16:50 - writeFile received command configurations/transform/hitHandler.map|lol=BEDROOM_LIGHT3:ON
+
+boom=BEDROOM_LIGHT3:ON
+2016-06-09 14:16:50 - askUpdate received command toto
+2016-06-09 14:16:50 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+boom=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:16:50 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:16:50 - VibratoTalk state updated to c_boom
+2016-06-09 14:41:41 - VibratoListener received command d%lol
+2016-06-09 14:41:41 - Waiting received command ON
+2016-06-09 14:41:41 - WaitCreate received command ON
+2016-06-09 14:41:41 - Waiting received command ON
+2016-06-09 14:41:41 - VibratoTalk received command d_lol
+2016-06-09 14:41:41 - VibratoTalk state updated to d_lol
+2016-06-09 14:41:41 - writeFile received command configurations/transform/hitHandler.map|boom=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:41:41 - askUpdate received command toto
+2016-06-09 14:41:41 - HitHandlerData state updated to boom=BEDROOM_LIGHT3:ON
+
+
+2016-06-09 14:41:41 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:41:41 - VibratoTalk state updated to d_lol
+2016-06-09 14:41:43 - VibratoListener received command d%boom
+2016-06-09 14:41:43 - Waiting received command ON
+2016-06-09 14:41:43 - WaitCreate received command ON
+2016-06-09 14:41:43 - Waiting received command ON
+2016-06-09 14:41:43 - VibratoTalk received command d_boom
+2016-06-09 14:41:43 - VibratoTalk state updated to d_boom
+2016-06-09 14:41:43 - writeFile received command configurations/transform/hitHandler.map|
+2016-06-09 14:41:43 - askUpdate received command toto
+2016-06-09 14:41:43 - HitHandlerData state updated to 
+2016-06-09 14:41:43 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:41:43 - VibratoTalk state updated to d_boom
+2016-06-09 14:41:54 - VibratoListener received command c%tass%BEDROOM_LIGHT3%ON
+2016-06-09 14:41:54 - Waiting received command ON
+2016-06-09 14:41:54 - WaitCreate received command ON
+2016-06-09 14:41:54 - VibratoTalk received command c_tass
+2016-06-09 14:41:54 - VibratoTalk state updated to c_tass
+2016-06-09 14:41:54 - writeFile received command configurations/transform/hitHandler.map|
+tass=BEDROOM_LIGHT3:ON
+2016-06-09 14:41:54 - askUpdate received command toto
+2016-06-09 14:41:54 - HitHandlerData state updated to tass=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:41:54 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:41:55 - VibratoTalk state updated to c_tass
+2016-06-09 14:44:34 - VibratoListener received command c%stylo%BEDROOM_LIGHT3%ON
+2016-06-09 14:44:34 - Waiting received command ON
+2016-06-09 14:44:34 - WaitCreate received command ON
+2016-06-09 14:44:34 - VibratoTalk received command c_stylo
+2016-06-09 14:44:34 - VibratoTalk state updated to c_stylo
+2016-06-09 14:44:34 - writeFile received command configurations/transform/hitHandler.map|tass=BEDROOM_LIGHT3:ON
+
+stylo=BEDROOM_LIGHT3:ON
+2016-06-09 14:44:34 - askUpdate received command toto
+2016-06-09 14:44:34 - HitHandlerData state updated to tass=BEDROOM_LIGHT3:ON
+stylo=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:44:34 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:44:35 - VibratoTalk state updated to c_stylo
+2016-06-09 14:45:33 - VibratoListener received command d%tass
+2016-06-09 14:45:33 - Waiting received command ON
+2016-06-09 14:45:33 - WaitCreate received command ON
+2016-06-09 14:45:33 - Waiting received command ON
+2016-06-09 14:45:33 - VibratoTalk received command d_tass
+2016-06-09 14:45:33 - writeFile received command configurations/transform/hitHandler.map|stylo=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:45:33 - VibratoTalk state updated to d_tass
+2016-06-09 14:45:33 - askUpdate received command toto
+2016-06-09 14:45:33 - HitHandlerData state updated to stylo=BEDROOM_LIGHT3:ON
+
+
+2016-06-09 14:45:33 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:45:33 - VibratoTalk state updated to d_tass
+2016-06-09 14:45:59 - VibratoListener received command c%bass%BEDROOM_LIGHT3%ON
+2016-06-09 14:45:59 - Waiting received command ON
+2016-06-09 14:45:59 - WaitCreate received command ON
+2016-06-09 14:45:59 - VibratoTalk state updated to c_bass
+2016-06-09 14:45:59 - VibratoTalk received command c_bass
+2016-06-09 14:45:59 - writeFile received command configurations/transform/hitHandler.map|stylo=BEDROOM_LIGHT3:ON
+
+bass=BEDROOM_LIGHT3:ON
+2016-06-09 14:45:59 - askUpdate received command toto
+2016-06-09 14:45:59 - HitHandlerData state updated to stylo=BEDROOM_LIGHT3:ON
+bass=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:45:59 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:45:59 - VibratoTalk state updated to c_bass
+2016-06-09 14:59:56 - VibratoListener received command d%bass
+2016-06-09 14:59:56 - Waiting received command ON
+2016-06-09 14:59:56 - WaitCreate received command ON
+2016-06-09 14:59:56 - Waiting received command ON
+2016-06-09 14:59:56 - VibratoTalk received command d_bass
+2016-06-09 14:59:56 - VibratoTalk state updated to d_bass
+2016-06-09 14:59:56 - writeFile received command configurations/transform/hitHandler.map|stylo=BEDROOM_LIGHT3:ON
+
+2016-06-09 14:59:57 - askUpdate received command toto
+2016-06-09 14:59:57 - HitHandlerData state updated to stylo=BEDROOM_LIGHT3:ON
+
+
+2016-06-09 14:59:57 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 14:59:57 - VibratoTalk state updated to d_bass
+2016-06-09 15:00:07 - VibratoListener received command d%stylo
+2016-06-09 15:00:07 - Waiting received command ON
+2016-06-09 15:00:07 - WaitCreate received command ON
+2016-06-09 15:00:07 - Waiting received command ON
+2016-06-09 15:00:07 - VibratoTalk received command d_stylo
+2016-06-09 15:00:07 - VibratoTalk state updated to d_stylo
+2016-06-09 15:00:07 - writeFile received command configurations/transform/hitHandler.map|
+2016-06-09 15:00:07 - askUpdate received command toto
+2016-06-09 15:00:07 - HitHandlerData state updated to 
+2016-06-09 15:00:07 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 15:00:07 - VibratoTalk state updated to d_stylo
+2016-06-09 16:27:23 - HitHandlerData state updated to 
+2016-06-09 16:27:23 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 16:27:23 - Waiting received command ON
+2016-06-09 16:27:23 - WaitCreate received command OFF
+2016-06-09 16:48:09 - HitHandlerData state updated to 
+2016-06-09 16:48:09 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 16:48:09 - Waiting received command ON
+2016-06-09 16:48:09 - WaitCreate received command OFF
+2016-06-09 16:48:59 - VibratoListener received command c%lol%BEDROOM_LIGHT3%ON
+2016-06-09 16:48:59 - Waiting received command ON
+2016-06-09 16:48:59 - WaitCreate received command ON
+2016-06-09 16:49:00 - VibratoTalk received command c_lol
+2016-06-09 16:49:00 - VibratoTalk state updated to c_lol
+2016-06-09 16:49:00 - writeFile received command configurations/transform/hitHandler.map|
+lol=BEDROOM_LIGHT3:ON
+2016-06-09 16:49:00 - askUpdate received command toto
+2016-06-09 16:49:00 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 16:49:00 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:11:58 - COFFEE_REMOTE received command ON
+2016-06-09 17:12:34 - COFFEE_REMOTE received command OFF
+2016-06-09 17:12:35 - COFFEE_REMOTE received command ON
+2016-06-09 17:14:03 - COFFEE_REMOTE received command ON
+2016-06-09 17:14:09 - COFFEE_REMOTE received command OFF
+2016-06-09 17:14:20 - COFFEE_REMOTE received command ON
+2016-06-09 17:15:07 - COFFEE_REMOTE received command OFF
+2016-06-09 17:15:09 - COFFEE_REMOTE received command ON
+2016-06-09 17:15:59 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:15:59 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:15:59 - Waiting received command ON
+2016-06-09 17:15:59 - WaitCreate received command OFF
+2016-06-09 17:17:25 - COFFEE_REMOTE received command ON
+2016-06-09 17:23:24 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:23:24 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:23:24 - Waiting received command ON
+2016-06-09 17:23:24 - WaitCreate received command OFF
+2016-06-09 17:23:36 - COFFEE_REMOTE received command ON
+2016-06-09 17:23:38 - COFFEE_REMOTE received command OFF
+2016-06-09 17:23:47 - COFFEE_REMOTE received command ON
+2016-06-09 17:25:57 - COFFEE_REMOTE received command ON
+2016-06-09 17:26:03 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:26:04 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:26:04 - Waiting received command ON
+2016-06-09 17:26:04 - WaitCreate received command OFF
+2016-06-09 17:26:14 - COFFEE_REMOTE received command OFF
+2016-06-09 17:26:17 - COFFEE_REMOTE received command ON
+2016-06-09 17:26:44 - COFFEE_REMOTE received command OFF
+2016-06-09 17:26:50 - COFFEE_REMOTE received command ON
+2016-06-09 17:27:49 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:27:49 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:27:49 - Waiting received command ON
+2016-06-09 17:27:49 - WaitCreate received command OFF
+2016-06-09 17:29:12 - COFFEE_REMOTE received command ON
+2016-06-09 17:35:40 - COFFEE_REMOTE received command OFF
+2016-06-09 17:35:45 - COFFEE_REMOTE received command ON
+2016-06-09 17:40:22 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:40:22 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:40:22 - Waiting received command ON
+2016-06-09 17:40:22 - WaitCreate received command OFF
+2016-06-09 17:40:40 - COFFEE_REMOTE received command ON
+2016-06-09 17:40:42 - COFFEE_REMOTE received command OFF
+2016-06-09 17:41:55 - COFFEE_REMOTE received command ON
+2016-06-09 17:41:56 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:41:57 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:41:57 - Waiting received command ON
+2016-06-09 17:41:57 - WaitCreate received command OFF
+2016-06-09 17:41:58 - COFFEE_REMOTE received command OFF
+2016-06-09 17:49:06 - COFFEE_REMOTE received command ON
+2016-06-09 17:49:08 - COFFEE_REMOTE received command ON
+2016-06-09 17:50:04 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:50:04 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:50:04 - Waiting received command ON
+2016-06-09 17:50:04 - WaitCreate received command OFF
+2016-06-09 17:54:27 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:54:27 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:54:27 - Waiting received command ON
+2016-06-09 17:54:27 - WaitCreate received command OFF
+2016-06-09 17:58:15 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 17:58:15 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 17:58:15 - Waiting received command ON
+2016-06-09 17:58:15 - WaitCreate received command OFF
+2016-06-09 18:05:00 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:05:00 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:05:00 - Waiting received command ON
+2016-06-09 18:05:00 - WaitCreate received command OFF
+2016-06-09 18:05:10 - COFFEE_REMOTE received command ON
+2016-06-09 18:07:07 - COFFEE_REMOTE received command OFF
+2016-06-09 18:07:08 - COFFEE_REMOTE received command ON
+2016-06-09 18:12:00 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:12:00 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:12:00 - Waiting received command ON
+2016-06-09 18:12:00 - WaitCreate received command OFF
+2016-06-09 18:12:32 - COFFEE_REMOTE received command ON
+2016-06-09 18:18:50 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:18:51 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:18:51 - Waiting received command ON
+2016-06-09 18:18:51 - WaitCreate received command OFF
+2016-06-09 18:19:01 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:19:01 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:19:01 - Waiting received command ON
+2016-06-09 18:19:01 - WaitCreate received command OFF
+2016-06-09 18:20:40 - TURN_SLIDE received command ON
+2016-06-09 18:20:40 - TURN_SLIDE received command OFF
+2016-06-09 18:21:31 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:21:31 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:21:31 - Waiting received command ON
+2016-06-09 18:21:31 - WaitCreate received command OFF
+2016-06-09 18:21:37 - TURN_SLIDE received command ON
+2016-06-09 18:22:31 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:22:31 - TURN_SLIDE received command OFF
+2016-06-09 18:22:31 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:22:31 - Waiting received command ON
+2016-06-09 18:22:31 - WaitCreate received command OFF
+2016-06-09 18:22:32 - TURN_SLIDE received command ON
+2016-06-09 18:23:42 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:23:42 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:23:42 - Waiting received command ON
+2016-06-09 18:23:42 - WaitCreate received command OFF
+2016-06-09 18:28:04 - TURN_SLIDE received command OFF
+2016-06-09 18:34:04 - TURN_SLIDE received command ON
+2016-06-09 18:34:12 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+
+2016-06-09 18:34:12 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+
+2016-06-09 18:34:12 - Waiting received command ON
+2016-06-09 18:34:12 - WaitCreate received command OFF
+2016-06-09 18:34:31 - TURN_SLIDE received command OFF
+2016-06-09 18:48:45 - TURN_SLIDE received command ON
+2016-06-09 18:48:53 - TURN_SLIDE received command OFF

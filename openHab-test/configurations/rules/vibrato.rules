@@ -81,7 +81,6 @@ rule "Vibrato status updater"
 end
 
 //used to handle hit received by vibrato
-//transformation file should be somethi ng like [ITEM:[ON|OFF|SWITCH|OTHERS]]*
 rule "hit treatment"
 	when 
 		Item scriptListener received command
@@ -93,7 +92,6 @@ rule "hit treatment"
 		var String cmd = transform("MAP","hitHandler.map",receivedCommand.toString())
 		var String cmdStateRule = cmd.splitByWholeSeparator(":").get(1) 
 		val String cmdItem = cmd.splitByWholeSeparator(":").get(0) 
-		logInfo("scriptListener","commande traduite en tant que " + cmdStateRule + " -> " + cmdItem)
 		switch(cmdStateRule){
 			case "SWITCH": {
 				val item = All.allMembers.findFirst(i | cmdItem.equals(i.name))
@@ -167,11 +165,9 @@ rule " file writer"
 		Item writeFile received command
 	then
 		val parsedCmd = receivedCommand.toString.splitByWholeSeparator("|")
-		logInfo("args",parsedCmd.get(0) + " and " + parsedCmd.get(1))
 		val lines = parsedCmd.get(1).splitByWholeSeparator("\n")
 		val writer = new BufferedWriter(new FileWriter(parsedCmd.get(0)))
 		for(line : lines){
-			logInfo("lolllll", line)
 			writer.write(line + "\n")
 		}
 		writer.close()
@@ -186,7 +182,12 @@ rule "Wait for the python script to connect"
 	sendCommand(WaitCreate,OFF)
 end
 
-
+rule "Turn slide rule"
+	when
+		Item TURN_SLIDE received command
+	then
+		executeCommandLine("python2.7@@slider.py")
+end
 
 
 

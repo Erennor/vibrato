@@ -24,7 +24,7 @@ Switch ITEMTEST "light test" (All)
 
 Switch Waiting
 
-Switch WaitCreate "Assert the python server do not have created a new hit"
+Switch WaitCreate "On if the python server do not have created a new hit, OFF if "
 
 Switch serverConnected
 
@@ -33,3 +33,13 @@ Switch ITEMTEST2 "lumiere salle de bain"(All)
 Switch ITEMTEST3 "lumiere chambre"(All)
 
 Switch ITEMTEST4 "four" (All)
+
+Switch COFFEE_MACHINE "coffee machine" (All)
+
+Switch COFFEE_REMOTE {mqtt=">[mosquitto:/amiqual4home/machine_place/saeco_intelia/power:command:ON:1]"} 
+
+Switch COFFEE_REMOTE2 {mqtt=">[mosquitto:/amiqual4home/machine_place/saeco_intelia/small_cup:command:ON:1]"} 
+
+Switch TURN_SLIDE "avance d'un slide" (All)
+
+Rollershutter KITCHEN_STORE2 " store de la cuisine"

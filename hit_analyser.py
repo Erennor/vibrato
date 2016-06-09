@@ -1,8 +1,8 @@
 import shelve
-from sklearn import svm
+from sklearn import svm, neighbors
 import numpy as np
 from openhab import OpenHab
-
+from mel_transform import *
 
 
 def print_data(data):
@@ -13,29 +13,32 @@ def print_data(data):
         print line
 
 def normalize_array(data):
-    sum = 0
+    somme = 0
     for i in data:
-        sum += i
-    moy = sum / 126
-    mult = 100 / moy
-    return [i*100*127/sum for i in data]
+        somme += i
+    return [i*100*127/somme for i in data]
 
 
+""" Give more importance to small frequencies thanks to this"""
 def reduce_array(data):
-
     # return data
     new_data = [0]
-    group_len = 16
+    group_len = 1
+    size_compt = 0
     j = 0
     k = 0
     for i in data:
         new_data[j] += i
         k += 1
         if k == group_len:
-            new_data[j] = int( new_data[j]/group_len)
+            new_data[j] = int(new_data[j]/group_len)
             new_data.append(0)
             k = 0
             j += 1
+            size_compt +=1
+            if size_compt == 5:
+                group_len += 1
+                size_compt = 0
             # group_len = #eventually update group_len
     if k == 0:
         new_data.pop(j)
@@ -54,7 +57,7 @@ class Analyser:
     if not ls.has_key('samples'):
         ls['samples'] = []
         ls['labels'] = []
-        ls['bary'] = []
+        ls['bary'] = {}
     if len(ls['samples']) != len(ls['labels']):
         print("[WARN] erreur : database malforme")
     if 'samples' not in samples:
@@ -73,6 +76,7 @@ class Analyser:
     curr_data = []
     curr_barycentre = 0
     openHab = OpenHab()
+    datas = []
 
     @staticmethod
     def calculate_barycentre(data):
@@ -85,10 +89,17 @@ class Analyser:
     @staticmethod
     def parse(data):
         # eliminating la composante continue
-        data = data[2:64]
+        #data = data[:]
+        data = dft_to_dct(data) #data = data[2:64]
         print data
-        # eliminating imaginary values and taking absolute values
-        data = [abs(elt) for i, elt in enumerate(data)]#if i % 2 == 0]
+        Analyser.datas.append(data)
+        if len(Analyser.datas) == 20:
+            print "DATTTTTTTTTTTTTTTTAAAAAAAAAAAAAAAAAAAAAAAAAS"
+            moy = [0] * len(data)
+            for data in Analyser.datas:
+                for i in np.arange(len(moy)):
+                    moy[i] += data[i] / 20.0
+            print Analyser.datas
         return data
 
     @staticmethod
@@ -106,6 +117,7 @@ class Analyser:
         if len(Analyser.curr_data) <= 3:
             print "result added to array of hit"
         else:
+            Analyser.openHab.post_command("WaitCreate", "OFF")
             Analyser.mode = "deducting"
             Analyser.delete(Analyser.label)
             for data in Analyser.curr_data:
@@ -126,30 +138,26 @@ class Analyser:
             Analyser.learn(data)
             return 0
         else:
-            clf = svm.SVC(kernel='poly',probability=True)
+            clf2 = svm.SVC(kernel='poly')
+            clf = neighbors.KNeighborsClassifier(4, weights='uniform')
+            # clf = svm.SVC(kernel='poly')
             if len(Analyser.ls['samples']) == 0:
                 print("HitAnalyser : Aucune action faite car bibliotheque de coup vide")
-                return "-1"
+                return -1
             if len(Analyser.lib["labels"]) <= 1:
-                print "looool"
-                return "-1"
+                print "un seul coup dans la bibliotheque de coup, pas d'action possible"
+                return -1
             clf.fit(Analyser.lib['samples'], np.arange(len(Analyser.lib['labels'])))
-            print "clf.predict_proba(data)"
-            probas = clf.predict_proba(data)
-            print "probas = " + str(probas)
-            int_res = clf.predict(data)[0]
-            print
-            print "int_res = " + str(int_res)
-            res = Analyser.lib['labels'][int_res]
+            clf2.fit(Analyser.lib['samples'], np.arange(len(Analyser.lib['labels'])))
+            res = clf.predict(data)
+            print "SVC -> " + str(clf2.predict(data))
+            print "KNN -> " + str(res)
+            res = Analyser.lib['labels'][res]
             print res
             if res in Analyser.ls['labels']:
                 print "best candidate is a registered hit"
-                print probas #[0][int_res]
-                #if probas[0][int_res] > 0.5:
-                 #   print "probability over 50% : proceeding"
-                  #  Analyser.openhab.post_command("scriptListener", res)
-                   # return res
-            return 0
+                Analyser.openHab.post_command("scriptListener", res)
+                return 0
 
     @staticmethod
     def set_learning(label):
@@ -162,7 +170,8 @@ class Analyser:
         Analyser.ls['samples'] = [data for i,data in enumerate(Analyser.ls['samples'])
                                   if Analyser.ls['labels'][i] !=label]
         Analyser.ls['labels'] = [elt for elt in Analyser.ls['labels'] if elt != label]
-        Analyser.ls['bary'].pop(label)
+        if label in Analyser.ls['bary']:
+            Analyser.ls['bary'].pop(label)
 
     @staticmethod
     def change_adress(host, port):

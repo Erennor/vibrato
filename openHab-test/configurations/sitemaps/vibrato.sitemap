@@ -9,5 +9,8 @@ sitemap vibrato label="vibrato House test"
 		Switch item=ITEMTEST2
 		Switch item=ITEMTEST3
 		Switch item=ITEMTEST4
+		Switch item=COFFEE_REMOTE
+		Switch item=TURN_SLIDE
+		Rollershutter KITCHEN_STORE2
 	}
 }

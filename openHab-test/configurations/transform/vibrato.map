@@ -2,4 +2,3 @@ ON=activate
 OFF=disable
 activate=ON
 disable=OFF
-HELLO=LOL

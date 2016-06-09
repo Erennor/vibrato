@@ -25,9 +25,9 @@ class MyDelegate(DefaultDelegate):
         self.current_index = position + 2
         val_reelle = fft_input[index + 1] + (fft_input[index + 2] << 8)
         val_img = fft_input[index + 3] + (fft_input[index + 4] << 8)
-        if val_img > 60000:
+        if val_img > 50000:
             val_img -= 65536
-        if val_reelle > 60000:
+        if val_reelle > 50000:
             val_reelle -= 65536
         self.dft[position] = val_reelle
         self.dft[position + 1] = val_img
@@ -80,28 +80,28 @@ class MyDelegate(DefaultDelegate):
         for i in range(0, longueur, 5):
             self.read_val(dft_treated, i)
 
+if __name__ == "__main__":
+    rx_uuid = UUID(0x2221)
+    sample_size = 128
+    # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
+    p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
+    p.withDelegate(MyDelegate())
+    print " device connected..."
 
-rx_uuid = UUID(0x2221)
-sample_size = 128
-# p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
-p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
-p.withDelegate(MyDelegate())
-print " device connected..."
+    try:
+        p.getServices()
+        ch = p.getCharacteristics(uuid=rx_uuid)[0]
+        print ("notify characteristic with uuid 0x" + rx_uuid.getCommonName())
+        cccid = btle.AssignedNumbers.client_characteristic_configuration
+        # Ox000F : handle of Client Characteristic Configuration descriptor Rx - (generic uuid 0x2902)
+        p.writeCharacteristic(0x000F, struct.pack('<bb', 0x01, 0x00), False)
 
-try:
-    p.getServices()
-    ch = p.getCharacteristics(uuid=rx_uuid)[0]
-    print ("notify characteristic with uuid 0x" + rx_uuid.getCommonName())
-    cccid = btle.AssignedNumbers.client_characteristic_configuration
-    # Ox000F : handle of Client Characteristic Configuration descriptor Rx - (generic uuid 0x2902)
-    p.writeCharacteristic(0x000F, struct.pack('<bb', 0x01, 0x00), False)
+        if ch.supportsRead():
+            while 1:
+                p.waitForNotifications(604800)  # 1 semaine d'attente
+                # handleNotification() was called
+                continue
 
-    if ch.supportsRead():
-        while 1:
-            p.waitForNotifications(604800)  # 1 semaine d'attente
-            # handleNotification() was called
-            continue
-
-finally:
-    Analyser.ls.close()
-    p.disconnect()
+    finally:
+        Analyser.ls.close()
+        p.disconnect()
