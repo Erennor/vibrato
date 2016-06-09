@@ -27,3 +27,9 @@ Switch Waiting
 Switch WaitCreate "Assert the python server do not have created a new hit"
 
 Switch serverConnected
+
+Switch ITEMTEST2 "lumiere salle de bain"(All)
+
+Switch ITEMTEST3 "lumiere chambre"(All)
+
+Switch ITEMTEST4 "four" (All)
