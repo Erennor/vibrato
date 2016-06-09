@@ -154,7 +154,6 @@ int max_sample(kiss_fft_cpx input[SAMPLE_SIZE]) {
 }
 
 void setup() {
-  //pinMode(pinLed, OUTPUT);
   Serial.begin(9600);
   //Serial.setDebugOutput(true);
   Serial.println("BEGIN...");
