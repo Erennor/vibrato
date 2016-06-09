@@ -43,7 +43,7 @@ void calibrage() {
   blinker.setPixel(0, blinker.packRGB(0, 0, 255));
   blinker.render();
   Serial.println("Calibrage...");
-  //delay(3000);
+  delay(2000);
   for (int i = 0; i < sample_size; i++) {
     sensorValue = analogRead(analogInPin);
     //Serial.println(sensorValue);
@@ -80,7 +80,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   while (!coup_detecte) {
     sensorValue = analogRead(analogInPin);
-    //Serial.println(sensorValue);
+    Serial.println(sensorValue);
     if (valeur_abs(valeur_ecart - sensorValue) > valeur_seuil) {
       coup_detecte = true;
       Serial.println("COUP DETECTE !");
@@ -160,12 +160,6 @@ void loop() {
 
 
 void RFduinoBLE_onReceive(char *data, int len) {
-  Serial.println("some data received : ");
-  Serial.print("0x");
-  for (int bytePos = 0; bytePos < len; bytePos++) {
-    Serial.print(" ");
-    Serial.print((byte) data[bytePos], 16);
-  }
   calibrage();
 }
 

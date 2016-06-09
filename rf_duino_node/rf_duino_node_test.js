@@ -20,6 +20,7 @@ function cleanRFDuino() {
 		rfDuino = null;
 	}
 	debug('rf_duino_node_test : TEST END');
+	process.exit();
 }
 
 function exitHandler(options, err) {
@@ -82,20 +83,11 @@ function (callback) {
 },
 
 function (callback) {
-	debug('notify for new data');
-
-	/** PREREQUISITIES : Some data must written on discovered RFDuino using serial interface */
-	rfDuino.on('dataReceived', function (data) {
-		debug('data received : ');
-		for (var index = 0; index < data.length; index++) {
-			debug('0x' + data[index].toString(16) + ' ');
-		}
-	});
-	rfDuino.notifyDataReceive(function () {
-		debug('you will be notified on new data');
+	rfDuino.writeData(new Buffer([0x1]), function () {
 		callback();
 	});
-}],
+}
+],
 
 function (error, results) {
 	if (error) {
@@ -103,5 +95,6 @@ function (error, results) {
 		cleanRFDuino();
 	} else {
 		debug('rf_duino_node test - SUCCESS');
+		cleanRFDuino();
 	}
 });
