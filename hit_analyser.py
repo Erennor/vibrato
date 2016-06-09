@@ -1,10 +1,9 @@
 import shelve
-import BLEreading
 from sklearn import svm, neighbors
 import numpy as np
 from openhab import OpenHab
 from mel_transform import *
-
+from bluepy.btle import UUID
 
 def print_data(data):
     for i in data:
@@ -69,6 +68,7 @@ class Analyser:
         print("[WARN] erreur : database malforme")
     mode = "deducting"
     label = "unitialized"
+    p = None
 
     lib = {"samples": ls["samples"] + samples["samples"],
         "labels": ls["labels"] + samples["labels"]}
@@ -99,7 +99,7 @@ class Analyser:
             moy = [0] * len(data)
             for data in Analyser.datas:
                 for i in np.arange(len(moy)):
-                    moy[i] += data[i] / 20.0
+                    moy[i] = float(moy[i] + data[i]) / 20.0
             print Analyser.datas
         return data
 
@@ -196,7 +196,11 @@ class Analyser:
 
     @classmethod
     def calibrate(cls):
-        BLEreading.p.writeCharacteristic(BLEreading.rx_uuid, 0x1, False)
+        Analyser.p.writeCharacteristic(UUID(0x2221), 0x1, False)
+
+    @classmethod
+    def set_p(cls, p):
+        Analyser.p = p
 
 
 if __name__ == "__main__":

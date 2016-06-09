@@ -4299,3 +4299,72 @@ COFFEE_REMOTE2:"sert un cafe":ON
 2016-06-09 21:51:59 - scriptListener received command toc
 2016-06-09 21:51:59 - Waiting received command OFF
 2016-06-09 21:51:59 - TURN_SLIDE received command ON
+2016-06-09 22:03:13 - HitHandlerData state updated to lol=BEDROOM_LIGHT3:ON
+toc=TURN_SLIDE:ON
+
+2016-06-09 22:03:13 - Waiting received command ON
+2016-06-09 22:03:13 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:03:13 - WaitCreate received command OFF
+2016-06-09 22:03:17 - scriptListener received command toc
+2016-06-09 22:04:14 - scriptListener received command toc
+2016-06-09 22:04:14 - scriptListener received command toc
+2016-06-09 22:04:14 - scriptListener received command toc
+2016-06-09 22:04:14 - VibratoListener received command k
+2016-06-09 22:04:14 - Waiting received command OFF
+2016-06-09 22:04:14 - Waiting received command OFF
+2016-06-09 22:04:14 - Waiting received command OFF
+2016-06-09 22:04:14 - VibratoListener received command k
+2016-06-09 22:04:14 - Waiting received command OFF
+2016-06-09 22:04:14 - VibratoListener received command k
+2016-06-09 22:04:14 - VibratoTalk received command k
+2016-06-09 22:04:14 - VibratoTalk state updated to k
+2016-06-09 22:04:14 - TURN_SLIDE received command ON
+2016-06-09 22:04:14 - VibratoTalk received command k
+2016-06-09 22:04:14 - TURN_SLIDE received command ON
+2016-06-09 22:04:14 - VibratoTalk received command k
+2016-06-09 22:04:14 - TURN_SLIDE received command ON
+2016-06-09 22:04:14 - VibratoTalk state updated to k
+2016-06-09 22:04:14 - TURN_SLIDE received command ON
+2016-06-09 22:04:14 - VibratoTalk state updated to k
+2016-06-09 22:04:14 - VibratoTalk state updated to k
+2016-06-09 22:04:15 - VibratoTalk state updated to k
+2016-06-09 22:04:15 - VibratoTalk state updated to k
+2016-06-09 22:06:10 - VibratoListener received command d%lol
+2016-06-09 22:06:10 - Waiting received command ON
+2016-06-09 22:06:10 - WaitCreate received command ON
+2016-06-09 22:06:10 - Waiting received command ON
+2016-06-09 22:06:10 - VibratoTalk received command d_lol
+2016-06-09 22:06:10 - VibratoTalk state updated to d_lol
+2016-06-09 22:06:10 - writeFile received command configurations/transform/hitHandler.map|toc=TURN_SLIDE:ON
+
+2016-06-09 22:06:10 - askUpdate received command toto
+2016-06-09 22:06:10 - HitHandlerData state updated to toc=TURN_SLIDE:ON
+
+
+2016-06-09 22:06:10 - VibratoAccessibleItems state updated to BEDROOM_LIGHT3:"wall light":ON,OFF
+KITCHEN_STORE2:"south store":OPEN,CLOSE,HALFWAY
+ITEMTEST:"test_command_parser":ON,OFF,SWITCH
+COFFEEREMOTE:"active la machine a cafe":POWERON,COFFEE+
+TURN_SLIDE:"passe au slide suivant":ON
+COFFEE_REMOTE:"Allume la machine a cafe":ON
+COFFEE_REMOTE2:"sert un cafe":ON
+
+2016-06-09 22:06:11 - VibratoTalk state updated to d_lol
+2016-06-09 22:06:25 - VibratoListener received command k
+2016-06-09 22:06:25 - VibratoTalk received command k
+2016-06-09 22:06:25 - VibratoTalk state updated to k
+2016-06-09 22:06:26 - VibratoTalk state updated to k
+2016-06-09 22:06:29 - VibratoListener received command k
+2016-06-09 22:06:29 - VibratoTalk received command k
+2016-06-09 22:06:29 - VibratoTalk state updated to k
+2016-06-09 22:06:30 - VibratoTalk state updated to k
+2016-06-09 22:09:01 - VibratoListener received command k
+2016-06-09 22:09:01 - VibratoTalk received command k
+2016-06-09 22:09:01 - VibratoTalk state updated to k

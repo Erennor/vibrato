@@ -86,6 +86,7 @@ if __name__ == "__main__":
     # p = Peripheral("D9:35:6A:75:9F:9D", "random") # Rfduino sur usb
     p = Peripheral("D1:7F:06:ED:66:DC", "random")  # Rfduino sur pcb
     p.withDelegate(MyDelegate())
+    Analyser.set_p(p)
     print " device connected..."
 
     try:
