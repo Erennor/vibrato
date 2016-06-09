@@ -1,4 +1,5 @@
 import shelve
+import BLEreading
 from sklearn import svm, neighbors
 import numpy as np
 from openhab import OpenHab
@@ -187,9 +188,15 @@ class Analyser:
                 Analyser.delete(cmd[2:])
             elif cmd[0] == "c":
                 Analyser.set_learning(cmd[2:])
+            elif cmd[0] == "k":
+                Analyser.calibrate()
         except:
             print ("Error parsing command " + str(cmd))
         return
+
+    @classmethod
+    def calibrate(cls):
+        BLEreading.p.writeCharacteristic(BLEreading.rx_uuid, 0x1, False)
 
 
 if __name__ == "__main__":
